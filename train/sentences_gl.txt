@@ -1161,6 +1161,7 @@ entón {keyword} de que se trata todo isto
 escribe unha revisión sobre a {keyword} para o foro
 estou a pensar en {keyword} poderías explicalo
 estou buscando detalles sobre {keyword}
+estou á procura de datos sobre {keyword}
 estou á procura de pormenores sobre {keyword}
 está a {keyword} mellorando os teus resultados na oficina
 está a {keyword} optimizada para traballar baixo presión
@@ -1321,6 +1322,7 @@ poderías resumir {keyword}
 poderías revisar o artigo sobre {keyword}
 podes aclararme que é {keyword}
 podes explicar o que é {keyword}
+podes fornecer datos sobre {keyword}
 podes fornecer pormenores sobre {keyword}
 ponme ao tanto sobre {keyword}!
 por favor dime todo sobre {keyword}
