@@ -2,4 +2,4 @@ ovos-utils
 nltk
 joblib
 sklearn_crfsuite
-crf_query_xtract
+brill_postagger
