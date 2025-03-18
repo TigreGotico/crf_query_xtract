@@ -81,7 +81,7 @@ class Trainer(SearchtermExtractorCRF):
         if not self._dataset or not self._keywords:
             self._load_data()
 
-        tagged_sentences = self._generate_tagged_sentences(num=-1) + self._generate_tagged_sentences(num=-1)
+        tagged_sentences = self._generate_tagged_sentences(num=-1)
 
         X_train = [self._sent2features([(word, pos) for word, pos, _ in sent]) for sent in tagged_sentences]
         y_train = [self._sent2labels(sent) for sent in tagged_sentences]
