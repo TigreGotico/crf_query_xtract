@@ -114,6 +114,7 @@ depuis combien de temps le {keyword} est-il utilisé dans les applications indus
 depuis quand le {keyword} a-t-il été intégré dans les systèmes modernes
 dis-moi simplement ce que signifie le {keyword}
 dites-moi tout sur la {keyword}
+donne-moi des informations sur {keyword}
 donne-moi un exemple de l'application du {keyword}
 découvrez comment la {keyword} peut optimiser vos processus
 découvrir les nouveautés de la {keyword}
@@ -229,7 +230,11 @@ il y a combien de temps le {keyword} a-t-il changé notre manière de travailler
 il y a combien de temps le {keyword} a-t-il été découvert
 il y a combien de temps le {keyword} a-t-il été inventé
 j'aimerais en savoir plus sur le {keyword}
+j'aimerais en savoir plus sur {keyword}
 j'aimerais m'informer sur le {keyword}
+j'aimerais être au courant {keyword}
+je cherche des détails sur {keyword}
+je suis curieux de parler de {keyword}
 je suis curieux à propos du {keyword}
 je veux en savoir plus sur le {keyword}
 je veux toutes les informations que tu as sur le {keyword}
@@ -518,6 +523,7 @@ où se trouve la première {keyword} créée
 où se trouve le premier monument dédié à {keyword}
 où s’est déroulé le {keyword}
 où trouve-t-on principalement la {keyword}
+parlez-moi de {keyword}
 partage les dernières découvertes sur le {keyword}
 partagez des astuces pour tirer le meilleur parti de la {keyword}
 peut-on acheter la {keyword} en ligne
@@ -594,7 +600,10 @@ pourquoi tout ce tapage au sujet du {keyword}
 pourquoi {keyword} est-il connu
 pourquoi {keyword} est-il célèbre
 pourquoi {keyword} est-il si populaire
+pouvez-vous donner des détails sur {keyword}
+pouvez-vous expliquer ce que c'est {keyword}
 pouvez-vous m'expliquer la {keyword}
+pouvez-vous m'éclairer sur {keyword}
 pouvons-nous demander des antécédents de {keyword}
 présente les principales caractéristiques du {keyword}
 puis-je exporter mes données depuis la {keyword}
@@ -628,6 +637,7 @@ qu'est-ce que le {keyword} et comment s'applique-t-il à l'étude du champ magn�
 qu'est-ce que le {keyword} et comment s'applique-t-il à la mécanique quantique
 qu'est-ce que le {keyword} et comment s'applique-t-il à la théorie de la relativité
 qu'est-ce que tout cela au sujet du {keyword}
+qu'est-ce que tu en sais sur {keyword}
 qu'est-ce que {keyword} encore
 qu'est-ce qui a conduit à la découverte de {keyword}
 qu'est-ce qui a suscité l'intérêt pour {keyword}
@@ -1120,6 +1130,7 @@ qui est l'inventeur du {keyword} utilisé dans le secteur de la santé
 qui est le plus connu pour avoir introduit le {keyword}
 qui est le principal acteur derrière la commercialisation du {keyword}
 qui est le principal concurrent du {keyword}
+qui est le {keyword}
 qui est l’inventeur du {keyword}
 qui est reconnu pour son travail sur le {keyword}
 qui est responsable de l'invention du {keyword}

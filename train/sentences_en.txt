@@ -1,5 +1,7 @@
 can the {keyword} be considered a modern invention
 can we attribute the {keyword} to a single defining moment
+can you explain what {keyword} is
+can you provide details on {keyword}
 can you recommend any resources or tools for learning more about {keyword} or staying up-to-date with the latest developments
 can you recommend any resources or tools for learning more about {keyword} or staying up-to-date with the latest developments, including online courses or tutorials
 can you recommend something related to {keyword}
@@ -159,6 +161,7 @@ examine {keyword}'s contribution to culture
 experts on {keyword}
 explain everything about {keyword}
 explain me {keyword}, please
+explain step by step {keyword}
 explain the intellectual milestones that underpin the current status of {keyword}
 explain the science behind {keyword}
 explain the sequence of intellectual movements that led to {keyword}’s evolution
@@ -265,6 +268,7 @@ historical context of {keyword}
 historical figures and {keyword}
 how are climate changes affecting the future of {keyword} research
 how are risks associated with {keyword} managed in the industry
+how can i {keyword}
 how can new technology improve research on {keyword}
 how can we spark the interest of young people in {keyword}
 how can {keyword} assist in industrial processes
@@ -318,6 +322,7 @@ how do experts interpret the significance of {keyword} in modern times
 how do experts view {keyword} compared to other research topics
 how do historians attribute the success of {keyword} to specific events
 how do historical precedents shape contemporary discussions about {keyword}
+how do i {keyword}
 how do past debates shape {keyword}
 how do people feel about {keyword}
 how do the media play a role in spreading {keyword}
@@ -466,6 +471,7 @@ how old was {keyword} on the day he died
 how old was {keyword} on the day she died
 how old was {keyword} when he died
 how old was {keyword} when she died
+how to {keyword}
 how was the {keyword} initially received
 how was the {keyword} invented
 how was {keyword} initially conceptualized, and how does that differ from today’s view
@@ -605,12 +611,18 @@ search for more information on {keyword}
 search for opinion pieces on {keyword}
 search for sources talking about {keyword}
 search the duck for {keyword}
+search wiki how for {keyword}
+search wiki how {keyword}
+search wikihow for {keyword}
+search wikihow {keyword}
 search wikipedia for {keyword}
 share the story of {keyword} with others
 share {keyword}'s story with your audience
 simple explanation of {keyword}
 so, {keyword}, what’s that all about
 spell out {keyword} for me
+step by step {keyword}
+steps for {keyword}
 steps in {keyword}
 stories built around {keyword}
 studies comparing {keyword}
@@ -827,6 +839,10 @@ what does the duck say about {keyword}
 what does the future hold for the study of {keyword}
 what does the historical archive reveal about the creation of {keyword}
 what does the widespread use of {keyword} mean for future generations
+what does wiki how say about {keyword}
+what does wiki how think about {keyword}
+what does wikihow say about {keyword}
+what does wikihow think about {keyword}
 what does wikipedia say about {keyword}
 what does {keyword} do for a living
 what does {keyword} do in their free time

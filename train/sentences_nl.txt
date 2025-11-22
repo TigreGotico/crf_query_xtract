@@ -1,3 +1,4 @@
+geef mij informatie over {keyword}
 heeft de {keyword} een mobiele versie
 heeft de {keyword} een mobiele versie die goed werkt
 heeft de {keyword} een mobiele versie die volledig functioneel is
@@ -272,8 +273,10 @@ hoeveel voordelen biedt de {keyword} voor gevorderde gebruikers
 ik ben nieuwsgierig naar {keyword}
 ik wil alle informatie die je hebt over {keyword}
 ik wil alles weten over {keyword}
+ik wil graag meer weten over {keyword}
 ik wil me informeren over {keyword}
 ik wil meer weten over {keyword}
+ik zoek informatie over {keyword}
 ik zou graag meer willen weten over hoe {keyword} mij kan helpen
 in hoeveel talen is de {keyword} beschikbaar
 in welke industrieën is de {keyword} het meest effectief
@@ -595,6 +598,7 @@ kun je een voorbeeld geven van hoe de {keyword} kan worden gebruikt in mijn vakg
 kun je een voorbeeld geven van wanneer je {keyword} succesvol hebt gebruikt
 kun je enkele concrete voorbeelden geven van hoe {keyword} heeft geholpen bij je werk
 kun je het gebruik van {keyword} uitbreiden naar andere afdelingen
+kun je informatie verstrekken over {keyword}
 kun je je ervaring met {keyword} delen
 kun je je werk beter organiseren door {keyword} te gebruiken
 kun je me een aantal voorbeelden geven van hoe je {keyword} hebt gebruikt
@@ -606,12 +610,14 @@ kun je meer uitleg geven over de technische kant van {keyword}
 kun je meer vertellen over de gebruikservaringen met de {keyword}
 kun je meer vertellen over de integratiemogelijkheden van de {keyword}
 kun je meer vertellen over de prestaties van de {keyword} in verschillende omgevingen
+kun je mij informeren over {keyword}
 kun je op een simpele manier uitleggen wat {keyword} doet
 kun je uitleggen hoe de {keyword} de samenwerking binnen teams bevordert
 kun je uitleggen hoe de {keyword} het werk van een team kan verbeteren
 kun je uitleggen hoe de {keyword} kan helpen bij het beheren van projecten
 kun je uitleggen hoe de {keyword} werkt in combinatie met andere tools
 kun je uitleggen hoe de {keyword} zich aan verschillende omgevingen aanpast
+kun je uitleggen wat {keyword} is
 kun je voorbeelden geven van andere bedrijven die {keyword} succesvol gebruiken
 kun je voorbeelden geven van succesverhalen met de {keyword}
 kun je {keyword} aanpassen aan de specifieke behoeften van je project
@@ -670,6 +676,7 @@ verken de geavanceerde functies van {keyword}
 verkies je {keyword} boven andere vergelijkbare opties
 vertel me de waarheid over {keyword}
 vertel me meer over {keyword}
+vertel me over {keyword}
 vertel me snel wat {keyword} is
 vind je dat de {keyword} het gemakkelijker maakt om je werk te doen
 vind je het makkelijk om {keyword} in te stellen

@@ -1,3 +1,7 @@
+estoy buscando detalles sobre {keyword}
+háblame de {keyword}
+me gustaría saber más sobre {keyword}
+me gustaría saber sobre {keyword}
 no sé mucho sobre {keyword}, ¿podrías explicarlo
 no sé qué significa {keyword}, ¿puedes explicarlo
 no sé si la {keyword} podrá cumplir con todos nuestros requisitos
@@ -26,13 +30,20 @@ prueba la versión gratuita de la {keyword} antes de suscribirte
 prueba la {keyword} en diferentes dispositivos para apreciar su compatibilidad
 prueba la {keyword} y dime qué opinas
 prueba las diferentes opciones disponibles con la {keyword}
+puede explicar lo que es {keyword}
+puede proporcionar detalles en {keyword}
 puede ser útil probar la {keyword} para mejorar la eficiencia del equipo
+puedes iluminarme sobre {keyword}
 quiero saber la historia de {keyword} en wikipedia
 quiero saber más sobre {keyword}
 quiero saber más sobre {keyword} en wikipedia
 quiero saber sobre {keyword}
 quiero saber todo sobre {keyword}
 quiero toda la información que tengas sobre {keyword}
+quién era {keyword}
+quién es {keyword}
+qué es {keyword}
+qué sabes acerca de {keyword}
 realiza pruebas de carga para verificar el rendimiento de la {keyword}
 realiza una copia de seguridad antes de modificar la {keyword}
 realiza una copia de seguridad de los datos antes de modificar la {keyword}
@@ -68,6 +79,7 @@ te agradecería si pudieras proporcionar información detallada sobre {keyword}
 te confirmo que la {keyword} está optimizada para su uso en producción
 te puedo proporcionar algunos recursos adicionales sobre cómo sacar el máximo provecho de la {keyword}
 tengo curiosidad por {keyword}
+tengo curiosidad sobre {keyword}
 testea la {keyword} en diferentes entornos antes de implementarla
 tienes razón, la {keyword} realmente ha demostrado ser efectiva
 todo está en orden con la {keyword}, puedes continuar con el siguiente paso

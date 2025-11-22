@@ -1,3 +1,17 @@
+gib mir informationen zu {keyword}
+gib mir informationen über {keyword}
+ich bin neugierig auf {keyword}
+ich möchte etwas über {keyword} wissen
+ich möchte mehr über {keyword} erfahren
+ich möchte mehr über {keyword} wissen
+ich möchte über {keyword} wissen
+ich suche details zu {keyword}
+ich suche nach details von {keyword}
+ich suche nach details zu {keyword}
+ich suche nach details über {keyword}
+ich suche nach einzelheiten von {keyword}
+ich suche nach einzelheiten zu {keyword}
+ich suche nach einzelheiten über {keyword}
 ich würde gerne mehr über {keyword} wissen
 ich würde mehr über {keyword} erfahren
 implementiere {keyword} in deiner nächsten präsentation
@@ -87,6 +101,7 @@ kann {keyword} mit modernen frameworks integriert werden
 kann {keyword} mit verschiedenen betriebssystemen verwendet werden
 kann {keyword} mit verschiedenen datenbanken arbeiten
 kann {keyword} zur automatisierung von aufgaben verwendet werden
+kannst du erklären was {keyword} ist
 kannst du das genauer erklären, wie {keyword} funktioniert
 kannst du den unterschied zwischen {keyword} und {keyword} erklären
 kannst du den wikipedia-artikel über {keyword} zusammenfassen
@@ -102,12 +117,14 @@ kannst du erklären, wie {keyword} in der praxis funktioniert
 kannst du mehr zu den funktionen von {keyword} erklären
 kannst du mich über {keyword} aufklären
 kannst du mich über {keyword} informieren
+kannst du mir erklären was {keyword} ist
 kannst du mir alles erzählen, was es über {keyword} zu wissen gibt
 kannst du mir bei {keyword} helfen
 kannst du mir den zeitverlauf von {keyword} sagen
 kannst du mir eine anwendung von {keyword} zeigen
 kannst du mir einen detaillierten überblick über {keyword} geben
 kannst du mir einige trivia über {keyword} erzählen
+kannst du mir erklären was oder wer {keyword} ist
 kannst du mir erklären, was {keyword} ist
 kannst du mir etwas über {keyword} erzählen
 kannst du mir helfen, {keyword} herauszufinden
@@ -166,6 +183,8 @@ richte {keyword} so ein, dass es mit anderen tools funktioniert
 sag mir die wahrheit über {keyword}
 sag mir einfach, was {keyword} bedeutet
 sag mir schnell, was {keyword} ist
+sage mir etwas über {keyword}
+sage mir was über {keyword}
 schließe alle offenen projekte in {keyword} ab
 schließe {keyword} ab und starte eine neue sitzung
 setze alle einstellungen in {keyword} zurück
@@ -825,12 +844,14 @@ was war der erste schritt zur entwicklung von {keyword}
 was war der wichtigste schritt in der entstehung von {keyword}
 was war die wichtigste entdeckung in der forschung zu {keyword}
 was war zuerst da, {keyword} oder {keyword}
+was war {keyword}
 was waren die ersten anzeichen von {keyword} in der alten geschichte
 was waren die größten entdeckungen, die das studium von {keyword} ermöglichten
 was waren die größten entdeckungen, die den fortschritt von {keyword} ermöglicht haben
 was waren die größten fortschritte im studium von {keyword} in den letzten jahrzehnten
 was waren die größten gesellschaftlichen veränderungen, die mit {keyword} verbunden sind
 was weiß man über {keyword}
+was weißt du von {keyword}
 was weißt du über {keyword}
 was wird von {keyword} in der zukunft erwartet
 was wissen sie über {keyword}
@@ -1029,6 +1050,8 @@ wer machte den größten beitrag zu {keyword} in seiner zeit
 wer nutzt {keyword} am häufigsten
 wer nutzt {keyword} heutzutage
 wer nutzt {keyword} in der industrie am meisten
+wer oder was ist {keyword}
+wer oder was war {keyword}
 wer schrieb den ersten artikel über {keyword}
 wer sind die führenden experten auf dem gebiet von {keyword}
 wer sind die hauptkonkurrenten von {keyword}

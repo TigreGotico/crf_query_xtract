@@ -123,6 +123,7 @@ følg {keyword} for at få opdateringer
 gennemgå historiske dokumenter om {keyword}
 giv mig en opdatering om {keyword}
 giv mig nogle konkrete eksempler på, hvordan {keyword} har hjulpet virksomheder
+giv mig oplysninger om {keyword}
 giv {keyword} et forsøg i dit næste projekt
 har du allerede testet {keyword} i et rigtigt projekt
 har du haft nogen tekniske problemer med {keyword}
@@ -352,6 +353,7 @@ hvad var de vigtigste elementer i det første litterære værk om {keyword}
 hvad var den største begivenhed for {keyword} i år
 hvad var resultatet af den sidste {keyword}-begivenhed
 hvad var resultatet af sidste års {keyword}-konkurrence
+hvad ved du om {keyword}
 hvad vil der ske, hvis vi ikke bruger {keyword} i vores projekt
 hvad vil der ske, hvis {keyword} ikke lever op til forventningerne
 hvad vil der ske, hvis {keyword} ikke opfylder kravene
@@ -1121,6 +1123,9 @@ installer {keyword} på din computer
 installér {keyword} på din enhed
 interview historikere, der taler om {keyword}
 interview {keyword} for at forstå begivenheden bedre
+jeg er nysgerrig efter {keyword}
+jeg søger detaljer om {keyword}
+jeg vil gerne vide mere om {keyword}
 justér {keyword} efter dine behov
 kan du beskrive, hvordan {keyword} fungerer i detaljer
 kan du bruge {keyword} til at analysere kundedata
@@ -1128,11 +1133,14 @@ kan du bruge {keyword} til at automatisere dine processer
 kan du bruge {keyword} til at behandle realtidsdata
 kan du bruge {keyword} til at optimere dine arbejdsprocesser
 kan du bruge {keyword} uden en omfattende teknisk baggrund
+kan du forklare hvad {keyword} er
 kan du forklare {keyword} for mig
 kan du forklare, hvordan {keyword} adskiller sig fra andre lignende teknologier
 kan du fortælle mig om de seneste opdateringer af {keyword}
+kan du give detaljer om {keyword}
 kan du give et eksempel på, hvordan {keyword} bruges i praksis
 kan du give mig en kort beskrivelse af {keyword}
+kan du oplyse mig om {keyword}
 kan {keyword} anvendes effektivt på tværs af forskellige platforme
 kan {keyword} anvendes i komplekse miljøer
 kan {keyword} automatiseres for at spare tid

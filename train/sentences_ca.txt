@@ -1,3 +1,6 @@
+busco informació sobre {keyword}
+cerco detalls sobre {keyword}
+cerco informació sobre {keyword}
 com es pot representar {keyword} gràficament
 com es pot simplificar una expressió que involucri {keyword}
 com es pot utilitzar {keyword} per millorar l'eficiència empresarial
@@ -195,9 +198,20 @@ descriu el paper de {keyword} en la cultura antiga
 descriu els beneficis que {keyword} aporta a la societat
 desglossa {keyword} per a mi
 detalla la influència de {keyword} en la història
+diga'm coses sobre {keyword}
+diga'm {keyword}
+digam coses sobre {keyword}
+digam {keyword}
+digue'm coses sobre {keyword}
 digue'm més sobre {keyword}
 digue'm què és {keyword}, ràpid
+digue'm {keyword}
+diguem coses sobre {keyword}
+diguem {keyword}
+digues-me {keyword}
+digues-me coses sobre {keyword}
 documents clau sobre {keyword}
+dona'm informació sobre {keyword}
 dona'm més informació sobre l'impacte de {keyword} en la natura
 dona'm un resum de {keyword}
 dona’ns més informació sobre {keyword} si en tens algun detall
@@ -221,11 +235,24 @@ em pots ajudar a trobar {keyword} a wolfram alpha
 em pots dir més sobre les bases de {keyword}
 em pots dir què significa {keyword}
 em pots donar més informació sobre {keyword}
+em pots explicar què és el {keyword}
+em pots explicar què és es {keyword}
+em pots explicar què és l' {keyword}
+em pots explicar què és la {keyword}
+em pots explicar què és s' {keyword}
+em pots explicar què és sa {keyword}
+em pots il·lustrar sobre {keyword}
 en quina època va prendre rellevància {keyword}
 en quins projectes està treballant {keyword} ara
 en què es diferencia {keyword} d'altres idees filosòfiques
 en què es distingeix {keyword} dels altres herois mitològics
 encantaria aprendre sobre {keyword}
+ens pots explicar què és el {keyword}
+ens pots explicar què és es {keyword}
+ens pots explicar què és l' {keyword}
+ens pots explicar què és la {keyword}
+ens pots explicar què és s' {keyword}
+ens pots explicar què és sa {keyword}
 envia els teus comentaris sobre {keyword}
 es necessita un equip especialitzat per treballar amb {keyword}
 es podria fer un ús més generalitzat de {keyword} en el futur
@@ -261,11 +288,23 @@ explica'm la biografia de {keyword}
 explica'm la ciència darrere de {keyword}
 explica'm la veritat sobre {keyword}
 explica'm les característiques principals de {keyword}
+explica'm què és el {keyword}
+explica'm què és es {keyword}
+explica'm què és l' {keyword}
+explica'm què és la {keyword}
+explica'm què és s' {keyword}
+explica'm què és sa {keyword}
 explica'm què és {keyword}
 explica'm què és {keyword}, ràpidament
 explica'm tot sobre {keyword}
 explica'm {keyword} ara!
 explica'm {keyword}, no et molestaria
+explica'ns què és el {keyword}
+explica'ns què és es {keyword}
+explica'ns què és l' {keyword}
+explica'ns què és la {keyword}
+explica'ns què és s' {keyword}
+explica'ns què és sa {keyword}
 explica'ns {keyword}, si us plau
 explicació senzilla de {keyword}
 explora les eines d'integració amb {keyword}
@@ -301,6 +340,7 @@ hi ha alguna oportunitat de que puguis explicar {keyword}
 hi ha una comprensió actualitzada de {keyword}
 història de {keyword}
 històries sobre {keyword}
+il·lustra'm sobre {keyword}
 impacte de {keyword} en la salut
 importa els teus arxius a {keyword}
 informes clau sobre {keyword}
@@ -316,9 +356,33 @@ investiga si {keyword} existeix en altres cultures
 jo, pots explicar-me {keyword}
 jo, què és {keyword}
 líders d’opinió en {keyword}
+m'agradaria conèixer alguna cosa sobre {keyword}
+m'agradaria conèixer coses sobre {keyword}
+m'agradaria conèixer més sobre {keyword}
+m'agradaria conèixer més coses sobre {keyword}
+m'agradaria conèixer qualque sobre {keyword}
+m'agradaria conèixer quelcom sobre {keyword}
+m'agradaria descobrir alguna cosa sobre {keyword}
+m'agradaria descobrir coses sobre {keyword}
+m'agradaria descobrir més sobre {keyword}
+m'agradaria descobrir més coses sobre {keyword}
+m'agradaria descobrir qualque sobre {keyword}
+m'agradaria descobrir quelcom sobre {keyword}
+m'agradaria esbrinar alguna cosa sobre {keyword}
+m'agradaria esbrinar coses sobre {keyword}
+m'agradaria esbrinar més sobre {keyword}
+m'agradaria esbrinar més coses sobre {keyword}
+m'agradaria esbrinar qualque sobre {keyword}
+m'agradaria esbrinar quelcom sobre {keyword}
+m'agradaria saber alguna cosa sobre {keyword}
+m'agradaria saber coses sobre {keyword}
+m'agradaria saber més sobre {keyword}
+m'agradaria saber més coses sobre {keyword}
 m'agradaria saber més sobre la filosofia que es tracta a {keyword}
 m'agradaria saber més sobre {keyword}
 m'agradaria saber més sobre {keyword} des d'una perspectiva acadèmica
+m'agradaria saber qualque sobre {keyword}
+m'agradaria saber quelcom sobre {keyword}
 m'agradaria saber sobre {keyword}
 m'agradaria un resum de {keyword}
 majors avenços en {keyword}
@@ -403,6 +467,7 @@ organitza els teus arxius amb {keyword}
 orígens i evolució de {keyword}
 paper de {keyword} en la formació d’idees
 paper dels mitjans en {keyword}
+parla'm de {keyword}
 passos de {keyword}
 per què es parla tant de {keyword} últimament
 per què hauria d'interessar-me {keyword}
@@ -545,10 +610,17 @@ pots consultar wolfram alpha per {keyword} i explicar-me els resultats
 pots consultar {keyword} a wikipedia
 pots destacar els períodes més transformadors de la història de {keyword}
 pots explicar les arrels de {keyword}
+pots explicar què és {keyword}
 pots explicar-me alguna cosa sobre {keyword}
+pots explicar-me què és {keyword}
 pots explicar-me {keyword}
+pots il·lustrar-me sobre {keyword}
 pots investigar qui va inventar {keyword}
+pots proporcionar detalls sobre {keyword}
+pots proporcionar informació sobre {keyword}
 pots proporcionar una anàlisi comparativa de {keyword} a través de diferents períodes de temps
+pots proporcionar-me detalls sobre {keyword}
+pots proporcionar-me informació sobre {keyword}
 pots resumir els principals canvis ideològics sobre {keyword} al llarg del temps
 pots resumir l'article de wikipedia sobre {keyword}
 pots trobar informació sobre {keyword} a wikipedia i mostrar el resum
@@ -562,6 +634,8 @@ primeres opinions sobre {keyword}
 primers influents de {keyword}
 principals canvis en {keyword}
 principals coneixements acadèmics sobre {keyword}
+proporciona detalls sobre {keyword}
+proporciona'm detalls sobre {keyword}
 proposa un pla de millora per a l'ús de {keyword} en la teva indústria
 prova d’explicar quan va ser descobert {keyword}
 prova la nova versió de {keyword} i digues què en penses
@@ -724,6 +798,7 @@ qui era el principal rival de {keyword} en la seva època
 qui era {keyword}
 qui era {keyword} i què va fer
 qui es va oposar a {keyword} en el seu temps
+qui fou {keyword}
 qui ha contribuit més al disseny de {keyword}
 qui ha estat el principal impulsor del desenvolupament de {keyword}
 qui pot ajudar-te amb problemes tècnics relacionats amb {keyword}
@@ -770,6 +845,7 @@ qui va ser el principal impulsor de {keyword} en temps antics
 qui va ser el principal líder de la revolució de {keyword}
 qui va ser l'últim en rebre un premi per treballs sobre {keyword}
 qui va ser responsable de canviar el curs de la història gràcies a {keyword}
+qui va ser {keyword}
 qui va tenir la major influència sobre la vida de {keyword}
 qui van ser els pares de {keyword}
 qui van ser els primers a desenvolupar una teoria sobre {keyword}
@@ -1450,6 +1526,7 @@ quins valors es poden derivar de {keyword} per a un anàlisi numèric
 quins valors extremals de {keyword} són importants per a l'anàlisi
 quins van ser els majors descobriments que van facilitar l'estudi de {keyword}
 quins van ser els primers indicis de {keyword} a la història antiga
+què saps sobre {keyword}
 què característiques destaca de {keyword}
 què causa {keyword}
 què dimonis és {keyword}
@@ -1462,6 +1539,7 @@ què diuen les persones sobre {keyword}
 què em pots contar sobre {keyword}
 què em pots dir de nou sobre {keyword}
 què en penses sobre {keyword}
+què en saps sobre {keyword}
 què et sembla la figura de {keyword} en el món animal
 què exactament és {keyword}
 què explica l'ascens de {keyword}
@@ -1561,6 +1639,16 @@ tens alguna cosa sobre {keyword}
 tens informació sobre {keyword}
 teories clau darrere de {keyword}
 tinc curiositat per {keyword}
+tinc curiositat sobre el {keyword}
+tinc curiositat sobre els {keyword}
+tinc curiositat sobre es {keyword}
+tinc curiositat sobre l' {keyword}
+tinc curiositat sobre la {keyword}
+tinc curiositat sobre les {keyword}
+tinc curiositat sobre s' {keyword}
+tinc curiositat sobre sa {keyword}
+tinc curiositat sobre ses {keyword}
+tinc curiositat sobre {keyword}
 troba articles sobre {keyword} a duckduckgo i explícalos
 troba informació actualitzada de {keyword} a duckduckgo
 troba informació sobre {keyword} a wolfram alpha
@@ -1593,6 +1681,32 @@ va {keyword} establir les bases per a la ciència moderna
 va {keyword} influir en l'art o la música
 va {keyword} ser assassinat
 verifica la compatibilitat de {keyword} amb els teus dispositius
+vull conèixer alguna cosa sobre {keyword}
+vull conèixer coses sobre {keyword}
+vull conèixer més sobre {keyword}
+vull conèixer més coses sobre {keyword}
+vull conèixer qualque sobre {keyword}
+vull conèixer quelcom sobre {keyword}
+vull descobrir alguna cosa sobre {keyword}
+vull descobrir coses sobre {keyword}
+vull descobrir més sobre {keyword}
+vull descobrir més coses sobre {keyword}
+vull descobrir qualque sobre {keyword}
+vull descobrir quelcom sobre {keyword}
+vull detalls sobre {keyword}
+vull esbrinar alguna cosa sobre {keyword}
+vull esbrinar coses sobre {keyword}
+vull esbrinar més sobre {keyword}
+vull esbrinar més coses sobre {keyword}
+vull esbrinar qualque sobre {keyword}
+vull esbrinar quelcom sobre {keyword}
+vull informació sobre {keyword}
+vull saber alguna cosa sobre {keyword}
+vull saber coses sobre {keyword}
+vull saber més sobre {keyword}
+vull saber més coses sobre {keyword}
+vull saber qualque sobre {keyword}
+vull saber quelcom sobre {keyword}
 vull saber sobre {keyword}
 vull tota la informació que tinguis sobre {keyword}
 {keyword} beu alcohol

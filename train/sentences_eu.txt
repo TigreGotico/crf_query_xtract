@@ -1,3 +1,4 @@
+azal al dezakezu zer den {keyword}
 azaldu {keyword}-ri buruzko laburpena
 azalpen zehatz bat eman {keyword}-ri buruz
 azkar al da {keyword}
@@ -28,12 +29,14 @@ edonon erabiltzeko aukera ematen al du {keyword}
 efizientzia hobetzen al du {keyword}
 egin eguneratzeak {keyword}ren dokumentazioari buruz
 egonkorra al da {keyword} lanen artean
+emadazu informazioa honi buruz {keyword}
 emaitzak zehatzak al dira {keyword}-ren bidez
 eman azalpenak {keyword}-ren funtzionamenduari buruz
 eman gehiago informazio {keyword}ri buruz
 eman iritzi {keyword}ri buruz
 eman zure esperientzia {keyword}-kin
 eman {keyword}-ri buruzko azalpen osoa
+emango al didazu azalpenik honi buruz {keyword}
 erabakia hartzeko laguntza ematen al du {keyword}
 erabil daiteke {keyword} honako zeregin honetan
 erabilera anitzak eskaintzen al ditu {keyword}
@@ -79,6 +82,8 @@ ezagutzen al duzu {keyword}
 fidatu al gaitezke {keyword}-ri ingurune arriskutsuetan
 funtzio gehigarriak eskaintzen al ditu {keyword}
 funtzionamendua egonkorra al da {keyword}-ren kasuan
+gai honi buruzko datuak jakin nahi ditut {keyword}
+gai honi buruzko xehetasunak bilatzen ari naiz {keyword}
 galdetu {keyword}-ri informazioa
 garatu {keyword} funtzionalitatea
 gaur egun erabiltzen da {keyword} mundu osoko enpresetan
@@ -100,6 +105,8 @@ hobe al da {keyword}-ri buruzko berrikuspenak irakurtzea
 hobe da {keyword} lehenago erabiltzeari ekitea
 hobetzeko aukerak eskaintzen al ditu {keyword}
 hobetzen al du {keyword} errendimendua
+honi buruzko informazio gehiago nahiko nuke {keyword}
+honi buruzko informazioa nahiko nuke {keyword}
 hori bai, {keyword}-k laguntza eskaintzen al du prozesuetan
 hori egin dezake al {keyword}
 horrela jarraitu behar al da {keyword}ren erabilera
@@ -128,6 +135,7 @@ konfiantza al du erabiltzaileek {keyword}-ren segurtasunean
 konfigura {keyword} zure gustura
 konfiguratu {keyword} zure beharretarako
 konta iezadazu {keyword}-ri buruz gehiago
+kontadazu honi buruz {keyword}
 kontatu iezadazu {keyword}-ri buruzko dena
 lan-fluxuetan erabilgarria al da {keyword}
 lortu daitezke emaitza onak {keyword} erabiliz
@@ -378,6 +386,7 @@ nor asmatu zuen {keyword}ren teknologia berritzailea
 nor aurkitu zuen {keyword}
 nor aurreratu zuen {keyword} zientzian
 nor bultzatu zuen {keyword} erabiltzea
+nor da {keyword}
 nor da {keyword}ren abantaila praktikoen sortzailea
 nor da {keyword}ren aditua
 nor da {keyword}ren aitzindaria
@@ -477,6 +486,7 @@ nor sortu zuen {keyword} tresna nagusia
 nor sortu zuen {keyword}-ren lehenengo proiektua
 nor sortu zuen {keyword}ren lehenengo erabilera orokorra
 nor sortu zuen {keyword}ren ospea
+nor zen {keyword}
 nor zuzendu zuen {keyword}ren ezarpena
 nor zuzendu zuen {keyword}ren ikerketak
 nor zuzendu zuen {keyword}ren lehen urratsak
@@ -1029,6 +1039,7 @@ zer iritzi duzu {keyword}-ri buruz
 zer izan da {keyword} gaur egun
 zer izan dira {keyword} alor nagusietan egindako berrikuntzak
 zer izan ziren {keyword}ren ondorioak
+zer jakin nahi duzu gai honi buruz {keyword}
 zer janaria lortzen zuen {keyword} dinosaurioak
 zer jaten zuen {keyword} dinosaurioak
 zer jaten zuten {keyword} dinosaurioek

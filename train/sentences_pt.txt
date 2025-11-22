@@ -339,14 +339,19 @@ diz-me mais sobre como {keyword} pode impactar a indústria
 diz-me o que faz {keyword}
 diz-me o que pensas sobre {keyword}
 diz-me o que é {keyword}, rápido
+diz-me sobre {keyword}
+dá-me informações acerca de {keyword}
+dá-me informações sobre {keyword}
 dá-me a descrição completa de {keyword}
 dá-me a primícia sobre {keyword}
 dá-me alguns artigos relacionados com {keyword}
 dá-me alguns exemplos de {keyword}
 dá-me dicas sobre como otimizar o uso de {keyword}
 dá-me exemplos de como {keyword} afeta o meio ambiente
+dá-me informação sobre {keyword}
 dá-me informações sobre {keyword}
 dá-me mais detalhes sobre o processo de implementação de {keyword}
+dá-me mais informações acerca de {keyword}
 dá-me mais informações sobre {keyword}
 dá-me o básico sobre {keyword}
 dá-me um resumo de {keyword}
@@ -371,6 +376,8 @@ e se uma versão melhorada de {keyword} fosse lançada amanhã
 e se {keyword} fosse banido em todo o mundo
 ei, diz-me o que é {keyword}
 ei, o que é isto chamado {keyword}
+elucida-me acerca de {keyword}
+elucida-me sobre {keyword}
 em que ano {keyword} apareceu na cultura mundial
 em que ano {keyword} foi oficialmente reconhecida como uma disciplina científica
 encontra alternativas para {keyword}
@@ -422,6 +429,10 @@ então, {keyword}, sobre o que é isto tudo
 envia-me informações detalhadas sobre {keyword}
 esclarece as diferenças entre {keyword} e outras opções
 estou a pensar em {keyword}, podes explicá-lo
+estou curiosa acerca de {keyword}
+estou curiosa sobre {keyword}
+estou curioso acerca de {keyword}
+estou curioso sobre {keyword}
 estou à procura de detalhes sobre {keyword}
 estuda a viabilidade de {keyword} em mercados emergentes
 estuda as implicações de {keyword} na indústria
@@ -460,12 +471,15 @@ explica como {keyword} pode ser usado para aumentar a eficiência
 explica de forma simples como posso começar a usar {keyword}
 explica de forma simples o que é {keyword}
 explica o impacto de {keyword} nas práticas empresariais
+explica o que é {keyword}
 explica os benefícios de usar {keyword} em empresas de grande porte
 explica os desafios que {keyword} enfrenta
 explica os diferentes tipos de {keyword} que existem
 explica os melhores métodos para implementar {keyword}
 explica os principais obstáculos ao uso de {keyword}
 explica os principais usos de {keyword} no campo
+explica quando é que {keyword}
+explica quem é {keyword}
 explica {keyword} agora!
 explica {keyword}, por favor
 explica-me brevemente {keyword}
@@ -542,6 +556,7 @@ fala sobre os melhores recursos para aprender {keyword}
 fala sobre os mitos comuns associados a {keyword}
 fala sobre os mitos em torno de {keyword}
 fala sobre os principais desafios que {keyword} enfrenta
+fala sobre {keyword}
 fala sobre {keyword} agora!
 fala-me mais sobre {keyword}
 fala-me sobre as limitações de {keyword}
@@ -568,10 +583,33 @@ faz uma análise sobre o futuro de {keyword}
 faça uma lista de todos os benefícios de usar {keyword}
 faça uma pesquisa sobre {keyword} e diga-me os resultados
 fornece uma revisão completa sobre {keyword}
+gostaria de aprender acerca de {keyword}
+gostaria de aprender sobre {keyword}
+gostaria de aprender mais acerca de {keyword}
+gostaria de aprender mais sobre {keyword}
+gostaria de descobrir acerca de {keyword}
+gostaria de descobrir sobre {keyword}
+gostaria de descobrir mais acerca de {keyword}
+gostaria de descobrir mais sobre {keyword}
+gostaria de saber acerca de {keyword}
+gostaria de saber sobre {keyword}
+gostaria de saber mais acerca de {keyword}
 gostaria de saber mais sobre como a {keyword} pode me ajudar
 gostaria de saber mais sobre {keyword}
 gostaria de saber mais sobre {keyword} numa perspetiva académica
 gostaria de um resumo de {keyword}
+gostava de aprender acerca de {keyword}
+gostava de aprender sobre {keyword}
+gostava de aprender mais acerca de {keyword}
+gostava de aprender mais sobre {keyword}
+gostava de descobrir acerca de {keyword}
+gostava de descobrir sobre {keyword}
+gostava de descobrir mais acerca de {keyword}
+gostava de descobrir mais sobre {keyword}
+gostava de saber acerca de {keyword}
+gostava de saber sobre {keyword}
+gostava de saber mais acerca de {keyword}
+gostava de saber mais sobre {keyword}
 gostava de saber sobre {keyword}
 há alguma forma de descrever {keyword}
 há alguma oportunidade de que possas explicar {keyword}
@@ -961,6 +999,7 @@ o que {keyword} nos ensina
 o que {keyword} pode ensinar à próxima geração de inovadores
 o que {keyword} pode melhorar na nossa rotina diária
 o que {keyword}? por favor, explica-me
+o que é {keyword}
 o que é a {keyword}
 o que é importante saber sobre {keyword}
 o que é necessário para a melhoria da eficácia de {keyword}
@@ -986,6 +1025,7 @@ o que é que te leva a escolher {keyword} em vez de outras opções
 o que é que te surpreendeu sobre {keyword}
 o que é que torna {keyword} tão especial para ti
 o que é que tornaria {keyword} ainda mais útil
+o que é que é {keyword}
 o que é todo isto de {keyword}
 o que é todo o alvoroço sobre {keyword}
 o que é {keyword}
@@ -1192,10 +1232,14 @@ podes dar-me um resumo detalhado de {keyword}
 podes descrever {keyword} de forma simples
 podes dizer-me o que é {keyword}
 podes dizer-me se {keyword} é algo importante
+podes elucidar-me acerca de {keyword}
+podes elucidar-me sobre {keyword}
 podes explicar as raízes de {keyword}
 podes explicar como funciona {keyword}
 podes explicar como funciona {keyword} na prática
 podes explicar o que é {keyword}
+podes explicar quando é que {keyword}
+podes explicar quem é {keyword}
 podes explicar-me como {keyword} funciona
 podes explicar-me {keyword}
 podes fornecer detalhes sobre {keyword}
@@ -1355,6 +1399,10 @@ procure maneiras de evitar os erros comuns ao utilizar {keyword}
 procure maneiras de melhorar o uso de {keyword} na prática
 procure os erros mais comuns ao usar {keyword}
 procure por alternativas a {keyword}
+procuro detalhes acerca {keyword}
+procuro detalhes sobre {keyword}
+procuro informação sobre {keyword}
+procuro informações sobre {keyword}
 quais as vantagens de {keyword} sobre outras alternativas
 quais atores fizeram a melhor interpretação de {keyword} no cinema
 quais atrizes fizeram a melhor interpretação de {keyword} no cinema
@@ -1865,6 +1913,7 @@ quem foi o principal adversário de {keyword} no campo político
 quem foi o principal líder da revolução de {keyword}
 quem foi o responsável por introduzir {keyword} no cenário científico
 quem foi o último a receber um prêmio por trabalhos sobre {keyword}
+quem foi {keyword}
 quem foram as figuras chave por detrás de {keyword}
 quem foram as figuras-chave na luta pela igualdade de género em {keyword}
 quem foram as figuras-chave na luta pela igualdade de gênero em {keyword}
@@ -1997,6 +2046,8 @@ quem é o maior especialista em {keyword}
 quem é o responsável pela evolução de {keyword} nos últimos anos
 quem é {keyword}
 queres saber mais sobre {keyword}
+quero informação sobre {keyword}
+quero informações sobre {keyword}
 quero saber sobre {keyword}
 quero saber tudo sobre {keyword}
 quero toda a informação que tens sobre {keyword}
