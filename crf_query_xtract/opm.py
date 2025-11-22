@@ -13,10 +13,10 @@ class CRFBrillKeywordExtractor(KeywordExtractor):
     def supported_langs(self) -> Set[str]:
         return {"ca", "da", "en", "eu", "fr", "gl", "it", "pt"}
 
-    def get_extractor(self, lang: str) -> SearchtermExtractorCRF:
+    def get_extractor(self, lang: Optional[str] = None) -> SearchtermExtractorCRF:
+        lang = lang or self.lang
         if lang.lower().split("-")[0] not in self.supported_langs:
             raise ValueError(f"Unsupported language: {lang}")
-
         if lang not in self._xtractors:
             self._xtractors[lang] = SearchtermExtractorCRF(lang)
         return self._xtractors[lang]
