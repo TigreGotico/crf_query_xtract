@@ -3,8 +3,6 @@ from setuptools import setup, find_packages
 import os
 import os.path
 
-from setuptools import setup
-
 BASEDIR = os.path.abspath(os.path.dirname(__file__))
 
 
@@ -46,6 +44,9 @@ def required(requirements_file):
                 if pkg.strip() and not pkg.startswith("#")]
 
 
+
+ENTRY_POINT = f'ovos-crf-brill-keyword-extractor=crf_query_xtract.opm:CRFBrillKeywordExtractor'
+
 setup(
     name="crf_query_xtract",
     version=get_version(),
@@ -64,4 +65,7 @@ setup(
     package_data={
         '': ['*.pkl'],  # Include your .pkl model files in the distribution
     },
+    entry_points={
+        "opm.keywords": ENTRY_POINT
+    }
 )
