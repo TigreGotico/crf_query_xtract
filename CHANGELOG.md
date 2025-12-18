@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.2.0a1](https://github.com/TigreGotico/crf_query_xtract/tree/0.2.0a1) (2025-11-22)
+## [0.2.1a1](https://github.com/TigreGotico/crf_query_xtract/tree/0.2.1a1) (2025-12-18)
 
-[Full Changelog](https://github.com/TigreGotico/crf_query_xtract/compare/0.1.2...0.2.0a1)
+[Full Changelog](https://github.com/TigreGotico/crf_query_xtract/compare/0.2.0...0.2.1a1)
 
 **Merged pull requests:**
 
-- feat: opm plugin [\#1](https://github.com/TigreGotico/crf_query_xtract/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+- Configure Renovate [\#3](https://github.com/TigreGotico/crf_query_xtract/pull/3) ([renovate[bot]](https://github.com/apps/renovate))
 
 
 
