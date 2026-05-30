@@ -65,6 +65,9 @@ setup(
     package_data={
         '': ['*.pkl'],  # Include your .pkl model files in the distribution
     },
+    extras_require={
+        'test': ['pytest'],
+    },
     entry_points={
         "opm.keywords": ENTRY_POINT
     }

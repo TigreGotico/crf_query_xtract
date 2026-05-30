@@ -47,7 +47,7 @@ pip install crf_query_xtract
 You can easily use the extractor to process search queries:
 
 ```python
-from searchterm_extractor import SearchtermExtractorCRF
+from crf_query_xtract import SearchtermExtractorCRF
 
 # Initialize the extractor for the desired language
 kx = SearchtermExtractorCRF.from_pretrained("en")
@@ -72,17 +72,15 @@ Extracted keywords: speed of light
 
 Currently, the **Searchterm Extractor CRF** supports several languages. The pretrained models include:
 
-- **English** (`kx_en.pkl`)
+- **Catalan** (`kx_ca.pkl`)
+- **Danish** (`kx_da.pkl`)
 - **German** (`kx_de.pkl`)
+- **English** (`kx_en.pkl`)
+- **Basque** (`kx_eu.pkl`)
 - **French** (`kx_fr.pkl`)
+- **Galician** (`kx_gl.pkl`)
 - **Italian** (`kx_it.pkl`)
 - **Portuguese** (`kx_pt.pkl`)
-- **Danish** (`kx_da.pkl`)
-- **Spanish** (`kx_es.pkl`)
-- **Dutch** (`kx_nl.pkl`)
-- **Basque** (`kx_eu.pkl`)
-- **Galician** (`kx_gl.pkl`)
-- **Catalan** (`kx_ca.pkl`)
 
 If your language is not supported, you will need to **train a new Brill POS tagger**. Pre-trained Brill POS taggers for several languages can be found in the **[brill_postaggers repository](https://github.com/TigreGotico/brill_postaggers)**.
 
