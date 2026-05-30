@@ -42,6 +42,10 @@ words) keeps multi-word and possessive terms intact.
 - **`music`** — [OpenVoiceOS/music_queries_templates](https://huggingface.co/datasets/OpenVoiceOS/music_queries_templates):
   `{artist_name}` / `{album_name}` / `{track_name}` slot templates filled with
   real music entities and span-labelled the same way.
+- **`ocp`** — [OpenVoiceOS/OCP_templates](https://huggingface.co/datasets/OpenVoiceOS/OCP_templates):
+  OVOS Common Play media query templates (`{movie_name}`, `{director_name}`,
+  `{album_name}`, …). Slots carry no inline examples, so they are filled from the
+  typed entity pool below; adult-labelled templates are dropped.
 - **`intents_eval`** — [OpenVoiceOS/intents-for-eval](https://huggingface.co/datasets/OpenVoiceOS/intents-for-eval)
   `<locale>-templates`: `{slot}` templates carrying **in-language slot
   examples**. Every slot is filled from its examples (so sentences are fully
@@ -83,9 +87,14 @@ data.
 
 ## Entity pool
 
-Per language the fill pool seeds from `train/keywords_<lang>.txt` and grows with
-the Gemma-extracted spans from `common_query`. Multi-word entities are kept whole
-so the model learns full spans (e.g. *speed of light*, not *speed*).
+Content slots are filled with **real typed entities** from
+[Jarbas/WikidataMediaEntities](https://huggingface.co/datasets/Jarbas/WikidataMediaEntities)
+— 1.6M SFW entities across 53 types (`artist_name`, `album_name`, `movie_name`,
+`book_name`, `game_name`, people, …) mapped to slot names, plus a blend of them
+into the free `{query}` pool. The `{query}`/keyword pool also seeds from
+`train/keywords_<lang>.txt` and grows with the Gemma-extracted `common_query`
+spans. Multi-word entities are kept whole so the model learns full spans
+(e.g. *speed of light*, not *speed*).
 
 ## Building
 
@@ -102,11 +111,11 @@ shared cache.
 
 ## Counts
 
-51,318 training rows over 11 languages + a ~16,000-row gold split (see
-`train/data/stats.json`). By source: massive 36,000, slot_filling 7,775,
-intents_eval 6,401, common_query 422, generated 319, music 401. `massive` and
-`slot_filling` are capped at 4,000/lang; eu and gl are thinner (no MASSIVE
-coverage). `train/plots.py` regenerates the figures below.
+51,587 training rows over 11 languages + a ~16,000-row gold split (see
+`train/data/stats.json`). By source: massive 36,001, slot_filling 7,774,
+intents_eval 6,406, music 602, common_query 420, generated 282, ocp 102.
+`massive` and `slot_filling` are capped at 4,000/lang; eu and gl are thinner (no
+MASSIVE coverage). `train/plots.py` regenerates the figures below.
 
 ![Training rows per language, by source](img/rows_by_lang_source.png)
 
@@ -126,17 +135,17 @@ rate (`""` returned) on the out-of-scope rest:
 
 | lang | in-scope n | exact | F1 | neg-reject |
 | --- | --- | --- | --- | --- |
-| ca | 110 | 0.80 | 0.92 | 0.88 |
-| da | 107 | 0.81 | 0.93 | 0.90 |
-| de | 102 | 0.78 | 0.90 | 0.88 |
-| en | 109 | 0.76 | 0.90 | 0.86 |
-| es | 104 | 0.76 | 0.91 | 0.84 |
-| eu | 82  | 0.49 | 0.73 | 0.98 |
-| fr | 103 | 0.78 | 0.91 | 0.90 |
-| gl | 76  | 0.84 | 0.95 | 0.97 |
-| it | 101 | 0.76 | 0.89 | 0.85 |
-| nl | 108 | 0.80 | 0.92 | 0.88 |
-| pt | 107 | 0.79 | 0.91 | 0.86 |
+| ca | 110 | 0.81 | 0.91 | 0.88 |
+| da | 107 | 0.82 | 0.93 | 0.90 |
+| de | 102 | 0.76 | 0.90 | 0.88 |
+| en | 109 | 0.77 | 0.90 | 0.86 |
+| es | 104 | 0.76 | 0.91 | 0.85 |
+| eu | 82  | 0.48 | 0.71 | 0.99 |
+| fr | 103 | 0.81 | 0.92 | 0.89 |
+| gl | 76  | 0.83 | 0.95 | 0.97 |
+| it | 101 | 0.76 | 0.89 | 0.83 |
+| nl | 108 | 0.82 | 0.93 | 0.89 |
+| pt | 107 | 0.79 | 0.90 | 0.89 |
 
 In-scope F1 sits near 0.90 and the model rejects ~89% of no-search-term
 utterances (returning `""`) — it has no forced fallback. `eu` is the weak spot

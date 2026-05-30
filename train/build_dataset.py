@@ -35,6 +35,7 @@ import ast
 import json
 import os
 import random
+import re
 import sys
 from collections import Counter
 from typing import Dict, List, Optional, Tuple
@@ -97,6 +98,31 @@ MUSIC_FILLS = [
     "Bohemian Rhapsody", "So What", "Get Lucky", "Comfortably Numb",
     "HUMBLE.", "Redemption Song", "Take Five", "Clair de Lune",
 ]
+
+# Real typed entities from Jarbas/WikidataMediaEntities, used to fill content
+# slots with diverse in-type values. SFW only.
+MEDIA_ENTITIES = "Jarbas/WikidataMediaEntities"
+ADULT_WD_TYPES = {"pornstar_name", "porn_film_name", "porn_genre", "hentai_name"}
+# template slot name -> WikidataMediaEntities entity_type(s)
+SLOT_TO_WDTYPE = {
+    "artist": ["artist_name"], "artist_name": ["artist_name"], "artist_or_band": ["artist_name"],
+    "album": ["album_name"], "album_name": ["album_name"],
+    "song": ["song_name"], "song_name": ["song_name"], "track": ["song_name"], "track_name": ["song_name"],
+    "movie_name": ["movie_name", "short_film_name", "documentary_name"],
+    "film_name": ["movie_name"], "anime_name": ["anime_name", "series_name"],
+    "series_name": ["series_name", "cartoon_name"], "show_name": ["series_name"],
+    "game_name": ["game_name"], "book_name": ["book_name"], "podcast_name": ["podcast_name"],
+    "radio_name": ["radio_program_name", "radio_drama_name"],
+    "genre": ["music_genre"], "music_genre": ["music_genre"], "media_type": ["music_genre"],
+    "person": ["movie_actor", "movie_director", "book_author"],
+    "person_name": ["movie_actor", "movie_director"], "author_name": ["book_author"],
+    "director_name": ["movie_director"], "actor_name": ["movie_actor"],
+    "business_name": ["record_label", "film_studio", "tv_channel"], "app_name": ["tv_streaming_service"],
+    "place_name": ["country_name"],
+}
+# entity types blended into the free {query} / search-term pool
+QUERY_WD_TYPES = ["movie_name", "artist_name", "album_name", "book_name", "game_name",
+                  "series_name", "movie_actor", "movie_director", "song_name", "podcast_name"]
 
 # ----------------------------------------------------------------------------
 # tokenisation + span labelling (shares the model's tokeniser so labels align)
@@ -326,11 +352,52 @@ def build_slot_filling(lang: str, pool: List[str], cap: int, fills: int = 2) -> 
     return rows
 
 
-def build_music(music_templates: List[Tuple[str, str]], cap: int = 400) -> List[dict]:
+# ----------------------------------------------------------------------------
+# real typed entities (Jarbas/WikidataMediaEntities) for slot filling
+# ----------------------------------------------------------------------------
+_MEDIA_POOLS: Dict[str, List[str]] = {}
+
+
+def load_media_pools(cap_per_type: int = 15000) -> Dict[str, List[str]]:
+    """WikidataMediaEntities `text` grouped by `entity_type` (SFW, capped)."""
+    if _MEDIA_POOLS:
+        return _MEDIA_POOLS
+    from datasets import load_dataset
+    ds = load_dataset(MEDIA_ENTITIES, split="train")
+    for t, txt in zip(ds["entity_type"], ds["text"]):
+        if t in ADULT_WD_TYPES or not txt:
+            continue
+        bucket = _MEDIA_POOLS.setdefault(t, [])
+        if len(bucket) < cap_per_type:
+            bucket.append(txt)
+    return _MEDIA_POOLS
+
+
+def slot_entities(slot: str, k: int, rng: random.Random) -> List[str]:
+    """Sample up to `k` real entities matching a template slot name."""
+    pool: List[str] = []
+    for t in SLOT_TO_WDTYPE.get(slot, []):
+        pool.extend(_MEDIA_POOLS.get(t, []))
+    if not pool:
+        return []
+    return rng.sample(pool, min(k, len(pool)))
+
+
+def query_entities(k: int, rng: random.Random) -> List[str]:
+    """Sample real entities to blend into the free {query} / search-term pool."""
+    pool: List[str] = []
+    for t in QUERY_WD_TYPES:
+        pool.extend(_MEDIA_POOLS.get(t, [])[:4000])
+    return rng.sample(pool, min(k, len(pool))) if pool else []
+
+
+def build_music(music_templates: List[Tuple[str, str]], rng: random.Random,
+                cap: int = 600) -> List[dict]:
     """music_queries_templates are English `{slot}` patterns."""
     rows: List[dict] = []
     seen = set()
-    random.shuffle(music_templates)
+    music_templates = list(music_templates)
+    rng.shuffle(music_templates)
     for category, template in music_templates:
         if len(rows) >= cap:
             break
@@ -340,7 +407,8 @@ def build_music(music_templates: List[Tuple[str, str]], cap: int = 400) -> List[
         slot = slots[0]
         prefix = template.split("{" + slot + "}")[0]
         near = len(prefix.split())
-        for value in random.sample(MUSIC_FILLS, 2):
+        fills = slot_entities(slot, 3, rng) or rng.sample(MUSIC_FILLS, 2)
+        for value in fills:
             text = template.replace("{" + slot + "}", value)
             if "{" in text or "}" in text:  # other unfilled placeholder
                 continue
@@ -350,6 +418,53 @@ def build_music(music_templates: List[Tuple[str, str]], cap: int = 400) -> List[
             rec = record("en", text, value, "music", near_word=near)
             if rec:
                 rows.append(rec)
+    return rows
+
+
+_OCP_SLOT_RE = re.compile(r"\{(\w+)\}")
+
+
+def build_ocp(rng: random.Random, cap: int = 3000) -> List[dict]:
+    """OpenVoiceOS/OCP_templates: media `{slot}` patterns filled from the typed pool."""
+    from datasets import load_dataset
+    try:
+        ds = load_dataset("OpenVoiceOS/OCP_templates", split="train")
+    except Exception:  # noqa: BLE001
+        return []
+    rows: List[dict] = []
+    seen = set()
+    idx = list(range(len(ds)))
+    rng.shuffle(idx)
+    for j in idx:
+        if len(rows) >= cap:
+            break
+        row = ds[j]
+        if str(row.get("adult_label", "not-media")) != "not-media":  # SFW only
+            continue
+        template = row["template"]
+        names = _OCP_SLOT_RE.findall(template)
+        if not names:
+            continue
+        text, content, ok = template, [], True
+        for name in names:
+            vals = slot_entities(name, 6, rng)  # only media-mapped slots fillable
+            if not vals:
+                ok = False
+                break
+            v = rng.choice(vals)
+            text = text.replace("{" + name + "}", v, 1)
+            content.append(v)
+        if not ok or "{" in text or text.lower() in seen:
+            continue
+        seen.add(text.lower())
+        out = label_multi(text, content)
+        if out is None:
+            continue
+        words, labels = out
+        if "B-KW" not in labels:
+            continue
+        rows.append({"lang": "en", "text": " ".join(words), "tokens": words,
+                     "labels": labels, "source": "ocp", "keyword": " ".join(content)})
     return rows
 
 
@@ -515,20 +630,20 @@ def main() -> None:
     os.makedirs(OUT_DIR, exist_ok=True)
 
     # load HF sources once
+    from datasets import load_dataset
+    print("loading WikidataMediaEntities pool …", flush=True)
+    load_media_pools()
     cq_by_lang: Dict[str, List[str]] = {}
-    music_templates: List[Tuple[str, str]] = []
-    if not args.no_gemma or True:
-        from datasets import load_dataset
-        cq = load_dataset("OpenVoiceOS/ovos-common-query-intents", split="train")
-        for row in cq:
-            cq_by_lang.setdefault(row["lang"], []).append(row["sentence"])
-        music = load_dataset("OpenVoiceOS/music_queries_templates", split="train")
-        music_templates = [(r["category"], r["template"]) for r in music]
+    cq = load_dataset("OpenVoiceOS/ovos-common-query-intents", split="train")
+    for row in cq:
+        cq_by_lang.setdefault(row["lang"], []).append(row["sentence"])
+    music = load_dataset("OpenVoiceOS/music_queries_templates", split="train")
+    music_templates = [(r["category"], r["template"]) for r in music]
 
     stats: Dict[str, Counter] = {}
     for lang in langs:
         print(f"== {lang} ==", flush=True)
-        pool = seed_pool(lang)
+        pool = seed_pool(lang)  # general topic pool (media entities are scoped to music/ocp)
         rows: List[dict] = []
         if not args.no_gemma:
             cq_rows = cq_by_lang.get(LANGS[lang]["cq"], [])
@@ -540,7 +655,8 @@ def main() -> None:
         rows += build_templated(INTENTS_EVAL, lang, args.templated_cap, args.neg_frac, rng)
         rows += build_templated(MASSIVE, lang, args.templated_cap, args.neg_frac, rng)
         if lang == "en":
-            rows += build_music(music_templates)
+            rows += build_music(music_templates, rng)
+            rows += build_ocp(rng)
         random.shuffle(rows)
         out_path = os.path.join(OUT_DIR, f"{lang}.jsonl")
         with open(out_path, "w", encoding="utf-8") as f:
@@ -555,10 +671,12 @@ def main() -> None:
                for lang, c in stats.items()}
     summary["_meta"] = {
         "sources": ["slot_filling (ovos-localize)", "intents_eval (HF intents-for-eval)",
-                    "massive (HF massive-templates)", "music_queries_templates (HF)",
-                    "common_query gemma-labelled (HF)", "generated (gemma-invented)"],
+                    "massive (HF massive-templates)", "music (HF music_queries_templates)",
+                    "ocp (HF OCP_templates)", "common_query gemma-labelled (HF)",
+                    "generated (gemma-invented)"],
+        "entities": "Jarbas/WikidataMediaEntities (SFW, typed slot fills + query pool)",
         "label_scheme": "BIO (B-KW/I-KW/O)",
-        "tokeniser": "crf_query_xtract.features.tokenize (regex, POS-free)",
+        "tokeniser": "crf_query_xtract.features.tokenize (quebra_frases, POS-free)",
         "gold_eval": "train/data/gold/<lang>.jsonl (intents-for-eval + massive test splits)",
     }
     with open(os.path.join(OUT_DIR, "stats.json"), "w", encoding="utf-8") as f:

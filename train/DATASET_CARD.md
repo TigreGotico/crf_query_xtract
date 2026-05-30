@@ -80,11 +80,17 @@ The `source` field on every row records where it came from:
 | `intents_eval` | [intents-for-eval](https://huggingface.co/datasets/OpenVoiceOS/intents-for-eval) templates (Apache-2.0) | deterministic (content slots) |
 | `massive` | [massive-templates](https://huggingface.co/datasets/OpenVoiceOS/massive-templates), the MASSIVE corpus (Apache-2.0) | deterministic (content slots) |
 | `music` | [music_queries_templates](https://huggingface.co/datasets/OpenVoiceOS/music_queries_templates) (MIT) | deterministic (slot span) |
+| `ocp` | [OCP_templates](https://huggingface.co/datasets/OpenVoiceOS/OCP_templates) media query templates | deterministic (slot span) |
 | `common_query` | real questions from [ovos-common-query-intents](https://huggingface.co/datasets/OpenVoiceOS/ovos-common-query-intents) | **silver** — span labelled by a local Gemma model, validated as a verbatim substring |
 | `generated` | questions invented by a local Gemma model | **silver** — synthetic |
 
 The `test` (gold) split is the `-test` configs of intents-for-eval and MASSIVE
 (human-authored utterances with gold slot annotations).
+
+Content slots are filled with real typed entities from
+[Jarbas/WikidataMediaEntities](https://huggingface.co/datasets/Jarbas/WikidataMediaEntities)
+(1.6M SFW entities across 53 types: artists, albums, movies, books, games,
+people…), mapped to slot names; adult entity types are excluded.
 
 ## How this dataset was generated
 

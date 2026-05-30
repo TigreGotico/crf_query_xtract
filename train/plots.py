@@ -19,9 +19,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 IMG = os.path.join(os.path.dirname(HERE), "docs", "img")
 
-SOURCES = ["slot_filling", "intents_eval", "massive", "music", "common_query", "generated"]
+SOURCES = ["slot_filling", "intents_eval", "massive", "music", "ocp", "common_query", "generated"]
 COLORS = {"slot_filling": "#4C72B0", "intents_eval": "#55A868", "massive": "#C44E52",
-          "music": "#8172B3", "common_query": "#CCB974", "generated": "#DA8BC3"}
+          "music": "#8172B3", "ocp": "#937860", "common_query": "#CCB974", "generated": "#DA8BC3"}
 
 
 def load_all():
