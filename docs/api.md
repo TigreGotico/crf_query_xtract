@@ -24,19 +24,25 @@ train (assign a fitted `sklearn_crfsuite.CRF` to `.model`).
 | `lang` | `str` | The language code passed in. |
 | `model` | `CRF` or `None` | The loaded `sklearn_crfsuite.CRF`. `None` until loaded/trained. |
 
-### `SearchtermExtractorCRF.from_pretrained(lang: str) -> SearchtermExtractorCRF`
+### `SearchtermExtractorCRF.from_pretrained(lang, repo_id=None) -> SearchtermExtractorCRF`
 
 The normal entry point. Normalizes `lang` (`lang.split("-")[0].lower()`), so
-`"PT"`, `"pt"` and `"pt-BR"` all resolve to `pt`, then constructs the extractor
-and loads the bundled `kx_<lang>.pkl`. Returns a ready-to-use instance.
+`"PT"`, `"pt"` and `"pt-BR"` all resolve to `pt`, then loads `kx_<lang>.pkl`.
+
+The model is **downloaded from the Hub** and cached: by default from
+`DEFAULT_REPO` (`TigreGotico/crf-query-xtract`), overridable with the
+`CRF_QUERY_XTRACT_REPO` env var or the `repo_id` argument. `repo_id` may be
+another Hub repo **or a local directory** of `kx_<lang>.pkl` files — pass your
+own to use your own models.
 
 ```python
-kx = SearchtermExtractorCRF.from_pretrained("it")
-kx.extract_keyword("chi ha inventato il telefono")   # 'telefono'
+kx = SearchtermExtractorCRF.from_pretrained("it")                       # bundled repo
+kx = SearchtermExtractorCRF.from_pretrained("it", repo_id="me/my-crf")  # your Hub repo
+kx = SearchtermExtractorCRF.from_pretrained("it", repo_id="/tmp/models")  # local dir
 ```
 
-Raises `FileNotFoundError` if no model ships for the resolved language. Bundled
-models: `ca` `da` `de` `en` `es` `eu` `fr` `gl` `it` `nl` `pt`.
+Models exist for `ca` `da` `de` `en` `es` `eu` `fr` `gl` `it` `nl` `pt`;
+requesting another language raises from the download (`hf_hub_download`).
 
 ### `extract_keyword(text: str) -> str`
 

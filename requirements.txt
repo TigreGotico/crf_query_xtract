@@ -1,3 +1,4 @@
 joblib
 sklearn_crfsuite
 quebra_frases
+huggingface_hub

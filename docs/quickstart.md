@@ -11,9 +11,10 @@ that need a clean search term, not the whole utterance.
 pip install crf_query_xtract
 ```
 
-Three small runtime deps install with it: `joblib`, `sklearn_crfsuite`, and the
-in-house `quebra_frases` tokenizer. No model download, no POS tagger — the
-per-language CRF models ship inside the package.
+Small runtime deps install with it: `joblib`, `sklearn_crfsuite`, the in-house
+`quebra_frases` tokenizer, and `huggingface_hub`. The per-language CRF model is
+**downloaded from the Hub on first use** (from `TigreGotico/crf-query-xtract`) and
+cached; no POS tagger, no GPU.
 
 ## 2. The one idea
 
@@ -58,16 +59,18 @@ because the `K` run spans several tokens.
 
 ## 4. Supported languages
 
-Pretrained models ship for: `ca` `da` `de` `en` `es` `eu` `fr` `gl` `it` `nl` `pt`. Pass a
+Models are available for: `ca` `da` `de` `en` `es` `eu` `fr` `gl` `it` `nl` `pt`. Pass a
 plain code or a locale — `from_pretrained` lowercases and drops the region, so
 `"pt-BR"` loads the `pt` model:
 
 ```python
-kx = SearchtermExtractorCRF.from_pretrained("pt-BR")   # same as "pt"
+kx = SearchtermExtractorCRF.from_pretrained("pt-BR")          # same as "pt"
+kx = SearchtermExtractorCRF.from_pretrained("en", repo_id="me/my-crf")  # your own models
 ```
 
-A language outside that set raises `FileNotFoundError` from the model load. To
-add one, train your own model — see [advanced.md](advanced.md).
+`repo_id` (or the `CRF_QUERY_XTRACT_REPO` env var) points at any Hub repo or a
+local directory of `kx_<lang>.pkl` files, so you can swap in your own models. To
+train them, see [advanced.md](advanced.md).
 
 ## Where next
 

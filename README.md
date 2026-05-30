@@ -37,6 +37,13 @@ You can install the **Searchterm Extractor CRF** via pip:
 pip install crf_query_xtract
 ```
 
+Per-language models are downloaded from the Hub
+([`TigreGotico/crf-query-xtract`](https://huggingface.co/TigreGotico/crf-query-xtract))
+on first use and cached. They are trained on the
+[`TigreGotico/search-term-extraction`](https://huggingface.co/datasets/TigreGotico/search-term-extraction)
+dataset. Point `from_pretrained(..., repo_id=...)` or the `CRF_QUERY_XTRACT_REPO`
+env var at any Hub repo or a local directory to use your own models.
+
 ## Usage 🛠️
 
 You can easily use the extractor to process search queries:
@@ -79,9 +86,9 @@ Currently, the **Searchterm Extractor CRF** supports several languages. The pret
 - **Dutch** (`kx_nl.pkl`)
 - **Portuguese** (`kx_pt.pkl`)
 
-If your language is not supported, you will need to **train a new Brill POS tagger**. Pre-trained Brill POS taggers for several languages can be found in the **[brill_postaggers repository](https://github.com/TigreGotico/brill_postaggers)**.
-
-If you encounter missing taggers, please open an issue in the main repository to request support for new languages.
+To support another language, train a model on data for it — the features are
+language-agnostic, so no POS tagger is needed. See [`docs/dataset.md`](docs/dataset.md)
+and [`docs/advanced.md`](docs/advanced.md).
 
 ### Contributing to the Dataset ✍️
 

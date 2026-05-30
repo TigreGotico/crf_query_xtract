@@ -81,16 +81,21 @@ python train/build_dataset.py --langs pt
 python train/train_from_dataset.py --langs pt   # -> train/out/kx_pt.pkl
 ```
 
-Load and use what you trained through the same class:
+Use what you trained — a single file, a local directory, or your own Hub repo:
 
 ```python
 from crf_query_xtract import SearchtermExtractorCRF
 
-kx = SearchtermExtractorCRF("pt")
-kx.load("train/out/kx_pt.pkl")
-kx.extract_keyword("quem inventou o telefone")
+# one file
+kx = SearchtermExtractorCRF("pt"); kx.load("train/out/kx_pt.pkl")
+
+# a directory of kx_<lang>.pkl, or a Hub repo
+kx = SearchtermExtractorCRF.from_pretrained("pt", repo_id="train/out")
+kx = SearchtermExtractorCRF.from_pretrained("pt", repo_id="me/my-crf")
 ```
 
+Publish a model set to the Hub with `python train/push_model_to_hub.py --repo
+me/my-crf`, or set `CRF_QUERY_XTRACT_REPO=me/my-crf` to make it the default.
 Adding a language only needs data for it (the features are language-agnostic) —
 no POS tagger to train.
 
