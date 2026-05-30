@@ -1,0 +1,126 @@
+{
+  "ca": {
+    "total": 5641,
+    "by_source": {
+      "massive": 4000,
+      "intents_eval": 584,
+      "slot_filling": 1028,
+      "generated": 29
+    }
+  },
+  "da": {
+    "total": 4893,
+    "by_source": {
+      "massive": 4000,
+      "intents_eval": 582,
+      "slot_filling": 266,
+      "generated": 35,
+      "common_query": 10
+    }
+  },
+  "de": {
+    "total": 4902,
+    "by_source": {
+      "massive": 4000,
+      "slot_filling": 282,
+      "common_query": 14,
+      "intents_eval": 588,
+      "generated": 18
+    }
+  },
+  "en": {
+    "total": 6017,
+    "by_source": {
+      "slot_filling": 515,
+      "music": 602,
+      "intents_eval": 588,
+      "massive": 4000,
+      "common_query": 191,
+      "ocp": 102,
+      "generated": 19
+    }
+  },
+  "es": {
+    "total": 5200,
+    "by_source": {
+      "massive": 4001,
+      "common_query": 102,
+      "intents_eval": 592,
+      "slot_filling": 466,
+      "generated": 39
+    }
+  },
+  "eu": {
+    "total": 876,
+    "by_source": {
+      "intents_eval": 546,
+      "slot_filling": 246,
+      "common_query": 45,
+      "generated": 39
+    }
+  },
+  "fr": {
+    "total": 4939,
+    "by_source": {
+      "massive": 4000,
+      "slot_filling": 314,
+      "intents_eval": 589,
+      "generated": 21,
+      "common_query": 15
+    }
+  },
+  "gl": {
+    "total": 942,
+    "by_source": {
+      "intents_eval": 583,
+      "slot_filling": 310,
+      "generated": 38,
+      "common_query": 11
+    }
+  },
+  "it": {
+    "total": 8604,
+    "by_source": {
+      "massive": 4000,
+      "slot_filling": 4000,
+      "intents_eval": 584,
+      "common_query": 10,
+      "generated": 10
+    }
+  },
+  "nl": {
+    "total": 4656,
+    "by_source": {
+      "massive": 4000,
+      "intents_eval": 589,
+      "common_query": 11,
+      "slot_filling": 38,
+      "generated": 18
+    }
+  },
+  "pt": {
+    "total": 4917,
+    "by_source": {
+      "massive": 4000,
+      "intents_eval": 581,
+      "slot_filling": 309,
+      "common_query": 11,
+      "generated": 16
+    }
+  },
+  "_meta": {
+    "sources": [
+      "slot_filling (ovos-localize)",
+      "intents_eval (HF intents-for-eval)",
+      "massive (HF massive-templates)",
+      "music (HF music_queries_templates)",
+      "ocp (HF OCP_templates)",
+      "common_query gemma-labelled (HF)",
+      "generated (gemma-invented)"
+    ],
+    "entities": "Jarbas/WikidataMediaEntities (SFW, typed slot fills + query pool)",
+    "label_scheme": "BIO (B-KW/I-KW/O)",
+    "tokeniser": "crf_query_xtract.features.tokenize (quebra_frases, POS-free)",
+    "gold_eval": "train/data/gold/<lang>.jsonl (intents-for-eval + massive test splits)"
+  }
+}
