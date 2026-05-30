@@ -11,6 +11,9 @@ venv/
 .pytest_cache/
 .ruff_cache/
 
+# --- Candidate retrained models (review before promoting over shipped kx_*.pkl) ---
+train/out/
+
 # --- Agent pipeline / local-only docs (not part of the published package) ---
 AGENTS.md
 TODO.md

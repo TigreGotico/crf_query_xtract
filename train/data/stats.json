@@ -1,0 +1,74 @@
+{
+  "ca": {
+    "total": 1026,
+    "by_source": {
+      "slot_filling": 1026
+    }
+  },
+  "da": {
+    "total": 274,
+    "by_source": {
+      "slot_filling": 264,
+      "common_query": 10
+    }
+  },
+  "de": {
+    "total": 297,
+    "by_source": {
+      "slot_filling": 282,
+      "common_query": 15
+    }
+  },
+  "en": {
+    "total": 1108,
+    "by_source": {
+      "common_query": 192,
+      "slot_filling": 515,
+      "music": 401
+    }
+  },
+  "eu": {
+    "total": 291,
+    "by_source": {
+      "slot_filling": 246,
+      "common_query": 45
+    }
+  },
+  "fr": {
+    "total": 329,
+    "by_source": {
+      "slot_filling": 314,
+      "common_query": 15
+    }
+  },
+  "gl": {
+    "total": 321,
+    "by_source": {
+      "slot_filling": 310,
+      "common_query": 11
+    }
+  },
+  "it": {
+    "total": 4010,
+    "by_source": {
+      "slot_filling": 4000,
+      "common_query": 10
+    }
+  },
+  "pt": {
+    "total": 321,
+    "by_source": {
+      "slot_filling": 310,
+      "common_query": 11
+    }
+  },
+  "_meta": {
+    "sources": [
+      "slot_filling (ovos-localize)",
+      "music_queries_templates (HF)",
+      "common_query gemma-labelled (HF)"
+    ],
+    "label_scheme": "BIO (B-KW/I-KW/O)",
+    "pos_tagger": "brill_postaggers"
+  }
+}
