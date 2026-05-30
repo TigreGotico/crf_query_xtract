@@ -12,5 +12,4 @@ jobs:
       python_version: '3.11'
       coverage_source: 'crf_query_xtract'
       test_path: 'tests/'
-      test_extras: 'test'
       min_coverage: 0
