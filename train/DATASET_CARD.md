@@ -86,6 +86,44 @@ The `source` field on every row records where it came from:
 The `test` (gold) split is the `-test` configs of intents-for-eval and MASSIVE
 (human-authored utterances with gold slot annotations).
 
+## How this dataset was generated
+
+The whole dataset is produced by `build_dataset.py` in the
+[`crf_query_xtract`](https://github.com/TigreGotico/crf_query_xtract) repo
+(`--dry-run`-able; deterministic given a seed except for the LLM steps). One
+span-labelling routine is shared by every source: tokenise with `quebra_frases`,
+locate the target value as a **token subsequence**, and tag that span `B-KW`/
+`I-KW` — labels therefore always align to the published `tokens`.
+
+1. **Template sources — deterministic, no LLM.** `slot_filling`, `intents_eval`,
+   `massive` and `music` come from OVOS / MASSIVE `{slot}` templates. Slots are
+   filled from each template's own example values; the *content* slot (the search
+   term) is labelled, other slots are filled but left `O`, and `(a|b)`
+   alternations are expanded with `ovos-spec-tools`. Templates whose only slots
+   are constrained (time, volume…) become all-`O` negatives.
+2. **`common_query` — local-LLM labelling.** Real questions from
+   `ovos-common-query-intents` carry no markup, so a **locally-hosted Gemma model**
+   (`ggml-org/gemma-4-26B-A4B-it`, run on the maintainer's own hardware) is asked
+   for the search-term substring; a result is kept only if it is a **verbatim
+   substring** of the question (otherwise dropped). Treat these as *silver*.
+3. **`generated` — local-LLM synthesis.** The same Gemma model invents extra
+   natural questions and their search term, kept under the same substring check.
+   A small synthetic top-up, mainly for thin languages.
+4. **Gold (`test`) split.** Taken verbatim from the human-authored `-test` configs
+   of intents-for-eval and MASSIVE; the search term is the content-slot value(s)
+   from those datasets' own gold annotations. No LLM labelling.
+
+### Transparency on AI involvement
+
+- **The construction pipeline, the labelling heuristics, and this card were
+  written by [Anthropic's Claude](https://www.anthropic.com/claude) operating as
+  an autonomous coding agent.** Claude wrote *code and documentation* — it did not
+  author or label any row of data.
+- **All in-dataset LLM labelling and synthesis (steps 2–3) were done by a
+  local open-weights Gemma model, not by Claude.** Roughly 1.5% of `train` rows
+  are LLM-touched (`common_query` + `generated`); the rest are template-derived.
+- The gold split contains **no** model-generated labels.
+
 ## Quality, scope & limitations
 
 - **Gold vs silver.** The `test` split is curated; in `train`, `common_query` and
