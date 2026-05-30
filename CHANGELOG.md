@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.1a3](https://github.com/TigreGotico/crf_query_xtract/tree/0.2.1a3) (2026-05-30)
+
+[Full Changelog](https://github.com/TigreGotico/crf_query_xtract/compare/0.2.1a2...0.2.1a3)
+
+**Merged pull requests:**
+
+- docs + Phase 0 hardening: fix OPM plugin, add tests/CI, docs/ + examples/ [\#10](https://github.com/TigreGotico/crf_query_xtract/pull/10) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.2.1a2](https://github.com/TigreGotico/crf_query_xtract/tree/0.2.1a2) (2025-12-19)
 
 [Full Changelog](https://github.com/TigreGotico/crf_query_xtract/compare/0.2.1a1...0.2.1a2)
