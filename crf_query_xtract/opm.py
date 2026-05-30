@@ -11,7 +11,7 @@ class CRFBrillKeywordExtractor(KeywordExtractor):
 
     @property
     def supported_langs(self) -> Set[str]:
-        return {"ca", "da", "de", "en", "eu", "fr", "gl", "it", "pt"}
+        return {"ca", "da", "de", "en", "es", "eu", "fr", "gl", "it", "nl", "pt"}
 
     def get_extractor(self, lang: Optional[str] = None) -> SearchtermExtractorCRF:
         lang = lang or self.lang

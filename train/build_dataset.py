@@ -99,16 +99,9 @@ MUSIC_FILLS = [
 ]
 
 # ----------------------------------------------------------------------------
-# tagging + span labelling
+# tokenisation + span labelling (shares the model's tokeniser so labels align)
 # ----------------------------------------------------------------------------
-_TAGGERS: Dict[str, object] = {}
-
-
-def tagger(lang: str):
-    if lang not in _TAGGERS:
-        from brill_postaggers import BrillPostagger
-        _TAGGERS[lang] = BrillPostagger.from_pretrained(lang)
-    return _TAGGERS[lang]
+from crf_query_xtract.features import tokenize
 
 
 def _expander():
@@ -130,34 +123,30 @@ def _find_subseq(seq: List[str], sub: List[str], near: int = 0) -> int:
     return min(hits, key=lambda i: abs(i - near))
 
 
-def label_span(lang: str, sentence: str, value: str, near_word: int = 0
-               ) -> Optional[Tuple[List[str], List[str], List[str]]]:
+def label_span(sentence: str, value: str, near_word: int = 0
+               ) -> Optional[Tuple[List[str], List[str]]]:
     """Tokenise `sentence`, BIO-label the `value` token span. None if unmatched."""
-    tg = tagger(lang)
-    stoks = tg.tag(sentence)
-    vtoks = tg.tag(value)
-    sw = [w.lower() for w, _ in stoks]
-    vw = [w.lower() for w, _ in vtoks]
+    words = tokenize(sentence)
+    vw = [w.lower() for w in tokenize(value)]
+    sw = [w.lower() for w in words]
     i = _find_subseq(sw, vw, near=near_word)
     if i < 0:
         return None
-    words = [w for w, _ in stoks]
-    pos = [p for _, p in stoks]
     labels = ["O"] * len(words)
     for j in range(i, i + len(vw)):
         labels[j] = "B-KW" if j == i else "I-KW"
-    return words, pos, labels
+    return words, labels
 
 
 def record(lang: str, text: str, value: str, source: str, near_word: int = 0
            ) -> Optional[dict]:
-    out = label_span(lang, text, value, near_word=near_word)
+    out = label_span(text, value, near_word=near_word)
     if out is None:
         return None
-    words, pos, labels = out
+    words, labels = out
     if "B-KW" not in labels:
         return None
-    return {"lang": lang, "text": " ".join(words), "tokens": words, "pos": pos,
+    return {"lang": lang, "text": " ".join(words), "tokens": words,
             "labels": labels, "source": source, "keyword": value}
 
 
@@ -244,6 +233,44 @@ def build_common_query(lang: str, cq_rows: List[str], pool: List[str],
                 pool.append(term)
         print(f"    [{lang}] common_query {min(k + batch, len(rows_in))}/{len(rows_in)} "
               f"-> {len(rows)} labelled", flush=True)
+    return rows
+
+
+def gemma_generate(lang: str, n: int, timeout: int = 180) -> List[Tuple[str, str]]:
+    """Ask Gemma to invent natural search questions + their term, in `lang`."""
+    import requests
+    prompt = (
+        f"Generate {n} short, natural questions a user would ask a voice assistant, "
+        f"in the language with code '{lang}'. Each must be answerable by looking up a "
+        "single topic — a person, place, work, event, or scientific/general concept. "
+        "Vary the phrasing and the topics. For each, also give the minimal search term: "
+        "a VERBATIM substring of the question (no question words, no trailing articles). "
+        "Return ONE JSON object: {\"items\": [{\"q\": <question>, \"kw\": <search term>}, ...]}."
+    )
+    body = {"model": LLM_MODEL, "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.7, "response_format": {"type": "json_object"}}
+    try:
+        r = requests.post(LLM_ENDPOINT, json=body, timeout=timeout)
+        r.raise_for_status()
+        items = json.loads(r.json()["choices"][0]["message"]["content"]).get("items", [])
+    except Exception as e:  # noqa: BLE001
+        print(f"    [{lang}] gemma_generate failed ({type(e).__name__}) — skipping", flush=True)
+        return []
+    out = []
+    for it in items:
+        q, kw = str(it.get("q", "")).strip(), str(it.get("kw", "")).strip()
+        if q and kw and kw.lower() in q.lower():
+            out.append((q, kw))
+    return out
+
+
+def build_generated(lang: str, n: int, pool: List[str]) -> List[dict]:
+    rows = []
+    for q, kw in gemma_generate(lang, n):
+        rec = record(lang, q, kw, "generated")
+        if rec:
+            rows.append(rec)
+            pool.append(kw)
     return rows
 
 
@@ -338,17 +365,14 @@ def _lit(s):
         return None
 
 
-def label_multi(lang: str, sentence: str, values: List[str]
-                ) -> Optional[Tuple[List[str], List[str], List[str]]]:
+def label_multi(sentence: str, values: List[str]
+                ) -> Optional[Tuple[List[str], List[str]]]:
     """BIO-label every `values` span in `sentence` (each its own B-KW...I-KW)."""
-    tg = tagger(lang)
-    stoks = tg.tag(sentence)
-    words = [w for w, _ in stoks]
-    pos = [p for _, p in stoks]
+    words = tokenize(sentence)
     low = [w.lower() for w in words]
     labels = ["O"] * len(words)
     for value in values:
-        vw = [w.lower() for w, _ in tg.tag(value)]
+        vw = [w.lower() for w in tokenize(value)]
         if not vw:
             continue
         i = -1
@@ -360,7 +384,7 @@ def label_multi(lang: str, sentence: str, values: List[str]
             return None  # a content value did not land cleanly -> drop the row
         for k in range(len(vw)):
             labels[i + k] = "B-KW" if k == 0 else "I-KW"
-    return words, pos, labels
+    return words, labels
 
 
 def realize(template: str, slots: List[dict], rng: random.Random
@@ -414,10 +438,10 @@ def build_templated(dataset: str, lang: str, cap: int, neg_frac: float,
             if text.lower() in seen:
                 continue
             seen.add(text.lower())
-            out = label_multi(lang, text, content)
+            out = label_multi(text, content)
             if out is None:
                 continue
-            words, pos, labels = out
+            words, labels = out
             if not content and "B-KW" in labels:
                 continue
             if content and "B-KW" not in labels:
@@ -425,38 +449,47 @@ def build_templated(dataset: str, lang: str, cap: int, neg_frac: float,
             if not content:
                 neg += 1
             rows.append({"lang": lang, "text": " ".join(words), "tokens": words,
-                         "pos": pos, "labels": labels, "source": src,
+                         "labels": labels, "source": src,
                          "keyword": " ".join(content)})
     return rows
 
 
-def build_gold(lang: str, cap: int = 400) -> int:
-    """Write a curated gold eval split from intents-for-eval `<locale>-test`."""
+def _gold_keyword(utt: str, slots: dict) -> str:
+    """Content-slot values present in the utterance, in order of appearance."""
+    pairs = [(utt.lower().find(str(v).lower()), str(v))
+             for k, v in (slots or {}).items() if v and k in CONTENT_SLOTS
+             and str(v).lower() in utt.lower()]
+    pairs.sort()
+    return " ".join(v for _, v in pairs)
+
+
+def build_gold(lang: str, cap: int = 1500) -> int:
+    """Curated gold eval from the `<locale>-test` splits of both template datasets."""
     from datasets import load_dataset
-    cfg = f"{LANGS[lang]['tpl']}-test"
-    try:
-        ds = load_dataset(INTENTS_EVAL, cfg, split="test")
-    except Exception:  # noqa: BLE001
-        return 0
     gold_dir = os.path.join(OUT_DIR, "gold")
     os.makedirs(gold_dir, exist_ok=True)
-    n = 0
-    with open(os.path.join(gold_dir, f"{lang}.jsonl"), "w", encoding="utf-8") as f:
+    rows: List[dict] = []
+    seen = set()
+    for dataset, src in ((INTENTS_EVAL, "intents_eval"), (MASSIVE, "massive")):
+        cfg = f"{LANGS[lang]['tpl']}-test"
+        try:
+            ds = load_dataset(dataset, cfg, split="test")
+        except Exception:  # noqa: BLE001 — locale not in this dataset
+            continue
         for row in ds:
-            if n >= cap:
-                break
             utt = row["utterance"]
-            slots = _lit(row.get("expected_slots")) or {}
-            pairs = [(utt.lower().find(str(v).lower()), str(v))
-                     for k, v in slots.items() if v and k in CONTENT_SLOTS
-                     and str(v).lower() in utt.lower()]
-            pairs.sort()
-            keyword = " ".join(v for _, v in pairs)
-            f.write(json.dumps({"lang": lang, "text": utt, "keyword": keyword,
-                                "intent": row.get("expected_intent"),
-                                "domain": row.get("domain")}, ensure_ascii=False) + "\n")
-            n += 1
-    return n
+            if utt.lower() in seen:
+                continue
+            seen.add(utt.lower())
+            rows.append({"lang": lang, "text": utt,
+                         "keyword": _gold_keyword(utt, _lit(row.get("expected_slots"))),
+                         "intent": row.get("expected_intent"),
+                         "domain": row.get("domain"), "source": src})
+    rows = rows[:cap]
+    with open(os.path.join(gold_dir, f"{lang}.jsonl"), "w", encoding="utf-8") as f:
+        for r in rows:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    return len(rows)
 
 
 # ----------------------------------------------------------------------------
@@ -472,6 +505,8 @@ def main() -> None:
     ap.add_argument("--neg-frac", type=float, default=0.12,
                     help="fraction of templated rows that may be no-keyword negatives")
     ap.add_argument("--no-gold", action="store_true", help="skip the gold eval export")
+    ap.add_argument("--gemma-generate", type=int, default=40,
+                    help="synthetic search questions Gemma invents per lang (0 = off)")
     ap.add_argument("--seed", type=int, default=42)
     args = ap.parse_args()
     random.seed(args.seed)
@@ -499,6 +534,8 @@ def main() -> None:
             cq_rows = cq_by_lang.get(LANGS[lang]["cq"], [])
             if cq_rows:
                 rows += build_common_query(lang, cq_rows, pool, args.gemma_budget)
+            if args.gemma_generate:
+                rows += build_generated(lang, args.gemma_generate, pool)
         rows += build_slot_filling(lang, pool, args.slot_cap)
         rows += build_templated(INTENTS_EVAL, lang, args.templated_cap, args.neg_frac, rng)
         rows += build_templated(MASSIVE, lang, args.templated_cap, args.neg_frac, rng)
@@ -519,10 +556,10 @@ def main() -> None:
     summary["_meta"] = {
         "sources": ["slot_filling (ovos-localize)", "intents_eval (HF intents-for-eval)",
                     "massive (HF massive-templates)", "music_queries_templates (HF)",
-                    "common_query gemma-labelled (HF)"],
+                    "common_query gemma-labelled (HF)", "generated (gemma-invented)"],
         "label_scheme": "BIO (B-KW/I-KW/O)",
-        "pos_tagger": "brill_postaggers",
-        "gold_eval": "train/data/gold/<lang>.jsonl (intents-for-eval test split)",
+        "tokeniser": "crf_query_xtract.features.tokenize (regex, POS-free)",
+        "gold_eval": "train/data/gold/<lang>.jsonl (intents-for-eval + massive test splits)",
     }
     with open(os.path.join(OUT_DIR, "stats.json"), "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)

@@ -1,98 +1,109 @@
 {
   "ca": {
-    "total": 5610,
+    "total": 5636,
     "by_source": {
       "massive": 4000,
       "intents_eval": 584,
-      "slot_filling": 1026
+      "slot_filling": 1029,
+      "generated": 23
     }
   },
   "da": {
-    "total": 4854,
+    "total": 4896,
     "by_source": {
       "massive": 4000,
-      "intents_eval": 580,
-      "slot_filling": 264,
+      "slot_filling": 266,
+      "intents_eval": 582,
+      "generated": 38,
       "common_query": 10
     }
   },
   "de": {
-    "total": 4885,
+    "total": 4897,
     "by_source": {
       "massive": 4000,
       "intents_eval": 588,
       "slot_filling": 282,
-      "common_query": 15
+      "common_query": 15,
+      "generated": 12
     }
   },
   "en": {
-    "total": 5693,
+    "total": 5735,
     "by_source": {
-      "music": 400,
+      "intents_eval": 588,
       "massive": 4000,
-      "slot_filling": 516,
-      "common_query": 191,
-      "intents_eval": 586
+      "slot_filling": 515,
+      "common_query": 192,
+      "music": 401,
+      "generated": 39
     }
   },
   "es": {
-    "total": 5155,
+    "total": 5191,
     "by_source": {
       "massive": 4000,
-      "slot_filling": 465,
-      "intents_eval": 588,
-      "common_query": 102
+      "intents_eval": 583,
+      "slot_filling": 466,
+      "common_query": 102,
+      "generated": 40
     }
   },
   "eu": {
-    "total": 837,
+    "total": 878,
     "by_source": {
-      "intents_eval": 546,
+      "intents_eval": 552,
+      "generated": 35,
       "slot_filling": 246,
       "common_query": 45
     }
   },
   "fr": {
-    "total": 4910,
+    "total": 4925,
     "by_source": {
       "massive": 4000,
-      "intents_eval": 581,
+      "intents_eval": 584,
+      "common_query": 15,
       "slot_filling": 314,
-      "common_query": 15
+      "generated": 12
     }
   },
   "gl": {
-    "total": 903,
+    "total": 947,
     "by_source": {
+      "intents_eval": 590,
       "slot_filling": 310,
-      "intents_eval": 582,
+      "generated": 36,
       "common_query": 11
     }
   },
   "it": {
-    "total": 8596,
+    "total": 8614,
     "by_source": {
       "slot_filling": 4000,
       "massive": 4000,
-      "intents_eval": 586,
+      "intents_eval": 579,
+      "generated": 25,
       "common_query": 10
     }
   },
   "nl": {
-    "total": 4634,
+    "total": 4652,
     "by_source": {
       "massive": 4000,
-      "intents_eval": 587,
-      "slot_filling": 36,
-      "common_query": 11
+      "intents_eval": 584,
+      "common_query": 11,
+      "generated": 20,
+      "slot_filling": 37
     }
   },
   "pt": {
-    "total": 4905,
+    "total": 4947,
     "by_source": {
-      "slot_filling": 310,
-      "intents_eval": 584,
       "massive": 4000,
+      "slot_filling": 310,
+      "intents_eval": 587,
+      "generated": 39,
       "common_query": 11
     }
   },
@@ -102,10 +113,11 @@
       "intents_eval (HF intents-for-eval)",
       "massive (HF massive-templates)",
       "music_queries_templates (HF)",
-      "common_query gemma-labelled (HF)"
+      "common_query gemma-labelled (HF)",
+      "generated (gemma-invented)"
     ],
     "label_scheme": "BIO (B-KW/I-KW/O)",
-    "pos_tagger": "brill_postaggers",
-    "gold_eval": "train/data/gold/<lang>.jsonl (intents-for-eval test split)"
+    "tokeniser": "crf_query_xtract.features.tokenize (regex, POS-free)",
+    "gold_eval": "train/data/gold/<lang>.jsonl (intents-for-eval + massive test splits)"
   }
 }

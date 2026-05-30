@@ -11,22 +11,25 @@ One JSON object per line in `train/data/<lang>.jsonl`:
 
 | field | type | meaning |
 | --- | --- | --- |
-| `lang` | str | CRF language code (`ca da de en eu fr gl it pt`) |
+| `lang` | str | language code (`ca da de en es eu fr gl it nl pt`) |
 | `text` | str | the utterance (whitespace-joined tokens) |
-| `tokens` | list[str] | tokens, as produced by the Brill tokenizer |
-| `pos` | list[str] | coarse POS tag per token (the CRF's main feature) |
+| `tokens` | list[str] | tokens from the `quebra_frases` tokenizer |
 | `labels` | list[str] | `B-KW` / `I-KW` / `O`, one per token |
-| `source` | str | `slot_filling` \| `music` \| `common_query` |
+| `source` | str | `slot_filling` \| `intents_eval` \| `massive` \| `music` \| `common_query` \| `generated` |
 | `keyword` | str | the gold search term (the labelled span) |
+
+The same `quebra_frases` tokenizer is used by the model at inference, so the
+`tokens`/`labels` alignment carries over exactly. There is no POS field — the CRF
+uses orthographic features only.
 
 `train/data/stats.json` holds row counts per language and source.
 
 ## Sources
 
-All three feed one span-labelling routine that locates the keyword **by token
-position** (tokenise the utterance, tokenise the value, match the subsequence) —
-not the case-sensitive set-membership the legacy synthesiser used, which dropped
-the head of multi-word and possessive terms.
+All sources feed one span-labelling routine that locates the keyword **by token
+position**: tokenise the utterance, tokenise the value, match the subsequence,
+and tag those tokens `B-KW`/`I-KW`. Matching whole token spans (not individual
+words) keeps multi-word and possessive terms intact.
 
 - **`slot_filling`** — OVOS locale `{query}` templates exported by
   [ovos-localize](https://github.com/OpenVoiceOS/ovos-localize) (common-query and
@@ -54,12 +57,21 @@ the head of multi-word and possessive terms.
   search-term span (verbatim substring, validated); these terms are recycled as
   native fill values for `slot_filling`, so the synthetic utterances use
   language-appropriate entities.
+- **`generated`** — the local Gemma server invents extra natural search questions
+  per language (with their search term), validated as a verbatim substring. A
+  small synthetic top-up, most useful for the thin languages.
 
 ## Languages
 
-The 11 languages with both a Brill POS tagger (`brill_postaggers`) and data:
-`ca da de en es eu fr gl it nl pt`. `es` and `nl` gain support here for the
-first time (the shipped package previously claimed but never shipped them).
+The 11 languages with data and a `quebra_frases`-tokenised pipeline:
+`ca da de en es eu fr gl it nl pt`.
+
+## Why no POS tagger
+
+An ablation (`brill` POS features vs none vs cheap orthographic features) found POS
+tags add no measurable accuracy: prefix/suffix/word-shape/casing features match or
+beat them. The model therefore uses orthographic features only and tokenises with
+`quebra_frases`, dropping the `brill_postaggers` and `nltk` dependencies.
 
 ## Gold evaluation split
 
@@ -90,39 +102,46 @@ shared cache.
 
 ## Counts
 
-50,982 training rows over 11 languages + a 4,400-row gold split (see
-`train/data/stats.json`). Per-language totals range from ~840 (eu, gl — no MASSIVE
-coverage) to ~8,600 (it); `massive` and `slot_filling` are capped at 4,000/lang.
+51,318 training rows over 11 languages + a ~16,000-row gold split (see
+`train/data/stats.json`). By source: massive 36,000, slot_filling 7,775,
+intents_eval 6,401, common_query 422, generated 319, music 401. `massive` and
+`slot_filling` are capped at 4,000/lang; eu and gl are thinner (no MASSIVE
+coverage). `train/plots.py` regenerates the figures below.
 
-## Retraining benchmark
+![Training rows per language, by source](img/rows_by_lang_source.png)
 
-`train/train_from_dataset.py` fits a fresh CRF per language and scores it against
-the shipped model on the **gold split** (`train/data/gold/`). Because the
-extractor runs behind an intent gate (it only sees utterances already classified
-as search queries), the score that matters is over the **in-scope subset** — gold
-rows that contain a search term (exact whole-keyword match / token F1):
+![Keyword length distribution](img/keyword_length.png)
 
-| lang | shipped exact | new exact | shipped F1 | new F1 |
+![Token label distribution](img/label_distribution.png)
+
+![Gold split composition](img/gold_split.png)
+
+## Evaluation
+
+`train/train_from_dataset.py` fits a CRF per language and scores it on the **gold
+split** (`train/data/gold/`, the `-test` configs of intents-for-eval + MASSIVE).
+The score that matters is over the **in-scope subset** — gold rows that contain a
+search term (exact whole-keyword match / token F1) — plus the negative-rejection
+rate (`""` returned) on the out-of-scope rest:
+
+| lang | in-scope n | exact | F1 | neg-reject |
 | --- | --- | --- | --- | --- |
-| en | 0.34 | 1.00 | 0.58 | 1.00 |
-| pt | 0.52 | 0.90 | 0.63 | 0.96 |
-| fr | 0.26 | 0.94 | 0.47 | 0.98 |
-| it | 0.04 | 0.91 | 0.49 | 0.97 |
-| ca | 0.16 | 0.94 | 0.44 | 0.97 |
-| de | 0.16 | 0.72 | 0.34 | 0.86 |
-| da | 0.16 | 0.88 | 0.34 | 0.97 |
-| eu | 0.00 | 0.59 | 0.30 | 0.79 |
-| gl | 0.06 | 0.81 | 0.39 | 0.95 |
-| es | – | 0.74 | – | 0.90 |
-| nl | – | 0.94 | – | 0.97 |
+| ca | 110 | 0.80 | 0.92 | 0.88 |
+| da | 107 | 0.81 | 0.93 | 0.90 |
+| de | 102 | 0.78 | 0.90 | 0.88 |
+| en | 109 | 0.76 | 0.90 | 0.86 |
+| es | 104 | 0.76 | 0.91 | 0.84 |
+| eu | 82  | 0.49 | 0.73 | 0.98 |
+| fr | 103 | 0.78 | 0.91 | 0.90 |
+| gl | 76  | 0.84 | 0.95 | 0.97 |
+| it | 101 | 0.76 | 0.89 | 0.85 |
+| nl | 108 | 0.80 | 0.92 | 0.88 |
+| pt | 107 | 0.79 | 0.91 | 0.86 |
 
-Caveats: the in-scope subset is small (~32 rows/lang — the gold set is ~92%
-out-of-scope smarthome/timer commands), so these are strong but limited samples.
-Neither the shipped nor the new model rejects negatives well (returns `""` for
-~5–15% of no-search-term utterances) because of the first-noun fallback; that only
-matters if the extractor is used without an upstream intent classifier. Candidate
-models land in `train/out/` and are **not** promoted over the shipped
-`crf_query_xtract/kx_*.pkl` automatically.
+In-scope F1 sits near 0.90 and the model rejects ~89% of no-search-term
+utterances (returning `""`) — it has no forced fallback. `eu` is the weak spot
+(thin data, no MASSIVE coverage). Re-running the trainer writes candidate models
+to `train/out/` for review before they replace `crf_query_xtract/kx_*.pkl`.
 
 ## Publishing
 

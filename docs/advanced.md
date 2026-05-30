@@ -4,8 +4,8 @@ Recipes, the OVOS plugin, and the sharp edges.
 
 ## Reuse one extractor per language
 
-Constructing an extractor loads a Brill tagger and a CRF model from disk. In a
-loop or a service, build once and keep it:
+`from_pretrained` loads a CRF model from disk. In a loop or a service, build once
+and keep it:
 
 ```python
 from crf_query_xtract import SearchtermExtractorCRF
@@ -36,8 +36,8 @@ url = f"https://en.wikipedia.org/w/index.php?search={quote(term)}"
 print(url)
 ```
 
-An empty return (`""`) means the model found no keyword and the sentence had no
-noun. Guard for it before querying:
+An empty return (`""`) means the model labelled no keyword. Guard for it before
+querying:
 
 ```python
 term = kx.extract_keyword(text)
@@ -54,7 +54,7 @@ if not term:
 from crf_query_xtract.opm import CRFBrillKeywordExtractor
 
 plugin = CRFBrillKeywordExtractor()
-plugin.supported_langs        # {'ca','da','en','eu','fr','gl','it','pt'}
+plugin.supported_langs        # {'ca','da','de','en','es','eu','fr','gl','it','nl','pt'}
 ```
 
 `extract(text, lang) -> Dict[str, float]` returns the keyword mapped to a
@@ -64,41 +64,21 @@ confidence of `1.0`, or `{}` when nothing is found:
 plugin.extract("who invented the telephone", "en")   # {'telephone': 1.0}
 ```
 
-The plugin's extractor cache (`get_extractor`) builds models with the bare
-`SearchtermExtractorCRF(lang)` constructor, which does not load a `.pkl`. For a
-guaranteed-loaded model, the direct path is the most robust:
-
-```python
-from crf_query_xtract import SearchtermExtractorCRF
-kx = SearchtermExtractorCRF.from_pretrained("en")
-{kx.extract_keyword("who invented the telephone"): 1.0}   # {'telephone': 1.0}
-```
-
-`supported_langs` on the plugin lists `ca da en eu fr gl it pt`; the bundled
-models also include `de`, reachable through `from_pretrained("de")`.
+`get_extractor(lang)` caches one `from_pretrained` model per language.
 
 ## Training your own model
 
-The training subclass lives in `train/train.py` as `Trainer`, which extends
-`SearchtermExtractorCRF`. It builds tagged sentences by dropping keywords into
-templates, then fits a `sklearn_crfsuite.CRF`.
+The models are trained from a token-classification dataset, not by hand. Two
+scripts in `train/` drive it (see [dataset.md](dataset.md) for the full picture):
 
-Data lives in `train/` as two files per language:
+- `train/build_dataset.py` assembles `train/data/<lang>.jsonl` — `B-KW`/`I-KW`/`O`
+  labelled tokens — plus a gold eval split.
+- `train/train_from_dataset.py` fits a `sklearn_crfsuite.CRF` per language and
+  writes candidates to `train/out/kx_<lang>.pkl`.
 
-- `keywords_<lang>.txt` — one keyword (or bracket-expansion template) per line.
-- `sentences_<lang>.txt` — question templates with a `{keyword}` slot, e.g.
-  `who invented {keyword}`.
-
-Both files are expanded with `ovos_utils.bracket_expansion.expand_template`, so a
-line like `(who|what) is {keyword}` fans out into multiple sentences.
-
-```python
-# run from inside the train/ directory — it reads files from the CWD
-from train import Trainer
-
-t = Trainer("pt")
-t.train()                 # loads data, generates tagged sentences, fits the CRF
-t.save("kx_pt.pkl")
+```bash
+python train/build_dataset.py --langs pt
+python train/train_from_dataset.py --langs pt   # -> train/out/kx_pt.pkl
 ```
 
 Load and use what you trained through the same class:
@@ -107,14 +87,12 @@ Load and use what you trained through the same class:
 from crf_query_xtract import SearchtermExtractorCRF
 
 kx = SearchtermExtractorCRF("pt")
-kx.load("kx_pt.pkl")
+kx.load("train/out/kx_pt.pkl")
 kx.extract_keyword("quem inventou o telefone")
 ```
 
-To add a language with no shipped model, you also need its Brill POS tagger.
-Pretrained taggers for several languages come from
-[brill_postaggers](https://github.com/TigreGotico/brill_postaggers); if yours is
-missing, train a tagger there first.
+Adding a language only needs data for it (the features are language-agnostic) —
+no POS tagger to train.
 
 ## Gotchas
 
@@ -126,12 +104,9 @@ missing, train a tagger there first.
   there is one model per base language, not per locale.
 - **Keywords come back joined, not listed.** A multi-word term is one
   space-separated `str` (`"speed of light"`), not a list of tokens.
-- **First-call downloads.** The initial use of a language fetches a Brill tagger
-  and an `nltk` tokenizer over the network, then caches them. Subsequent calls
-  are offline.
-- **Trainer reads from the CWD.** `train.py` opens `keywords_<lang>.txt` /
-  `sentences_<lang>.txt` relative to the current directory — run it from inside
-  `train/`.
+- **No negative rejection.** The model is meant to run behind an intent gate, so
+  it returns the most keyword-like span it finds; on an utterance with no search
+  term it may still return something. Gate on intent upstream.
 
 ## Where next
 

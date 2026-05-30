@@ -7,14 +7,14 @@ import pytest
 from crf_query_xtract import SearchtermExtractorCRF
 
 HERE = os.path.dirname(os.path.dirname(__file__))
-SHIPPED_LANGS = {
+MODEL_LANGS = {
     os.path.basename(p)[len("kx_"):-len(".pkl")]
     for p in glob.glob(os.path.join(HERE, "crf_query_xtract", "kx_*.pkl"))
 }
 
 
-def test_models_shipped_for_expected_langs():
-    assert SHIPPED_LANGS == {"ca", "da", "de", "en", "eu", "fr", "gl", "it", "pt"}
+def test_models_present_for_supported_langs():
+    assert MODEL_LANGS == {"ca", "da", "de", "en", "es", "eu", "fr", "gl", "it", "nl", "pt"}
 
 
 def test_from_pretrained_extracts_english_keyword():
@@ -46,9 +46,9 @@ def _plugin():
     return CRFBrillKeywordExtractor
 
 
-def test_plugin_supported_langs_match_shipped_models():
+def test_plugin_supported_langs_match_models():
     plugin = _plugin()(config={"lang": "en"})
-    assert plugin.supported_langs == SHIPPED_LANGS
+    assert plugin.supported_langs == MODEL_LANGS
 
 
 def test_plugin_extract_scores_keyword():

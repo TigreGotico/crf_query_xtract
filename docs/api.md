@@ -1,7 +1,7 @@
 # API reference
 
-The importable surface is one class. The OVOS plugin wrapper lives in a
-submodule and is covered in [advanced.md](advanced.md).
+The importable surface is one class plus a small features module. The OVOS plugin
+wrapper lives in a submodule and is covered in [advanced.md](advanced.md).
 
 ```python
 from crf_query_xtract import SearchtermExtractorCRF
@@ -9,25 +9,20 @@ from crf_query_xtract import SearchtermExtractorCRF
 
 ## `SearchtermExtractorCRF`
 
-A CRF keyword extractor backed by a Brill POS tagger. Hold one instance per
-language and reuse it — construction loads a tagger and (via `from_pretrained`)
-a model from disk.
+A CRF keyword extractor. Hold one instance per language and reuse it; loading a
+model is the only setup.
 
-### `SearchtermExtractorCRF(lang: str)`
+### `SearchtermExtractorCRF(lang: str = None)`
 
-Bare constructor. Loads the Brill POS tagger for `lang` via
-`BrillPostagger.from_pretrained(lang)` and leaves `model = None`. On its own this
-instance **cannot extract** — you must also call `load(...)`, or use the
-`from_pretrained` classmethod which does both. Use the bare constructor only when
-you are about to train (see the `Trainer` subclass in `train/train.py`).
+Bare constructor. Stores `lang` and leaves `model = None`. On its own this
+instance **cannot extract** — call `load(...)`, or use the `from_pretrained`
+classmethod which does both. Use the bare constructor only when you are about to
+train (assign a fitted `sklearn_crfsuite.CRF` to `.model`).
 
 | Attribute | Type | Meaning |
 | --- | --- | --- |
 | `lang` | `str` | The language code passed in. |
-| `tagger` | `BrillPostagger` | The POS tagger used before CRF prediction. |
 | `model` | `CRF` or `None` | The loaded `sklearn_crfsuite.CRF`. `None` until loaded/trained. |
-| `_keywords` | `List[str]` | Empty unless populated by a trainer. |
-| `_dataset` | `List[str]` | Empty unless populated by a trainer. |
 
 ### `SearchtermExtractorCRF.from_pretrained(lang: str) -> SearchtermExtractorCRF`
 
@@ -40,25 +35,24 @@ kx = SearchtermExtractorCRF.from_pretrained("it")
 kx.extract_keyword("chi ha inventato il telefono")   # 'telefono'
 ```
 
-Raises `FileNotFoundError` if no model ships for the resolved language. Shipped
-models: `ca` `da` `de` `en` `eu` `fr` `gl` `it` `pt`.
+Raises `FileNotFoundError` if no model ships for the resolved language. Bundled
+models: `ca` `da` `de` `en` `es` `eu` `fr` `gl` `it` `nl` `pt`.
 
 ### `extract_keyword(text: str) -> str`
 
 The method you call. Steps:
 
-1. POS-tag `text` with the Brill tagger → list of `(word, pos)` tuples.
-2. Build windowed features per token (current ±2 tokens, each with word and POS;
-   `BOS`/`EOS` flags at the edges).
+1. Tokenize `text` with `quebra_frases` (regex word/punctuation split).
+2. Build orthographic features per token (lowercased form, 2/3-char prefixes and
+   suffixes, word shape, title/upper/digit flags, the neighbouring ±2 tokens,
+   `BOS`/`EOS` at the edges) — see `crf_query_xtract.features`.
 3. Predict a `K`/`O` label per token with the CRF.
 4. Join each contiguous run of `K` tokens with spaces; multiple runs are joined
-   with spaces too.
-5. **Fallback:** if no token is labelled `K`, return the first token tagged
-   `NOUN`. If there is no noun either, return `""`.
+   with spaces too. If no token is labelled `K`, return `""`.
 
 ```python
 kx = SearchtermExtractorCRF.from_pretrained("en")
-kx.extract_keyword("what is the speed of light")   # 'speed of light'
+kx.extract_keyword("what is the speed of light")   # 'the speed of light'
 kx.extract_keyword("who discovered fire")          # 'fire'
 ```
 
@@ -76,13 +70,16 @@ kx.load("/path/to/kx_pt.pkl")
 kx.extract_keyword("quem inventou o telefone")     # 'telefone'
 ```
 
-## Feature helpers (internal)
+## `crf_query_xtract.features`
 
-`_word2features(sent, idx) -> dict` and `_sent2features(sent) -> List[dict]` build
-the feature dicts the CRF consumes. They take `(word, pos)` tuples, not raw text.
-They are public on the instance but exist for training and prediction internals —
-`extract_keyword` is the supported call. The same feature builder is reused by
-the trainer so a model and its runtime see identical features.
+POS-free tokenisation and features, imported by both the model and the dataset
+builder so train/inference tokenisation is identical.
+
+- `tokenize(text: str) -> List[str]` — `quebra_frases` word tokenizer (regex
+  fallback if `quebra_frases` is unavailable).
+- `word2features(tokens, i) -> dict` / `sent2features(tokens) -> List[dict]` —
+  the orthographic feature dicts the CRF consumes. They take a token list, not
+  `(word, pos)` tuples.
 
 ## Where next
 

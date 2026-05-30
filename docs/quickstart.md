@@ -11,17 +11,17 @@ that need a clean search term, not the whole utterance.
 pip install crf_query_xtract
 ```
 
-Runtime deps (`ovos-utils`, `nltk`, `joblib`, `sklearn_crfsuite`, `brill_postagger`)
-install with it. The first call for a language downloads a small Brill POS tagger
-via `brill_postagger` and an `nltk` tokenizer; both are cached after that.
+Three small runtime deps install with it: `joblib`, `sklearn_crfsuite`, and the
+in-house `quebra_frases` tokenizer. No model download, no POS tagger — the
+per-language CRF models ship inside the package.
 
 ## 2. The one idea
 
 A pretrained per-language **CRF** model labels each token as a keyword (`K`) or
 not (`O`), then the contiguous `K` runs are joined into the search term. Tokens
-are first POS-tagged with a **Brill tagger** so the model can lean on grammar
-(nouns survive, question words drop). No GPU, no deep net — it runs in
-milliseconds.
+come from the `quebra_frases` regex tokenizer and are described by cheap
+orthographic features (prefixes, suffixes, word shape, casing) — no POS tagger,
+no GPU, no deep net. It runs in milliseconds.
 
 You load a model with `from_pretrained` and call `extract_keyword`:
 
@@ -32,8 +32,8 @@ kx = SearchtermExtractorCRF.from_pretrained("en")
 print(kx.extract_keyword("who invented the telephone"))   # telephone
 ```
 
-`extract_keyword` always returns a `str` — the joined keyword(s), or `""` if the
-model finds nothing and the sentence has no noun to fall back to.
+`extract_keyword` always returns a `str` — the joined keyword(s), or `""` when the
+model labels no token as a keyword.
 
 ## 3. First real call
 
@@ -58,7 +58,7 @@ because the `K` run spans several tokens.
 
 ## 4. Supported languages
 
-Pretrained models ship for: `ca` `da` `de` `en` `eu` `fr` `gl` `it` `pt`. Pass a
+Pretrained models ship for: `ca` `da` `de` `en` `es` `eu` `fr` `gl` `it` `nl` `pt`. Pass a
 plain code or a locale — `from_pretrained` lowercases and drops the region, so
 `"pt-BR"` loads the `pt` model:
 
