@@ -112,10 +112,17 @@ def main() -> None:
         return
 
     if os.path.exists(CARD):
-        from huggingface_hub import HfApi
-        HfApi().upload_file(path_or_fileobj=CARD, path_in_repo="README.md",
-                            repo_id=args.repo, repo_type="dataset")
-        print("uploaded dataset card")
+        # Merge the card body with an explicit configs index so it does not clobber
+        # the per-language data_files metadata push_to_hub wrote.
+        from huggingface_hub import DatasetCard
+        card = DatasetCard.load(CARD)
+        card.data["configs"] = [
+            {"config_name": l, "data_files": [
+                {"split": "train", "path": f"{l}/train-*"},
+                {"split": "test", "path": f"{l}/test-*"}]}
+            for l in langs]
+        card.push_to_hub(args.repo, repo_type="dataset")
+        print("uploaded dataset card (+ configs index)")
     print(f"published -> https://huggingface.co/datasets/{args.repo}")
 
 
