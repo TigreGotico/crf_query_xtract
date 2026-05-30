@@ -1,74 +1,111 @@
 {
   "ca": {
-    "total": 1026,
+    "total": 5610,
     "by_source": {
+      "massive": 4000,
+      "intents_eval": 584,
       "slot_filling": 1026
     }
   },
   "da": {
-    "total": 274,
+    "total": 4854,
     "by_source": {
+      "massive": 4000,
+      "intents_eval": 580,
       "slot_filling": 264,
       "common_query": 10
     }
   },
   "de": {
-    "total": 297,
+    "total": 4885,
     "by_source": {
+      "massive": 4000,
+      "intents_eval": 588,
       "slot_filling": 282,
       "common_query": 15
     }
   },
   "en": {
-    "total": 1108,
+    "total": 5693,
     "by_source": {
-      "common_query": 192,
-      "slot_filling": 515,
-      "music": 401
+      "music": 400,
+      "massive": 4000,
+      "slot_filling": 516,
+      "common_query": 191,
+      "intents_eval": 586
+    }
+  },
+  "es": {
+    "total": 5155,
+    "by_source": {
+      "massive": 4000,
+      "slot_filling": 465,
+      "intents_eval": 588,
+      "common_query": 102
     }
   },
   "eu": {
-    "total": 291,
+    "total": 837,
     "by_source": {
+      "intents_eval": 546,
       "slot_filling": 246,
       "common_query": 45
     }
   },
   "fr": {
-    "total": 329,
+    "total": 4910,
     "by_source": {
+      "massive": 4000,
+      "intents_eval": 581,
       "slot_filling": 314,
       "common_query": 15
     }
   },
   "gl": {
-    "total": 321,
+    "total": 903,
     "by_source": {
       "slot_filling": 310,
+      "intents_eval": 582,
       "common_query": 11
     }
   },
   "it": {
-    "total": 4010,
+    "total": 8596,
     "by_source": {
       "slot_filling": 4000,
+      "massive": 4000,
+      "intents_eval": 586,
       "common_query": 10
     }
   },
+  "nl": {
+    "total": 4634,
+    "by_source": {
+      "massive": 4000,
+      "intents_eval": 587,
+      "slot_filling": 36,
+      "common_query": 11
+    }
+  },
   "pt": {
-    "total": 321,
+    "total": 4905,
     "by_source": {
       "slot_filling": 310,
+      "intents_eval": 584,
+      "massive": 4000,
       "common_query": 11
     }
   },
   "_meta": {
     "sources": [
       "slot_filling (ovos-localize)",
+      "intents_eval (HF intents-for-eval)",
+      "massive (HF massive-templates)",
       "music_queries_templates (HF)",
       "common_query gemma-labelled (HF)"
     ],
     "label_scheme": "BIO (B-KW/I-KW/O)",
-    "pos_tagger": "brill_postaggers"
+    "pos_tagger": "brill_postaggers",
+    "gold_eval": "train/data/gold/<lang>.jsonl (intents-for-eval test split)"
   }
 }

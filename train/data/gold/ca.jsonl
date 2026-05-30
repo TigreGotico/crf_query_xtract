@@ -1,0 +1,400 @@
+{"lang": "ca", "text": "posa l'estaca", "keyword": "l'estaca", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "posa diguem no de raimon", "keyword": "diguem no raimon", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "reprodueix boig per tu", "keyword": "boig per tu", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "fica qualsevol nit", "keyword": "qualsevol nit", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "vull escoltar l'estaca", "keyword": "l'estaca", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "pots posar boig per tu", "keyword": "boig per tu", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "comença qualsevol nit", "keyword": "qualsevol nit", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "posa la cançó l'estaca", "keyword": "l'estaca", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "posa el tema boig per tu", "keyword": "boig per tu", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "vinga posa diguem no de raimon", "keyword": "diguem no raimon", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "posa'm alguna cosa de lluís llach", "keyword": "lluís llach", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "tinc ganes d'escoltar l'estaca", "keyword": "l'estaca", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "engega sau", "keyword": "sau", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "fes sonar diguem no", "keyword": "diguem no", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "què tal boig per tu", "keyword": "boig per tu", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "dispara una mica de jaume sisa", "keyword": "jaume sisa", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "podries posar qualsevol nit", "keyword": "qualsevol nit", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "vull sentir l'estaca ara", "keyword": "l'estaca", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "dóna'm raimon", "keyword": "raimon", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "va posa boig per tu", "keyword": "boig per tu", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "envia qualsevol nit als altaveus", "keyword": "qualsevol nit", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "em ve de gust lluís llach", "keyword": "lluís llach", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "podem escoltar diguem no", "keyword": "diguem no", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "posa'm l'estaca", "keyword": "l'estaca", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "posa pausa a la música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "atura la cançó", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "reprèn la reproducció", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "continua sonant", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "puja el volum a setanta", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "posa el volum a vint", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "salta aquesta cançó", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "següent tema", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "pausa", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "posa pausa a la música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "posa pausa a la cançó", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "pausa la reproducció", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "atura la música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "atura la cançó", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "atura de sonar", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "interromp la música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "frena la música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "pots pausar la música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "espera un segon amb la música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "prem el botó de pausa", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "fes una pausa a la cançó", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "silenci si us plau", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "talla el so un moment", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "espera atura això", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "congela la reproducció", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "deixa que la música descansi", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "podries només aturar la cançó", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "atura els sons un instant", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "calma la música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "deixa la cançó on és", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "pausa que sona el telèfon", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "interromp aquesta cançó", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "posa l'estaca", "keyword": "l'estaca", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "posa una mica de lluís llach", "keyword": "lluís llach", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "reprèn la reproducció", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "continua sonant", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "puja el volum a cinquanta", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "baixa el volum a deu", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "salta aquesta cançó", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "següent cançó", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "reprèn", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "reprèn la música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "reprèn la cançó", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "reprèn la reproducció", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "continua amb la música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "manté la música en marxa", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "torna a sonar", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "prem play un altre cop", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "endavant amb la música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "música un altre cop", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "endavant amb la música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "dóna llum verda a la cançó", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "torna a posar la música a tope", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "deixa que continuï la cançó", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "torna a tocar ara", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "torna a posar la música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "vinga torna a tocar", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "vinga música un altre cop", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "ok música de nou", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "torna-la a engegar", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "reinicia la reproducció", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "deixa-la córrer", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "música un altre cop si us plau", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "deixa-la acabar", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "posa l'estaca", "keyword": "l'estaca", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "posa lluís llach", "keyword": "lluís llach", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "posa pausa a la música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "atura la cançó", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "posa el volum a quaranta", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "puja el volum a vuitanta", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "salta aquesta cançó", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "pista següent", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "posa el volum a 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "estableix el volum a 75", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "puja el volum a 80", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "baixa el volum a 15", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "volum 30", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "canvia el volum a 60", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "deixa el volum a 25", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "ajusta el volum a 90", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "pots posar el volum a 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "podries deixar-ho al 70 per cent", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "necessito el volum a 40", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "puja'l a 80", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "baixa'l a 20 si us plau", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "què tal volum 65", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "envia el volum a 100", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "una mica més alt diguem 55", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "un pèl més baix tipus 35", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "clava el 45 per cent", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "so a 70 gràcies", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "baixa el volum a 25", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "empeny el volum a 60", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "estabilitza el volum al 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "posa'l al 85", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "torna al 30", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "posa l'estaca", "keyword": "l'estaca", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "posa pausa a la música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "atura la cançó", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "reprèn", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "continua sonant", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "salta aquesta", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "següent cançó", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "posa lluís llach", "keyword": "lluís llach", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "salta", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "salta aquesta", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "següent cançó", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "pista següent", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "posa la següent cançó", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "passa a la següent", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "avança", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "salta 3 pistes", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "salta 2", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "avança 5 pistes", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "aquesta no posa'n una altra", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "treu aquesta cançó", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "no m'agrada aquesta pista canvia-la", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "podem saltar aquesta", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "fora aquesta cançó", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "trenca-la i posa la següent", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "oblida aquesta cançó dóna'm la següent", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "salta al que ve", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "vés cap a la pista següent", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "no no salta-la", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "qualsevol cosa menys aquesta següent si us plau", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "avança dues pistes endavant", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "envia quatre cançons endavant", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "salta les tres següents", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "ca", "text": "posa l'estaca", "keyword": "l'estaca", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "posa pausa a la música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "atura la cançó", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "ca", "text": "reprèn", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "continua sonant", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "ca", "text": "puja el volum a cinquanta", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "baixa el volum a deu", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "ca", "text": "posa lluís llach", "keyword": "lluís llach", "intent": "media:play_song", "domain": "media"}
+{"lang": "ca", "text": "posa un temporitzador de 5 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa un temporitzador per 10 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "inicia un temporitzador de 30 segons", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "temporitzador de 1 hora", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "compte enrere 5 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "recorda'm d'aquí a 10 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa un temporitzador de 10 minuts per a la pasta", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa un temporitzador de 5 minuts per a pasta", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "pots posar un temporitzador de 30 segons", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa'm un temporitzador de 1 hora", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "avisa'm d'aquí a 20 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "crida'm després de 15 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "dóna'm un toc en 3 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "desperta'm en 45 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "digues-m'ho quan passin 7 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "avisa'm d'aquí a mitja hora", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "temporitzador de dos minuts per als ous", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "compte enrere de 12 minuts si us plau", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "què tal un temporitzador de 25 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "avisa'm als 8 minuts per a la bugada", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "un temporitzador ràpid 2 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "temporitzador del te 4 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "compta'm 90 segons", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "toca'm als 6 minuts per a la pasta", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "cancel·la el temporitzador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "atura el temporitzador de la pasta", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa una alarma a les 7 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "desperta'm a les 6 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "llista les meves alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "quines alarmes tinc", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posposa l'alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posposa 9 minuts", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "cancel·la el temporitzador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "atura el temporitzador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "acaba el temporitzador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "mata el temporitzador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "esborra el temporitzador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "elimina el temporitzador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "cancel·la el temporitzador de la pasta", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "atura el temporitzador de la bugada", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "esborra el temporitzador dels ous", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "pots cancel·lar el temporitzador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "oblida el temporitzador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "ratlla aquest temporitzador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "talla el compte enrere", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "anul·la el temporitzador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "deixa estar el temporitzador de la pasta", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "llença el temporitzador de la bugada", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "el temporitzador ja pot marxar", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "no te'n preocupis més del temporitzador dels ous", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "ja n'hi ha prou amb aquest temporitzador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "treu-te de sobre qualsevol temporitzador en marxa", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "neteja el temporitzador del te", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "el temporitzador de la pasta pot aturar-se", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "tira el temporitzador si us plau", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "oblida el temporitzador de la bugada", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa un temporitzador de 5 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "inicia un temporitzador de 10 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa una alarma a les 7 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "desperta'm a les 6 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "llista les meves alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "quines alarmes tinc", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posposa l'alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posposa 9 minuts", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa una alarma a les 7 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa una alarma a les 6:30 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "alarma per les 8 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "alarma al migdia", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "desperta'm a les 7 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "crea una alarma a les 6:30 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "programa una alarma per al migdia", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa una alarma de la feina a les 7 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa una alarma a les 6:30 del matí per al gimnàs", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "pots posar una alarma a les 8 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "aixeca'm a les 5:45 si us plau", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "avisa'm a les 6:15 demà", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "necessito un despertador a les 7:30", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "alerta matinal a les 6", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "desperta'm a un quart de set", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "voldria una alarma a les set i mitja", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "avisa'm a les 6:45", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "alarma de la reunió a les 9 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "alarma de l'escola a les 7:15", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "dona'm un toc a les 5:30 en punt", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "alarma matinal a les 7 en punt", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "què tal una alarma a les 6 del matí per la feina", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa una alarma del gimnàs a dos quarts de sis", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "treu-me del llit a les 8", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa un temporitzador de 5 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "inicia un temporitzador de 10 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "cancel·la el temporitzador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "atura el temporitzador de la pasta", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "llista les meves alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "quines alarmes tinc", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posposa l'alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posposa 9 minuts", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "llista les meves alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "llista alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "mostra les meves alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "mostra les alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "quines alarmes tinc", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "quines alarmes hi ha configurades", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "digues-me quines alarmes tinc", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "hi ha alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "llista d'alarmes si us plau", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "dóna'm la llista d'alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "què tinc al calendari d'alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "resum de les meves alarmes si us plau", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "dóna'm un resum ràpid de les meves alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "quins despertadors hi ha programats", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "tinc alguna alarma per sonar més tard", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "quines alarmes vénen", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "hi ha alguna alarma que hagi de saber", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "passa'm les alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa'm al dia amb les alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "vull saber les meves alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "repassa la meva llista d'alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "què hi ha a la cua d'alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "les meves alarmes estan totes a punt", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "ensenya'm tot d'alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa un temporitzador de 5 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "inicia un temporitzador de 10 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "cancel·la el temporitzador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "atura el temporitzador de la pasta", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa una alarma a les 7 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "desperta'm a les 6 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posposa l'alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posposa 9 minuts", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posposa", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posposa l'alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "prem el snooze", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "ajorna l'alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "retarda l'alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posposa 5 minuts", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posposa l'alarma 10 minuts", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "ajorna 9 minuts", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "dóna'm 15 minuts més", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "empeny l'alarma 10 minuts", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "encara no desperta'm més tard", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "una mica més si us plau", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "aguanta l'alarma un poc", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posposa'm un altre cop", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "cinc minuts més mama", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "empeny l'alarma 7 minuts enrere", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "regala'm 8 minuts", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "encara no puc llevar-me posposa", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "alarma un altre cop en 12", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "espera un altre quart d'hora", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "em pots donar 6 minuts més", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "només una postposada més", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "retarda-la 20 minuts", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "encara no estic despert posposa 5", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa un temporitzador de 5 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "inicia un temporitzador de 10 minuts", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "cancel·la el temporitzador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "atura el temporitzador de la pasta", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "ca", "text": "posa una alarma a les 7 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "desperta'm a les 6 del matí", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "ca", "text": "llista les meves alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "quines alarmes tinc", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "ca", "text": "llums enceses", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "encén els llums", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "encén la llum", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "il·lumina la sala", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "dóna llum", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "encén els llums de la cuina", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "encén la llum de l'habitació", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "llums enceses a la sala d'estar", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "il·lumina el bany", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "pots encendre els llums de la cuina", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "podem tenir una mica de llum aquí", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "està fosc encén el llum", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "fes-me llum si us plau", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "anima això amb llum", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "apuja els llums de la cuina", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "no deixis l'habitació a les fosques", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "em cal llum al bany", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "envia llum a la sala d'estar", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "podem tenir alguna llum", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "prem ja l'interruptor", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "la cuina necessita més llum", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "encén la làmpada de la sala d'estar", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "podries il·luminar l'habitació", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "encén alguna cosa al bany", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "apaga els llums", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "llums apagats a l'habitació", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "posa la lluminositat al 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "baixa els llums de la cuina al 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "posa el termòstat a 22", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "ca", "text": "deixa l'habitació a 19 graus", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "ca", "text": "tanca la porta principal", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "ca", "text": "tanca la porta del darrere", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "ca", "text": "llums apagats", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "apaga els llums", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "apaga la llum", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "enfosqueix la sala", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "fora la llum", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "apaga els llums de la cuina", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "apaga la llum de l'habitació", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "llums apagats a la sala d'estar", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "enfosqueix el bany", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "pots apagar els llums de la cuina", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "prou de llum aquí", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "massa llum apaga això", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "fes-me fosc si us plau", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "apaga tot a la sala d'estar", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "apaga ja els llums de la cuina", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "l'habitació no necessita llum", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "no cal llum al bany", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "treu la làmpada de la sala d'estar", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "podríem quedar-nos a les fosques", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "desactiva ja l'interruptor", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "la cuina pot quedar a les fosques", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "apaga la làmpada de la sala d'estar", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "podries apagar l'habitació", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "apaga tot al bany", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "ca", "text": "encén els llums", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "llums encesos a l'habitació", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "ca", "text": "posa la lluminositat al 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "baixa els llums de la cuina al 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "posa el termòstat a 22", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "ca", "text": "deixa l'habitació a 19 graus", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "ca", "text": "tanca la porta principal", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "ca", "text": "tanca la porta del darrere", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "ca", "text": "posa la lluminositat al 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "ajusta la lluminositat al 75", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "baixa els llums al 20", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "apuja els llums al 100", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "canvia la lluminositat al 60", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "baixa els llums de l'habitació al 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "apuja els llums de la cuina al 80", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "regula la lluminositat de la sala d'estar al 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "pots posar els llums al 70", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "atenua els llums del bany al 25", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "fes la sala més tènue tipus 40", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "ajusta la lluminositat al 55", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "baixa els llums al 35", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "apuja els llums al 85", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "podem tenir l'habitació al 45", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "ca", "text": "lluminositat de la cuina 70 si us plau", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}

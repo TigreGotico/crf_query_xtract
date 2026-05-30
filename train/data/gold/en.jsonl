@@ -1,0 +1,400 @@
+{"lang": "en", "text": "play bohemian rhapsody", "keyword": "bohemian rhapsody", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "play smells like teen spirit by nirvana", "keyword": "smells like teen spirit nirvana", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "put on africa", "keyword": "africa", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "throw on hey jude", "keyword": "hey jude", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "i want to hear bohemian rhapsody", "keyword": "bohemian rhapsody", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "can you play hey jude", "keyword": "hey jude", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "queue up africa", "keyword": "africa", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "start playing smells like teen spirit", "keyword": "smells like teen spirit", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "play the song hey jude", "keyword": "hey jude", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "crank up bohemian rhapsody", "keyword": "bohemian rhapsody", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "could you throw on some queen for me", "keyword": "queen", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "i'm in the mood for hey jude", "keyword": "hey jude", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "let me hear some toto", "keyword": "toto", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "get africa going", "keyword": "africa", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "how about playing bohemian rhapsody", "keyword": "bohemian rhapsody", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "fire up smells like teen spirit", "keyword": "smells like teen spirit", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "can we listen to the beatles", "keyword": "the beatles", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "i feel like queen right now", "keyword": "queen", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "drop hey jude on the speakers", "keyword": "hey jude", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "would love to hear africa now", "keyword": "africa", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "hit me with some nirvana", "keyword": "nirvana", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "blast bohemian rhapsody please", "keyword": "bohemian rhapsody", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "any chance you can play hey jude", "keyword": "hey jude", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "treat me to africa by toto", "keyword": "africa toto", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "pause the music", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "stop the song", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "resume playback", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "keep playing", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "turn the volume up to seventy", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "set volume to twenty", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "skip this track", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "next song please", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "pause", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "pause the music", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "pause the song", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "pause playback", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "stop the music", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "stop the song", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "stop playing", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "freeze the music", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "halt playback", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "can you pause the music", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "hold the music for a moment", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "shush the audio", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "take a break from the song", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "silence please", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "kill the sound for now", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "mute that for a sec, no wait, just pause it", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "freeze the playback", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "give the music a rest", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "could you just hold the song", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "stop the tunes for a second", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "ease off the music", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "park the song where it is", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "pause it, the phone's ringing", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "halt that song please", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "play bohemian rhapsody", "keyword": "bohemian rhapsody", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "put on some queen", "keyword": "queen", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "resume the music", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "keep playing", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "set volume to fifty", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "turn the volume down to ten", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "skip to the next track", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "next song", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "resume", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "resume the music", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "resume the song", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "resume playback", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "continue playing", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "continue the music", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "keep the music going", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "unpause the music", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "press play again", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "let it play", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "go ahead with the music", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "give it a green light", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "fire the music back up", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "let the song roll on", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "back to playing now", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "throw the music back on", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "alright play it again", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "let's get the music going again", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "ok music time again", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "kick the song back into gear", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "restart the playback", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "let her rip", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "music back on please", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "let it play through", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "play bohemian rhapsody", "keyword": "bohemian rhapsody", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "put on some queen", "keyword": "queen", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "pause the music", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "stop the song", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "set volume to forty", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "turn the volume up to eighty", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "skip this song", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "next track", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "set volume to 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "set the volume to 75", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "turn the volume up to 80", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "turn the volume down to 15", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "volume 30", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "change the volume to 60", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "put the volume at 25", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "crank the volume to 90", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "can you set the volume to 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "could you make it 70 percent", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "i need the volume at 40", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "can you bump it up to 80", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "ease it down to 20 please", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "how about volume 65", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "max the volume to 100", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "a bit louder say 55", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "a touch quieter like 35", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "dial in 45 percent", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "loudness 70 thanks", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "knock the volume to 25", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "nudge the volume up to 60", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "settle the volume around 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "how loud is 85, set it there", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "pull it back to 30", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "play hey jude", "keyword": "hey jude", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "pause the music", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "stop playing", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "resume", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "keep playing", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "skip this", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "next song", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "put on queen", "keyword": "queen", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "skip", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "skip this", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "next song", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "next track", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "play the next song", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "go to the next song", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "move on", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "skip 3 tracks", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "skip 2", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "jump ahead 5 tracks", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "not this one, let's hear another", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "get rid of this song", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "i don't like this track, change it", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "can we move past this one", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "away with this song", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "punch through to the next one", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "forget this song give me the next", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "hop to whatever's next", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "scoot to the next track", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "nuh-uh, skip it", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "anything but this, next please", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "bounce two tracks forward", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "knock four songs ahead", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "punch past the next three", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "en", "text": "play hey jude", "keyword": "hey jude", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "pause the music", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "stop the song", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "en", "text": "resume", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "keep playing", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "en", "text": "set volume to fifty", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "turn the volume down to ten", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "en", "text": "put on the beatles", "keyword": "the beatles", "intent": "media:play_song", "domain": "media"}
+{"lang": "en", "text": "set a timer for 5 minutes", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "set a 10 minutes timer", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "start a timer for 30 seconds", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "timer for 1 hour", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "countdown 5 minutes", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "remind me in 10 minutes", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "set a timer for 10 minutes for pasta", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "set a 5 minutes pasta timer", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "can you set a timer for 30 seconds", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "get a timer going for 1 hour", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "ping me in 20 minutes", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "buzz me after 15 minutes", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "give me a heads up in 3 minutes", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "wake me up in 45 minutes", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "let me know when 7 minutes is up", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "nudge me after half an hour", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "two minute timer for the eggs", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "countdown of 12 minutes please", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "how about a 25 minute timer", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "clock me at 8 minutes for laundry", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "a quick timer 2 minutes", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "tea timer 4 minutes", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "clock 90 seconds for me", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "hit me at 6 minutes for the pasta", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "cancel the timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "stop the pasta timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "set an alarm for 7am", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "wake me at 6 in the morning", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "list my alarms", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "what alarms do i have", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "snooze the alarm", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "snooze for 9 minutes", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "cancel the timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "stop the timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "end the timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "kill the timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "delete the timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "remove the timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "cancel the pasta timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "stop the laundry timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "delete the eggs timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "can you cancel the timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "forget the timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "scratch that timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "nix the countdown", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "call off the timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "never mind the pasta timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "ditch the laundry timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "the timer can go now", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "don't bother with the eggs timer anymore", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "we're done with that timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "scrap whatever timer is running", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "clear out the tea timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "the pasta timer can stop", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "toss the timer please", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "bail on the laundry timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "set a timer for 5 minutes", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "start a 10 minute timer", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "set an alarm for 7am", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "wake me at 6 in the morning", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "list my alarms", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "what alarms do i have", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "snooze the alarm", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "snooze for 9 minutes", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "set an alarm for 7am", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "set an alarm at 6:30am", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "alarm for 8 in the morning", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "alarm at noon", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "wake me up at 7am", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "create an alarm for 6:30am", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "schedule an alarm for noon", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "set a work alarm at 7am", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "set an alarm for 6:30am for the gym", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "can you set an alarm for 8 in the morning", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "get me up at 5:45am please", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "buzz me at 6:15 tomorrow", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "i need a 7:30am wake-up call", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "morning alert at 6am", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "rouse me at quarter past six", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "i'd like an alarm at half past seven", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "nudge me awake at 6:45", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "alarm for the meeting at 9am", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "school run alarm at 7:15", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "ping me at 5:30 sharp", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "morning alarm 7 sharp", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "how about a 6am wake up for work", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "set a gym alarm for half past five", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "yank me out of bed at 8", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "set a timer for 5 minutes", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "start a 10 minute timer", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "cancel the timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "stop the pasta timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "list my alarms", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "what alarms do i have", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "snooze the alarm", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "snooze for 9 minutes", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "list my alarms", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "list alarms", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "show my alarms", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "show alarms", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "what alarms do i have", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "what alarms are set", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "tell me what alarms i have", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "any alarms set", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "alarms list please", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "give me the alarm list", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "what's on my alarm schedule", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "rundown of my alarms please", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "give me a quick summary of my alarms", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "what wake-ups are scheduled", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "got any alarms going off later", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "what alarms are coming up", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "any alarms i should know about", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "run through my alarms", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "fill me in on my alarms", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "i want to know my alarms", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "go through my alarm list", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "what's queued up alarm-wise", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "are my alarms all set", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "show me everything in alarms", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "set a timer for 5 minutes", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "start a 10 minute timer", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "cancel the timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "stop the pasta timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "set an alarm for 7am", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "wake me at 6 in the morning", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "snooze the alarm", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "snooze for 9 minutes", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "snooze", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "snooze the alarm", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "hit snooze", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "postpone the alarm", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "delay the alarm", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "snooze for 5 minutes", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "snooze the alarm for 10 minutes", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "snooze 9 minutes", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "give me 15 minutes more", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "push the alarm back 10 minutes", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "not yet wake me later", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "a little longer please", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "hold the alarm a bit", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "snooze me again", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "five more minutes mom", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "knock the alarm back 7 minutes", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "buy me 8 minutes", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "can't get up yet snooze it", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "alarm again in 12", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "hold off for another quarter hour", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "can i get 6 more minutes", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "just one more snooze", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "delay it 20 minutes", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "not awake yet snooze for 5", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "set a timer for 5 minutes", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "start a 10 minute timer", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "cancel the timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "stop the pasta timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "en", "text": "set an alarm for 7am", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "wake me at 6 in the morning", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "en", "text": "list my alarms", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "what alarms do i have", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "en", "text": "lights on", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "turn on the lights", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "switch the lights on", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "light up the room", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "hit the lights", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "turn on the kitchen lights", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "switch on the bedroom lights", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "lights on in the living room", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "light up the bathroom", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "can you turn on the kitchen lights", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "can we get some light in here", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "it's dark turn the lamp on", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "make it bright please", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "brighten the place up", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "bring the lights up in the kitchen", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "don't leave the bedroom dark", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "i need light in the bathroom", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "get the lamp going in the living room", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "can we have some light", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "flick that switch already", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "kitchen needs to be brighter", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "hit the lamp in the living room", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "could you light the bedroom for me", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "turn on something in the bathroom", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "turn off the lights", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "lights off in the bedroom", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "set the brightness to 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "dim the kitchen lights to 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "set the thermostat to 22", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "en", "text": "make the bedroom 19 degrees", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "en", "text": "lock the front door", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "en", "text": "lock the back door", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "en", "text": "lights off", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "turn off the lights", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "switch off the lights", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "kill the lights", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "shut the lights off", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "turn off the kitchen lights", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "switch off the bedroom lights", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "lights off in the living room", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "kill the bathroom lights", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "can you turn off the kitchen lights", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "kill the brightness in here", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "it's too bright turn things off", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "make it dark please", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "dim the room to nothing", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "douse the lights in the kitchen", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "the bedroom doesn't need light", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "no need for light in the bathroom", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "get the lamp off in the living room", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "could we have it dark", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "flip that switch off already", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "kitchen can go dark", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "kill the lamp in the living room", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "could you turn off the bedroom for me", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "shut off everything in the bathroom", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "en", "text": "turn on the lights", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "lights on in the bedroom", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "en", "text": "set the brightness to 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "dim the kitchen lights to 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "set the thermostat to 22", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "en", "text": "make the bedroom 19 degrees", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "en", "text": "lock the front door", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "en", "text": "lock the back door", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "en", "text": "set the brightness to 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "set brightness to 75", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "dim the lights to 20", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "brighten the lights to 100", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "change brightness to 60", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "dim the bedroom lights to 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "brighten the kitchen lights to 80", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "set the living room brightness to 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "can you set the lights to 70", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "drop the bathroom lights to 25", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "make the room a bit dimmer like 40", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "nudge the brightness to 55", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "knock the lights down to 35", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "pump the lights up to 85", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "can we have the bedroom at 45", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "en", "text": "kitchen brightness 70 please", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}

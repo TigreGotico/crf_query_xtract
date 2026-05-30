@@ -1,0 +1,400 @@
+{"lang": "da", "text": "spil smuk som et stjerneskud", "keyword": "smuk som et stjerneskud", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "spil kvinde min af kim larsen", "keyword": "kvinde min kim larsen", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "afspil kære gud", "keyword": "kære gud", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "sæt midt om natten på", "keyword": "midt om natten", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "jeg vil høre smuk som et stjerneskud", "keyword": "smuk som et stjerneskud", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "kan du spille kære gud", "keyword": "kære gud", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "start midt om natten", "keyword": "midt om natten", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "spil sangen smuk som et stjerneskud", "keyword": "smuk som et stjerneskud", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "spil nummeret kære gud", "keyword": "kære gud", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "kom så spil kvinde min af kim larsen", "keyword": "kvinde min kim larsen", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "sæt lige noget med sebastian på", "keyword": "sebastian", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "jeg trænger til smuk som et stjerneskud", "keyword": "smuk som et stjerneskud", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "knald lige noget tv-2 ud", "keyword": "tv-2", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "lad kære gud køre", "keyword": "kære gud", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "hvad med midt om natten", "keyword": "midt om natten", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "luk lige thomas helmig ud", "keyword": "thomas helmig", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "kunne du sætte kvinde min på", "keyword": "kvinde min", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "jeg har lyst til smuk som et stjerneskud lige nu", "keyword": "smuk som et stjerneskud", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "giv mig lidt kim larsen", "keyword": "kim larsen", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "kom så spil kære gud", "keyword": "kære gud", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "send midt om natten ud af højtalerne", "keyword": "midt om natten", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "har lyst til lidt sebastian", "keyword": "sebastian", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "må jeg få smuk som et stjerneskud", "keyword": "smuk som et stjerneskud", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "spil mig kvinde min", "keyword": "kvinde min", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "sæt musikken på pause", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "stop sangen", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "genoptag afspilningen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "spil videre", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "skru op til halvfjerds", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "sæt lydstyrken til tyve", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "spring dette nummer over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "næste sang tak", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "pause", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "sæt musikken på pause", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "sæt sangen på pause", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "sæt afspilningen på pause", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "stop musikken", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "stop sangen", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "stop med at spille", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "afbryd musikken", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "hold musikken", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "kan du sætte musikken på pause", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "vent lige et øjeblik med musikken", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "tryk lige på pauseknappen", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "giv sangen en pause", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "stille tak", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "klip lyden et øjeblik", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "vent sæt det på pause", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "frys afspilningen", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "lad musikken hvile", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "kunne du bare standse sangen", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "stop lydene et øjeblik", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "rolig med musikken", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "lad sangen blive hvor den er", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "pause telefonen ringer", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "afbryd den sang", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "spil smuk som et stjerneskud", "keyword": "smuk som et stjerneskud", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "sæt noget kim larsen på", "keyword": "kim larsen", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "genoptag afspilningen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "spil videre", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "skru op til halvtreds", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "sæt lyden til ti", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "spring til næste nummer", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "næste sang", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "genoptag", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "genoptag musikken", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "genoptag sangen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "genoptag afspilningen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "fortsæt med musikken", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "lad musikken køre videre", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "spil igen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "tryk play igen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "kom så med musikken", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "musik igen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "kom så med musikken", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "giv sangen grønt lys", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "skru musikken op igen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "lad sangen rulle videre", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "spil nu igen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "sæt musikken på igen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "ok spil igen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "kom så musik igen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "ok musik igen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "få den i gang igen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "genstart afspilningen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "lad den køre", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "musik igen tak", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "lad den spille færdig", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "spil smuk som et stjerneskud", "keyword": "smuk som et stjerneskud", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "sæt kim larsen på", "keyword": "kim larsen", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "sæt musikken på pause", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "stop sangen", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "sæt lyden til fyrre", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "skru op til firs", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "spring denne sang over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "næste nummer", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "sæt lydstyrken til 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "indstil lydstyrken til 75", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "skru op til 80", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "skru ned til 15", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "lydstyrke 30", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "ændr lydstyrken til 60", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "lad lydstyrken være 25", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "juster lydstyrken til 90", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "kan du sætte lydstyrken til 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "kunne du sætte det til 70 procent", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "jeg skal bruge lydstyrken på 40", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "skru den op til 80", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "skru den ned til 20 tak", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "hvad med lydstyrke 65", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "smid lydstyrken på 100", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "lidt højere sig 55", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "en tand lavere sådan 35", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "ram 45 procent", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "lyd på 70 tak", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "sænk lydstyrken til 25", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "skub lydstyrken til 60", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "stabilisér lydstyrken omkring 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "sæt den på 85", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "tilbage til 30", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "spil smuk som et stjerneskud", "keyword": "smuk som et stjerneskud", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "sæt musikken på pause", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "stop sangen", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "genoptag", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "spil videre", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "spring denne over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "næste sang", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "sæt kim larsen på", "keyword": "kim larsen", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "spring over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "spring denne over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "næste sang", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "næste nummer", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "spil den næste sang", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "gå til den næste", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "videre", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "spring 3 numre over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "spring 2 over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "hop 5 numre frem", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "ikke denne sæt en anden på", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "væk med den sang", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "jeg kan ikke lide det nummer skift det", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "kan vi springe denne over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "ud med den sang", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "smid den væk og sæt den næste på", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "glem den sang giv mig den næste", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "hop til det næste", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "skynd dig til næste nummer", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "nej nej spring den over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "alt andet end den næste tak", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "hop to numre frem", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "smid fire sange frem", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "spring de næste tre over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "da", "text": "spil smuk som et stjerneskud", "keyword": "smuk som et stjerneskud", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "sæt musikken på pause", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "stop sangen", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "da", "text": "genoptag", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "spil videre", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "da", "text": "skru op til halvtreds", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "sæt lyden til ti", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "da", "text": "sæt kim larsen på", "keyword": "kim larsen", "intent": "media:play_song", "domain": "media"}
+{"lang": "da", "text": "sæt en timer på 5 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en timer til 10 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "start en timer på 30 sekunder", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "timer på 1 time", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "nedtælling 5 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "mind mig om 10 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en timer på 10 minutter til pastaen", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en 5 minutter timer til pasta", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "kan du sætte en timer på 30 sekunder", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "få en timer i gang på 1 time", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "kald mig om 20 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "buzz mig efter 15 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "giv mig et praj om 3 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "væk mig om 45 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "sig til når 7 minutter er gået", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "ring mig om en halv time", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "to minutters timer til æggene", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "nedtælling på 12 minutter tak", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "hvad med en timer på 25 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "bip mig ved 8 minutter til vasketøjet", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "en hurtig timer 2 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "te-timer 4 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "tæl 90 sekunder for mig", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "ping mig ved 6 minutter til pastaen", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "annullér timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "stop pasta-timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en alarm til klokken 7 om morgenen", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "væk mig klokken 6 om morgenen", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "vis mine alarmer", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "hvilke alarmer har jeg", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "snooze alarmen", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "snooze i 9 minutter", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "annullér timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "stop timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "afslut timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "dræb timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "slet timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "fjern timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "annullér pasta-timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "stop vasketøjs-timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "slet æg-timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "kan du annullere timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "glem timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "streg den timer ud", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "klip nedtællingen væk", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "opgiv timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "glem pasta-timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "kassér vasketøjs-timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "timeren må gerne ryge nu", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "tag dig ikke af æg-timeren mere", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "nok med den timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "slip af med en hvilken som helst timer der kører", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "ryd te-timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "pasta-timeren må stoppe", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "smid timeren ud tak", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "drop vasketøjs-timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en timer på 5 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "start en timer på 10 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en alarm til klokken 7 om morgenen", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "væk mig klokken 6 om morgenen", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "vis mine alarmer", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "hvilke alarmer har jeg", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "snooze alarmen", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "snooze i 9 minutter", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en alarm til klokken 7", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en alarm til 6:30", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "alarm til klokken 8 om morgenen", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "alarm til middag", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "væk mig klokken 7", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "opret en alarm til 6:30", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "planlæg en alarm til middag", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en arbejds-alarm til klokken 7", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en alarm til 6:30 til fitness", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "kan du sætte en alarm til klokken 8 om morgenen", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "få mig op klokken 5:45 tak", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "ping mig i morgen klokken 6:15", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "jeg skal bruge et vækkeur klokken 7:30", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "morgenalarm klokken 6", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "væk mig kvart over seks", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "jeg vil gerne have en alarm halv otte", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "ryst mig vågen 6:45", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "mødealarm klokken 9", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "skolealarm 7:15", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "ring mig præcis 5:30", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "morgenalarm klokken 7 præcis", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "hvad med en alarm klokken 6 til arbejde", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en fitness-alarm halv seks", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "riv mig ud af sengen klokken 8", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en timer på 5 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "start en timer på 10 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "annullér timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "stop pasta-timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "vis mine alarmer", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "hvilke alarmer har jeg", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "snooze alarmen", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "snooze i 9 minutter", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "vis mine alarmer", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "vis alarmer", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "list mine alarmer", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "list alarmerne", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "hvilke alarmer har jeg", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "hvilke alarmer er sat", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "fortæl mig hvilke alarmer jeg har", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "er der nogen alarmer", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "alarmliste tak", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "giv mig alarmlisten", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "hvad står der i min alarmplan", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "resumé af mine alarmer tak", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "giv mig et hurtigt overblik over mine alarmer", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "hvilke vækninger er planlagt", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "har jeg alarmer der ringer senere", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "hvilke alarmer kommer", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "er der alarmer jeg skal vide noget om", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "gennemgå mine alarmer", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "opdater mig om mine alarmer", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "jeg vil vide mine alarmer", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "gennemgå min alarmliste", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "hvad er der i alarmkøen", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "er mine alarmer alle sat", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "vis mig alt om alarmerne", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en timer på 5 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "start en timer på 10 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "annullér timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "stop pasta-timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en alarm til klokken 7", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "væk mig klokken 6", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "snooze alarmen", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "snooze i 9 minutter", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "snooze", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "snooze alarmen", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "tryk snooze", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "udskyd alarmen", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "forsink alarmen", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "snooze i 5 minutter", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "snooze alarmen i 10 minutter", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "snooze 9 minutter", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "giv mig 15 minutter mere", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "skub alarmen 10 minutter tilbage", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "ikke endnu væk mig senere", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "lidt længere tak", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "hold alarmen lidt", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "snooze mig igen", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "fem minutter mere mor", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "skub alarmen 7 minutter tilbage", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "forær mig 8 minutter", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "kan ikke stå op endnu snooze", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "alarm igen om 12", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "vent endnu et kvarter", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "må jeg få 6 minutter mere", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "bare én snooze mere", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "forsink den 20 minutter", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "ikke vågen endnu snooze 5", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en timer på 5 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "start en timer på 10 minutter", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "annullér timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "stop pasta-timeren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "da", "text": "sæt en alarm til klokken 7", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "væk mig klokken 6", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "da", "text": "vis mine alarmer", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "hvilke alarmer har jeg", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "da", "text": "lyset tændt", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "tænd lyset", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "tænd lampen", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "lys op i rummet", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "giv lys", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "tænd lyset i køkkenet", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "tænd lyset i soveværelset", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "lyset tændt i stuen", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "lys op i badeværelset", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "kan du tænde lyset i køkkenet", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "kan vi få lidt lys her", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "det er mørkt tænd lampen", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "gør det lyst tak", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "få det til at lyse", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "skru lyset op i køkkenet", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "lad ikke soveværelset være mørkt", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "jeg skal bruge lys i badeværelset", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "smid lampen til i stuen", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "kan vi få noget lys", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "tryk endelig på kontakten", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "køkkenet skal være lysere", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "tænd lampen i stuen", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "kunne du lyse soveværelset op", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "tænd noget i badeværelset", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "sluk lyset", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "lyset slukket i soveværelset", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "sæt lysstyrken til 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "dæmp lyset i køkkenet til 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "sæt termostaten til 22", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "da", "text": "gør soveværelset 19 grader", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "da", "text": "lås hoveddøren", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "da", "text": "lås bagdøren", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "da", "text": "lyset slukket", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "sluk lyset", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "sluk lampen", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "gør mørkt i rummet", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "tag lyset væk", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "sluk lyset i køkkenet", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "sluk lyset i soveværelset", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "lyset slukket i stuen", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "gør mørkt i badeværelset", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "kan du slukke lyset i køkkenet", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "slut med lys her", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "for lyst sluk det", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "gør det mørkt tak", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "sluk alt i stuen", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "sluk straks lyset i køkkenet", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "soveværelset behøver ikke lys", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "ingen lys nødvendigt i badeværelset", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "tag lampen væk i stuen", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "kan vi have mørkt", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "deaktivér kontakten endelig", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "køkkenet må gerne være mørkt", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "sluk lampen i stuen", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "kunne du slukke soveværelset", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "sluk alt i badeværelset", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "da", "text": "tænd lyset", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "lyset tændt i soveværelset", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "da", "text": "sæt lysstyrken til 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "dæmp lyset i køkkenet til 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "sæt termostaten til 22", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "da", "text": "gør soveværelset 19 grader", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "da", "text": "lås hoveddøren", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "da", "text": "lås bagdøren", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "da", "text": "sæt lysstyrken til 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "indstil lysstyrken til 75", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "dæmp lyset til 20", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "skru lyset op til 100", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "ændr lysstyrken til 60", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "dæmp lyset i soveværelset til 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "skru lyset i køkkenet op til 80", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "regulér lysstyrken i stuen til 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "kan du sætte lyset til 70", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "tag lyset i badeværelset ned til 25", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "gør rummet lidt dæmpet sådan 40", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "juster lysstyrken til 55", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "skru lyset ned til 35", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "skru lyset op til 85", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "kan vi have soveværelset på 45", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "da", "text": "køkkenlys 70 tak", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}

@@ -39,11 +39,35 @@ the head of multi-word and possessive terms.
 - **`music`** — [OpenVoiceOS/music_queries_templates](https://huggingface.co/datasets/OpenVoiceOS/music_queries_templates):
   `{artist_name}` / `{album_name}` / `{track_name}` slot templates filled with
   real music entities and span-labelled the same way.
+- **`intents_eval`** — [OpenVoiceOS/intents-for-eval](https://huggingface.co/datasets/OpenVoiceOS/intents-for-eval)
+  `<locale>-templates`: `{slot}` templates carrying **in-language slot
+  examples**. Every slot is filled from its examples (so sentences are fully
+  realised); only *content/entity* slots (`song`, `artist`, `place_name`,
+  `query`, … — see `CONTENT_SLOTS`) are labelled KW. Constrained slots (time,
+  date, number, volume) are filled but left `O`.
+- **`massive`** — [OpenVoiceOS/massive-templates](https://huggingface.co/datasets/OpenVoiceOS/massive-templates):
+  the MASSIVE corpus in the same template+examples shape across 50+ locales,
+  labelled identically. Templates with no content slot become bounded all-`O`
+  **negatives** that teach the model when *not* to extract.
 - **`common_query`** — [OpenVoiceOS/ovos-common-query-intents](https://huggingface.co/datasets/OpenVoiceOS/ovos-common-query-intents):
   real, natural questions with no markup. The local Gemma server labels the
   search-term span (verbatim substring, validated); these terms are recycled as
   native fill values for `slot_filling`, so the synthetic utterances use
   language-appropriate entities.
+
+## Languages
+
+The 11 languages with both a Brill POS tagger (`brill_postaggers`) and data:
+`ca da de en es eu fr gl it nl pt`. `es` and `nl` gain support here for the
+first time (the shipped package previously claimed but never shipped them).
+
+## Gold evaluation split
+
+`train/data/gold/<lang>.jsonl` is the curated `<locale>-test` split of
+intents-for-eval (filled utterance + `expected_slots`); the gold search term is
+the content-slot value(s) in utterance order. This is the independent benchmark
+`train/train_from_dataset.py` scores against — not a hold-out of the training
+data.
 
 ## Entity pool
 
@@ -66,47 +90,42 @@ shared cache.
 
 ## Counts
 
-7,977 rows (see `train/data/stats.json`):
-
-| lang | total | slot_filling | music | common_query (Gemma) |
-| --- | --- | --- | --- | --- |
-| ca | 1026 | 1026 | – | – |
-| da | 274 | 264 | – | 10 |
-| de | 297 | 282 | – | 15 |
-| en | 1108 | 515 | 401 | 192 |
-| eu | 291 | 246 | – | 45 |
-| fr | 329 | 314 | – | 15 |
-| gl | 321 | 310 | – | 11 |
-| it | 4010 | 4000 | – | 10 |
-| pt | 321 | 310 | – | 11 |
+50,982 training rows over 11 languages + a 4,400-row gold split (see
+`train/data/stats.json`). Per-language totals range from ~840 (eu, gl — no MASSIVE
+coverage) to ~8,600 (it); `massive` and `slot_filling` are capped at 4,000/lang.
 
 ## Retraining benchmark
 
 `train/train_from_dataset.py` fits a fresh CRF per language and scores it against
-the shipped model on a held-out 15% split (exact whole-keyword match / token F1):
+the shipped model on the **gold split** (`train/data/gold/`). Because the
+extractor runs behind an intent gate (it only sees utterances already classified
+as search queries), the score that matters is over the **in-scope subset** — gold
+rows that contain a search term (exact whole-keyword match / token F1):
 
 | lang | shipped exact | new exact | shipped F1 | new F1 |
 | --- | --- | --- | --- | --- |
-| en | 0.49 | 0.82 | 0.74 | 0.93 |
-| pt | 0.75 | 0.79 | 0.87 | 0.94 |
-| de | 0.73 | 0.91 | 0.94 | 0.98 |
-| fr | 0.33 | 0.69 | 0.59 | 0.87 |
-| it | 0.42 | 0.98 | 0.82 | 1.00 |
-| ca | 0.76 | 0.97 | 0.94 | 0.99 |
-| da | 0.63 | 0.90 | 0.77 | 0.94 |
-| eu | 0.12 | 0.79 | 0.42 | 0.93 |
-| gl | 0.67 | 0.90 | 0.86 | 0.96 |
+| en | 0.34 | 1.00 | 0.58 | 1.00 |
+| pt | 0.52 | 0.90 | 0.63 | 0.96 |
+| fr | 0.26 | 0.94 | 0.47 | 0.98 |
+| it | 0.04 | 0.91 | 0.49 | 0.97 |
+| ca | 0.16 | 0.94 | 0.44 | 0.97 |
+| de | 0.16 | 0.72 | 0.34 | 0.86 |
+| da | 0.16 | 0.88 | 0.34 | 0.97 |
+| eu | 0.00 | 0.59 | 0.30 | 0.79 |
+| gl | 0.06 | 0.81 | 0.39 | 0.95 |
+| es | – | 0.74 | – | 0.90 |
+| nl | – | 0.94 | – | 0.97 |
 
-Candidate models land in `train/out/` and are **not** promoted over the shipped
-`crf_query_xtract/kx_*.pkl` automatically. The test split shares construction
-with the training data and the `common_query` rows are LLM silver labels, so
-these numbers measure fit to the target distribution, not an independent gold
-set — a hand-labelled eval split is the recommended confirmation before promoting.
+Caveats: the in-scope subset is small (~32 rows/lang — the gold set is ~92%
+out-of-scope smarthome/timer commands), so these are strong but limited samples.
+Neither the shipped nor the new model rejects negatives well (returns `""` for
+~5–15% of no-search-term utterances) because of the first-noun fallback; that only
+matters if the extractor is used without an upstream intent classifier. Candidate
+models land in `train/out/` and are **not** promoted over the shipped
+`crf_query_xtract/kx_*.pkl` automatically.
 
 ## Publishing
 
 The combined `train/data/*.jsonl` is a self-contained, HF-publishable
 token-classification dataset (BIO search-term tagging). The `common_query` rows
-are silver labels (LLM-generated) and should be spot-checked before being treated
-as gold; a held-out hand-labelled split per language is the recommended next step
-for evaluation.
+are LLM silver labels and should be spot-checked before being treated as gold.

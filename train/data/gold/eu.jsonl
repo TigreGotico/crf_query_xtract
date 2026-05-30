@@ -1,0 +1,400 @@
+{"lang": "eu", "text": "jarri txoria txori", "keyword": "txoria txori", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "jarri ihesa zilegi balitz mikel laboarena", "keyword": "ihesa zilegi balitz mikel laboa", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "ipini lau teilatu", "keyword": "lau teilatu", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "erreproduzitu sarri sarri", "keyword": "sarri sarri", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "txoria txori entzun nahi dut", "keyword": "txoria txori", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "lau teilatu jarri dezakezu", "keyword": "lau teilatu", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "hasi sarri sarri", "keyword": "sarri sarri", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "jarri txoria txori abestia", "keyword": "txoria txori", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "jarri lau teilatu kanta", "keyword": "lau teilatu", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "ea jarri mikel laboaren ihesa zilegi balitz", "keyword": "mikel laboa ihesa zilegi balitz", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "jarri zerbait benito lertxundirena", "keyword": "benito lertxundi", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "txoria txori entzuteko gogoa daukat", "keyword": "txoria txori", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "bota itoizen zerbait", "keyword": "itoiz", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "hots egin sarri sarri", "keyword": "sarri sarri", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "zer moduz lau teilatu", "keyword": "lau teilatu", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "bidali kortaturena", "keyword": "kortatu", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "ihesa zilegi balitz jartzeko gauza zara", "keyword": "ihesa zilegi balitz", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "orain txoria txori entzun nahi nuke", "keyword": "txoria txori", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "eman iezadazu mikel laboa pixka bat", "keyword": "mikel laboa", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "aurrera lau teilatu", "keyword": "lau teilatu", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "bidali sarri sarri bozgorailuetara", "keyword": "sarri sarri", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "gogoa daukat benito lertxundi entzuteko", "keyword": "benito lertxundi", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "entzun dezakegu txoria txori", "keyword": "txoria txori", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "ihesa zilegi balitz behar dut", "keyword": "ihesa zilegi balitz", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "musika geldiarazi", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "gelditu abestia", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "berriz hasi erreprodukzioa", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "jarraitu jotzen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "igo bolumena hirurogeita hamarrera", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "jarri bolumena hogeian", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "saltatu abesti hau", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "hurrengo abestia", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "geldiarazi", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "geldiarazi musika", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "geldiarazi abestia", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "geldiarazi erreprodukzioa", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "gelditu musika", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "gelditu abestia", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "utzi jotzeari", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "eten musika", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "atxiki musika", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "musika geldiaraz dezakezu", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "itxaron pixka bat musikarekin", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "sakatu pausa botoia", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "egin pausa abestiari", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "isilik mesedez", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "moztu soinua une batez", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "itxaron geldiarazi hori", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "izoztu erreprodukzioa", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "utzi musikari atseden hartzen", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "abestia geldiaraz dezakezu soilik", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "gelditu soinuak une batez", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "lasaitu musika", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "utzi abestia dagoen lekuan", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "geldiarazi telefonoa jotzen ari da", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "eten abesti hori", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "jarri txoria txori", "keyword": "txoria txori", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "jarri mikel laboaren zerbait", "keyword": "mikel laboa", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "berriz hasi erreprodukzioa", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "jarraitu jotzen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "igo bolumena berrogeita hamarrera", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "jarri bolumena hamarrean", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "saltatu hurrengo abestira", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "hurrengo abestia", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "berriz hasi", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "berriz hasi musika", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "berriz hasi abestia", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "berriz hasi erreprodukzioa", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "jarraitu musikarekin", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "musika martxan mantendu", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "berriz jo", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "sakatu play berriro", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "aurrera musikarekin", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "musika berriro", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "aurrera musikarekin", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "eman argi berdea abestiari", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "berriz jarri musika ozen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "utzi abestia jarraitzen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "orain berriz jo", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "berriz jarri musika", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "ados berriz jo", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "ea musika berriro", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "ok musika berriro", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "berriz martxan jarri", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "berrabiarazi erreprodukzioa", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "utzi korrika", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "musika berriro mesedez", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "utzi amaitzen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "jarri txoria txori", "keyword": "txoria txori", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "jarri mikel laboa", "keyword": "mikel laboa", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "geldiarazi musika", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "gelditu abestia", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "jarri bolumena berrogeian", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "igo bolumena laurogeian", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "saltatu abesti hau", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "hurrengo pista", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "jarri bolumena 50-ean", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "ezarri bolumena 75-ean", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "igo bolumena 80-ra", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "jaitsi bolumena 15-ra", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "bolumena 30", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "aldatu bolumena 60-ra", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "utzi bolumena 25-ean", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "doitu bolumena 90-ra", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "bolumena 50-ean jar dezakezu", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "ehunekoaren 70 jar dezakezu", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "bolumena 40-ean behar dut", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "igo ezazu 80-ra", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "jaitsi 20-ra mesedez", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "zer moduz bolumena 65", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "bidali bolumena 100-era", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "ozenago demagun 55", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "apur bat baxuago 35 inguruan", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "jo ehunekoaren 45-era", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "soinua 70-ean eskerrik asko", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "jaitsi bolumena 25-era", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "bultzatu bolumena 60-ra", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "egonkortu bolumena 50 inguruan", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "jarri 85-ean", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "itzuli 30-ra", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "jarri txoria txori", "keyword": "txoria txori", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "geldiarazi musika", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "gelditu abestia", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "berriz hasi", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "jarraitu jotzen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "saltatu hau", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "hurrengo abestia", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "jarri mikel laboa", "keyword": "mikel laboa", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "saltatu", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "saltatu hau", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "hurrengo abestia", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "hurrengo pista", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "jarri hurrengo abestia", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "igaro hurrengora", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "aurrera", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "saltatu 3 pista", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "saltatu 2", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "egin aurrera 5 pista", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "hau ez beste bat jarri", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "kendu abesti hau", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "ez zait pista hau gustatzen aldatu", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "hau saltatu dezakegu", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "kanpora abesti hau", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "alde batera utzi eta jarri hurrengoa", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "ahaztu abesti hau eman hurrengoa", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "salto egin hurrengora", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "zoaz hurrengo pistara", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "ez ez saltatu hau", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "edozer gauza hau izan ezik hurrengoa mesedez", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "bi pista aurreratu", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "bidali lau abesti aurrera", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "saltatu hurrengo hirurak", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "eu", "text": "jarri txoria txori", "keyword": "txoria txori", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "geldiarazi musika", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "gelditu abestia", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "eu", "text": "berriz hasi", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "jarraitu jotzen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "eu", "text": "igo bolumena berrogeita hamarrera", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "jarri bolumena hamarrean", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "eu", "text": "jarri mikel laboa", "keyword": "mikel laboa", "intent": "media:play_song", "domain": "media"}
+{"lang": "eu", "text": "jarri tenporizadore bat 5 minutu-ko", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri tenporizadore bat 10 minutu-rako", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "hasi tenporizadore bat 30 segundo-ko", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "ordubete-ko tenporizadorea", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atzera-kontaketa 5 minutu", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "gogoraraz iezadazu 10 minutu barru", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri tenporizadore bat 10 minutu-koa pastarentzat", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri 5 minutu-ko tenporizadore bat pasta-rentzat", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "30 segundo-ko tenporizadore bat jarri dezakezu", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri iezadazu ordubete-ko tenporizadore bat", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "abisua eman iezadazu 20 minutu barru", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "deitu iezadazu 15 minutu pasa eta gero", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "ohartarazi 3 minutu barru", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "esnatu nazazu 45 minutu barru", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "esan iezadazu 7 minutu igaro direnean", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "deitu iezadazu ordu erdi barru", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "bi minutuko tenporizadorea arrautzentzat", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "12 minutu-ko atzera-kontaketa mesedez", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zer iruditzen zaizu 25 minutu-ko tenporizadorea", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "abisua 8 minututan arroparentzat", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "tenporizadore azkar bat 2 minutu", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "tearen tenporizadorea 4 minutu", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "kontatu 90 segundo niretzat", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "abisua 6 minututan pastarentzat", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "bertan behera utzi tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "gelditu pastaren tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri alarma goizeko 7etan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "esnatu nazazu goizeko 6etan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zerrendatu nire alarmak", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zer alarma ditut", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atzeratu alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atzeratu 9 minutu", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "bertan behera utzi tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "gelditu tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "amaitu tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "hil tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "ezabatu tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "kendu tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "bertan behera utzi pasta-ren tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "gelditu arroparen tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "ezabatu arrautzen tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "tenporizadorea ezezta dezakezu", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "ahaztu tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "ezabatu tenporizadore hori", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "eten atzera-kontaketa", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "utzi tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "ahaztu pasta-ren tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "bota arroparen tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "tenporizadoreak orain joan daiteke", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "ez kezkatu gehiago arrautzen tenporizadoreaz", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "aski da tenporizadore horrekin", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "kendu martxan dagoen edozein tenporizadore", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "garbitu tearen tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "pasta-ren tenporizadorea geldi daiteke", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "bota tenporizadorea mesedez", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "utzi arroparen tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri tenporizadore bat 5 minutu-ko", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "hasi 10 minutu-ko tenporizadore bat", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri alarma goizeko 7etan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "esnatu nazazu goizeko 6etan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zerrendatu nire alarmak", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zer alarma ditut", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atzeratu alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atzeratu 9 minutu", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri alarma goizeko 7etan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri alarma goizeko 6:30ean", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "alarma goizeko 8etan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "alarma eguerdian", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "esnatu nazazu goizeko 7etan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "sortu alarma bat goizeko 6:30ean", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "programatu alarma eguerdian", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri laneko alarma goizeko 7etan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri alarma goizeko 6:30ean gimnasiorako", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "alarma bat goizeko 8etan jar dezakezu", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "altxa nazazu 5:45ean mesedez", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "dei iezadazu bihar 6:15ean", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "iratzargailua behar dut 7:30ean", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "goizeko alerta 6etan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "esnatu nazazu sei eta laurdenetan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "alarma bat nahi nuke zazpi eta erdietan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "astindu nazazu 6:45ean", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "bileraren alarma goizeko 9etan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "eskolako alarma 7:15ean", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "dei iezadazu 5:30ean puntu-puntuan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "goizeko alarma 7etan puntuan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zer iruditzen zaizu alarma 6etan lanerako", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri gimnasioko alarma bost eta erdietan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atera nazazu ohetik 8etan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri tenporizadore bat 5 minutu-ko", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "hasi 10 minutu-ko tenporizadore bat", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "bertan behera utzi tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "gelditu pasta-ren tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zerrendatu nire alarmak", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zer alarma ditut", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atzeratu alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atzeratu 9 minutu", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zerrendatu nire alarmak", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zerrendatu alarmak", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "erakutsi nire alarmak", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "erakutsi alarmak", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zer alarma ditut", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zer alarma jarrita daude", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "esan zer alarma ditudan", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "ba al dago alarmarik", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "alarma zerrenda mesedez", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "eman iezadazu alarma zerrenda", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zer dut alarma egutegian", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "nire alarmen laburpena mesedez", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "eman iezadazu nire alarmen laburpen azkar bat", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zer iratzartzaile dago programatuta", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "gero joko duen alarmarik dut", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zer alarma datoz", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "ba al dago alarmaren bat jakin behar dudana", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "errepasatu nire alarmak", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "egunean jarri nire alarmekin", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "nire alarmak jakin nahi ditut", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "errepasatu nire alarma zerrenda", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zer dago alarma ilaran", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "nire alarma guztiak prest daude", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "erakuts iezadazu alarmen gainean dena", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri tenporizadore bat 5 minutu-ko", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "hasi 10 minutu-ko tenporizadore bat", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "bertan behera utzi tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "gelditu pasta-ren tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri alarma goizeko 7etan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "esnatu nazazu goizeko 6etan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atzeratu alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atzeratu 9 minutu", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atzeratu", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atzeratu alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "sakatu snooze", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "luzatu alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "berandutu alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atzeratu 5 minutu", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atzeratu alarma 10 minutu", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atzeratu 9 minutu batez", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "eman iezadazu 15 minutu gehiago", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "bultzatu alarma 10 minutu atzera", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "oraindik ez esnatu nazazu geroago", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "pixka bat gehiago mesedez", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "eutsi alarmari pixka bat", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "atzeratu nazazu berriz", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "bost minutu gehiago ama", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "bultzatu alarma 7 minutu atzera", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "eman iezadazu 8 minutu", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "oraindik ezin naiz altxa atzeratu", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "alarma berriz 12 minutu barru", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "itxaron beste ordu laurden bat", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "6 minutu gehiago izan ditzaket", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "beste atzerapen bat besterik ez", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "berandutu 20 minutu", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "oraindik ez esna nago atzeratu 5", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri tenporizadore bat 5 minutu-ko", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "hasi 10 minutu-ko tenporizadore bat", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "bertan behera utzi tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "gelditu pasta-ren tenporizadorea", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "eu", "text": "jarri alarma goizeko 7etan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "esnatu nazazu goizeko 6etan", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zerrendatu nire alarmak", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "zer alarma ditut", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "eu", "text": "argia piztu", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "piztu argia", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "argitu gela", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "eman argia", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "jarri argia", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "piztu sukaldeko argiak", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "piztu logelako argia", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "argiak piztuta egongelan", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "argitu komuna", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "sukaldeko argiak piztu ditzakezu", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "argi pixka bat eduki dezakegu hemen", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "ilun dago piztu lanpara", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "egin argia mesedez", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "biziarazi argiarekin", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "igo sukaldeko argiak", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "ez utzi logela ilunpetan", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "argia behar dut komunan", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "bidali argia egongelara", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "argi pixka bat eduki dezakegu", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "sakatu jada etengailua", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "sukaldeak argi gehiago behar du", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "piztu egongelako lanpara", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "logela argituko zenuke", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "piztu zerbait komunan", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "itzali argia", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "argiak itzalita logelan", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "jarri distira 50-ean", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "jaitsi sukaldeko argiak 30-era", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "jarri termostatoa 22-an", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "eu", "text": "logela 19 graduan jarri", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "eu", "text": "itxi aurreko atea", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "eu", "text": "itxi atzeko atea", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "eu", "text": "argia itzali", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "itzali argia", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "itzali argiak", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "iluntu gela", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "kendu argia", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "itzali sukaldeko argiak", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "itzali logelako argia", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "argiak itzalita egongelan", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "iluntu komuna", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "sukaldeko argiak itzal ditzakezu", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "aski da argiarekin hemen", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "argi gehiegi itzali hori", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "iluntasun mesedez", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "itzali dena egongelan", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "itzali berehala sukaldeko argiak", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "logelak ez du argirik behar", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "ez da argia behar komunan", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "kendu lanpara egongelan", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "ilunpetan egon gintezke", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "desaktibatu etengailua jada", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "sukaldea ilun egon daiteke", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "itzali egongelako lanpara", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "logela itzaliko zenuke", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "itzali dena komunan", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "eu", "text": "piztu argia", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "argiak piztuta logelan", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "eu", "text": "jarri distira 50-ean", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "jaitsi sukaldeko argiak 30-era", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "jarri termostatoa 22-an", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "eu", "text": "logela 19 graduan jarri", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "eu", "text": "itxi aurreko atea", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "eu", "text": "itxi atzeko atea", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "eu", "text": "jarri distira 50-ean", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "ezarri distira 75-ean", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "jaitsi argia 20-era", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "igo argia 100-era", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "aldatu distira 60-era", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "jaitsi logelako argia 30-era", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "igo sukaldeko argia 80-era", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "erregulatu egongelako distira 50-ean", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "argia 70-ean jar dezakezu", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "ahuldu komuneko argia 25-era", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "gela ilunago jarri 40 inguruan", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "doitu distira 55-era", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "jaitsi argiak 35-era", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "igo argiak 85-era", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "logela 45-ean eduki dezakegu", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "eu", "text": "sukaldeko distira 70 mesedez", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}

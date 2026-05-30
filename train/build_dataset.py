@@ -31,6 +31,7 @@ Run::
 from __future__ import annotations
 
 import argparse
+import ast
 import json
 import os
 import random
@@ -47,17 +48,38 @@ OUT_DIR = os.path.join(HERE, "data")
 LLM_ENDPOINT = os.environ.get("LLM_ENDPOINT", "http://192.168.1.200:8000/v1/chat/completions")
 LLM_MODEL = os.environ.get("LLM_MODEL", "ggml-org/gemma-4-26B-A4B-it-GGUF")
 
-# CRF lang -> (slot_filling files, common-query lang code)
+# Languages with both a brill POS tagger AND data. Per lang:
+#   sf  : ovos-localize slot_filling locale file(s)
+#   cq  : ovos-common-query-intents lang code
+#   tpl : intents-for-eval / massive-templates locale (config prefix)
 LANGS: Dict[str, Dict[str, object]] = {
-    "ca": {"sf": ["ca-ES"], "cq": "ca"},
-    "da": {"sf": ["da-DK"], "cq": "da"},
-    "de": {"sf": ["de-DE"], "cq": "de"},
-    "en": {"sf": ["en-US"], "cq": "en"},
-    "eu": {"sf": ["eu-ES"], "cq": "eu"},
-    "fr": {"sf": ["fr-FR"], "cq": "fr"},
-    "gl": {"sf": ["gl-ES"], "cq": "gl"},
-    "it": {"sf": ["it-IT"], "cq": "it"},
-    "pt": {"sf": ["pt-PT", "pt-BR"], "cq": "pt"},
+    "ca": {"sf": ["ca-ES"], "cq": "ca", "tpl": "ca-ES"},
+    "da": {"sf": ["da-DK"], "cq": "da", "tpl": "da-DK"},
+    "de": {"sf": ["de-DE"], "cq": "de", "tpl": "de-DE"},
+    "en": {"sf": ["en-US"], "cq": "en", "tpl": "en-US"},
+    "es": {"sf": ["es-ES", "es-419"], "cq": "es", "tpl": "es-ES"},
+    "eu": {"sf": ["eu-ES"], "cq": "eu", "tpl": "eu-ES"},
+    "fr": {"sf": ["fr-FR"], "cq": "fr", "tpl": "fr-FR"},
+    "gl": {"sf": ["gl-ES"], "cq": "gl", "tpl": "gl-ES"},
+    "it": {"sf": ["it-IT"], "cq": "it", "tpl": "it-IT"},
+    "nl": {"sf": ["nl-NL"], "cq": "nl", "tpl": "nl-NL"},
+    "pt": {"sf": ["pt-PT", "pt-BR"], "cq": "pt", "tpl": "pt-PT"},
+}
+
+INTENTS_EVAL = "OpenVoiceOS/intents-for-eval"
+MASSIVE = "OpenVoiceOS/massive-templates"
+
+# Free-text content/entity slots whose filler is a search term (labelled KW).
+# Everything else (time, date, number, volume, colour, ...) is filled but left O
+# — useful negatives teaching the model when NOT to extract.
+CONTENT_SLOTS = {
+    "song", "song_name", "artist", "artist_name", "album", "album_name", "track",
+    "track_name", "playlist", "playlist_name", "genre", "music_genre", "media_type",
+    "podcast_name", "podcast_descriptor", "radio_name", "audiobook_name",
+    "audiobook_author", "movie_name", "movie_type", "game_name", "app_name", "query",
+    "person", "person_name", "place_name", "business_name", "business_type",
+    "food_type", "drink_type", "ingredient", "news_topic", "definition_word",
+    "transport_name", "event_name", "artist_or_band", "song_or_album",
 }
 
 # Slots whose filler is a free search term (gets KW labels). Other slots are
@@ -305,6 +327,139 @@ def build_music(music_templates: List[Tuple[str, str]], cap: int = 400) -> List[
 
 
 # ----------------------------------------------------------------------------
+# intents-for-eval / massive-templates (slots carry in-language examples)
+# ----------------------------------------------------------------------------
+def _lit(s):
+    if isinstance(s, (list, dict)):
+        return s
+    try:
+        return ast.literal_eval(s)
+    except (ValueError, SyntaxError):
+        return None
+
+
+def label_multi(lang: str, sentence: str, values: List[str]
+                ) -> Optional[Tuple[List[str], List[str], List[str]]]:
+    """BIO-label every `values` span in `sentence` (each its own B-KW...I-KW)."""
+    tg = tagger(lang)
+    stoks = tg.tag(sentence)
+    words = [w for w, _ in stoks]
+    pos = [p for _, p in stoks]
+    low = [w.lower() for w in words]
+    labels = ["O"] * len(words)
+    for value in values:
+        vw = [w.lower() for w, _ in tg.tag(value)]
+        if not vw:
+            continue
+        i = -1
+        for start in range(len(low) - len(vw) + 1):
+            if low[start:start + len(vw)] == vw and all(labels[start + k] == "O" for k in range(len(vw))):
+                i = start
+                break
+        if i < 0:
+            return None  # a content value did not land cleanly -> drop the row
+        for k in range(len(vw)):
+            labels[i + k] = "B-KW" if k == 0 else "I-KW"
+    return words, pos, labels
+
+
+def realize(template: str, slots: List[dict], rng: random.Random
+            ) -> Optional[Tuple[str, List[str]]]:
+    """Fill every `{slot}` from its inline examples; return (text, content values)."""
+    text = template
+    content: List[str] = []
+    for slot in slots or []:
+        name = slot.get("name")
+        examples = [e for e in (slot.get("examples") or []) if e and str(e).strip()]
+        if not name or "{" + name + "}" not in text or not examples:
+            return None
+        value = str(rng.choice(examples)).strip()
+        text = text.replace("{" + name + "}", value)
+        if name in CONTENT_SLOTS:
+            content.append(value)
+    if "{" in text or "}" in text:
+        return None
+    return text, content
+
+
+def build_templated(dataset: str, lang: str, cap: int, neg_frac: float,
+                    rng: random.Random, fills: int = 2) -> List[dict]:
+    from datasets import load_dataset
+    cfg = f"{LANGS[lang]['tpl']}-templates"
+    try:
+        ds = load_dataset(dataset, cfg, split="train")
+    except Exception as e:  # noqa: BLE001 — locale not in this dataset
+        print(f"    [{lang}] {dataset.split('/')[-1]} {cfg}: unavailable ({type(e).__name__})", flush=True)
+        return []
+    rows: List[dict] = []
+    seen = set()
+    neg_cap = int(cap * neg_frac)
+    neg = 0
+    src = "intents_eval" if "intents-for-eval" in dataset else "massive"
+    idx = list(range(len(ds)))
+    rng.shuffle(idx)
+    for j in idx:
+        if len(rows) >= cap:
+            break
+        row = ds[j]
+        slots = _lit(row.get("slots")) or []
+        for _ in range(fills):
+            built = realize(row["template"], slots, rng)
+            if built is None:
+                continue
+            text, content = built
+            if not content:  # all-O negative — keep a bounded number
+                if neg >= neg_cap:
+                    continue
+            if text.lower() in seen:
+                continue
+            seen.add(text.lower())
+            out = label_multi(lang, text, content)
+            if out is None:
+                continue
+            words, pos, labels = out
+            if not content and "B-KW" in labels:
+                continue
+            if content and "B-KW" not in labels:
+                continue
+            if not content:
+                neg += 1
+            rows.append({"lang": lang, "text": " ".join(words), "tokens": words,
+                         "pos": pos, "labels": labels, "source": src,
+                         "keyword": " ".join(content)})
+    return rows
+
+
+def build_gold(lang: str, cap: int = 400) -> int:
+    """Write a curated gold eval split from intents-for-eval `<locale>-test`."""
+    from datasets import load_dataset
+    cfg = f"{LANGS[lang]['tpl']}-test"
+    try:
+        ds = load_dataset(INTENTS_EVAL, cfg, split="test")
+    except Exception:  # noqa: BLE001
+        return 0
+    gold_dir = os.path.join(OUT_DIR, "gold")
+    os.makedirs(gold_dir, exist_ok=True)
+    n = 0
+    with open(os.path.join(gold_dir, f"{lang}.jsonl"), "w", encoding="utf-8") as f:
+        for row in ds:
+            if n >= cap:
+                break
+            utt = row["utterance"]
+            slots = _lit(row.get("expected_slots")) or {}
+            pairs = [(utt.lower().find(str(v).lower()), str(v))
+                     for k, v in slots.items() if v and k in CONTENT_SLOTS
+                     and str(v).lower() in utt.lower()]
+            pairs.sort()
+            keyword = " ".join(v for _, v in pairs)
+            f.write(json.dumps({"lang": lang, "text": utt, "keyword": keyword,
+                                "intent": row.get("expected_intent"),
+                                "domain": row.get("domain")}, ensure_ascii=False) + "\n")
+            n += 1
+    return n
+
+
+# ----------------------------------------------------------------------------
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--langs", default=",".join(LANGS), help="comma list of CRF langs")
@@ -312,9 +467,15 @@ def main() -> None:
     ap.add_argument("--gemma-budget", type=int, default=0,
                     help="max common-query sentences / lang to label (0 = all)")
     ap.add_argument("--no-gemma", action="store_true", help="skip Gemma augmentation")
+    ap.add_argument("--templated-cap", type=int, default=4000,
+                    help="max rows / lang from EACH of intents-for-eval & massive-templates")
+    ap.add_argument("--neg-frac", type=float, default=0.12,
+                    help="fraction of templated rows that may be no-keyword negatives")
+    ap.add_argument("--no-gold", action="store_true", help="skip the gold eval export")
     ap.add_argument("--seed", type=int, default=42)
     args = ap.parse_args()
     random.seed(args.seed)
+    rng = random.Random(args.seed)
     langs = [l for l in args.langs.split(",") if l in LANGS]
     os.makedirs(OUT_DIR, exist_ok=True)
 
@@ -339,6 +500,8 @@ def main() -> None:
             if cq_rows:
                 rows += build_common_query(lang, cq_rows, pool, args.gemma_budget)
         rows += build_slot_filling(lang, pool, args.slot_cap)
+        rows += build_templated(INTENTS_EVAL, lang, args.templated_cap, args.neg_frac, rng)
+        rows += build_templated(MASSIVE, lang, args.templated_cap, args.neg_frac, rng)
         if lang == "en":
             rows += build_music(music_templates)
         random.shuffle(rows)
@@ -348,15 +511,18 @@ def main() -> None:
                 f.write(json.dumps(r, ensure_ascii=False) + "\n")
         c = Counter(r["source"] for r in rows)
         stats[lang] = c
-        print(f"   wrote {len(rows)} rows -> {out_path}  ({dict(c)})", flush=True)
+        ngold = 0 if args.no_gold else build_gold(lang)
+        print(f"   wrote {len(rows)} rows -> {out_path}  ({dict(c)})  gold={ngold}", flush=True)
 
     summary = {lang: {"total": sum(c.values()), "by_source": dict(c)}
                for lang, c in stats.items()}
     summary["_meta"] = {
-        "sources": ["slot_filling (ovos-localize)", "music_queries_templates (HF)",
+        "sources": ["slot_filling (ovos-localize)", "intents_eval (HF intents-for-eval)",
+                    "massive (HF massive-templates)", "music_queries_templates (HF)",
                     "common_query gemma-labelled (HF)"],
         "label_scheme": "BIO (B-KW/I-KW/O)",
         "pos_tagger": "brill_postaggers",
+        "gold_eval": "train/data/gold/<lang>.jsonl (intents-for-eval test split)",
     }
     with open(os.path.join(OUT_DIR, "stats.json"), "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)

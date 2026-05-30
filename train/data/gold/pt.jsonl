@@ -1,0 +1,400 @@
+{"lang": "pt", "text": "toca lágrimas", "keyword": "lágrimas", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "toca a casa dos madredeus", "keyword": "a casa madredeus", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "põe barco negro", "keyword": "barco negro", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "mete trago alentejo", "keyword": "trago alentejo", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "quero ouvir lágrimas", "keyword": "lágrimas", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "podes tocar barco negro", "keyword": "barco negro", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "começa a tocar a casa", "keyword": "a casa", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "reproduz a música lágrimas", "keyword": "lágrimas", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "toca a canção a casa", "keyword": "a casa", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "toca lá a casa dos madredeus", "keyword": "a casa madredeus", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "apetece-me ouvir qualquer coisa da mariza", "keyword": "mariza", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "tenho saudades de ouvir lágrimas", "keyword": "lágrimas", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "manda aí uns madredeus", "keyword": "madredeus", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "bora lá ouvir barco negro", "keyword": "barco negro", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "que tal a casa", "keyword": "a casa", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "dá-me lá rui veloso", "keyword": "rui veloso", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "não dá para tocares amália", "keyword": "", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "estou com pica para ouvir trago alentejo", "keyword": "trago alentejo", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "toca-me aí lágrimas se faz favor", "keyword": "lágrimas", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "podes meter barco negro a tocar", "keyword": "barco negro", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "estou mesmo a precisar de mariza", "keyword": "mariza", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "queria ouvir a casa dos madredeus", "keyword": "a casa madredeus", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "manda vir alguma coisa do rui veloso", "keyword": "rui veloso", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "e se tocasses lágrimas", "keyword": "lágrimas", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "pausa a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "pára a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "retoma a reprodução", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "continua a tocar", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "põe o volume nos setenta", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "baixa o volume para vinte", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "passa à próxima", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "salta esta música", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "pausa", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "pausa a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "pausa a canção", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "pausa a reprodução", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "pára a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "pára a canção", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "pára de tocar", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "interrompe a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "suspende a reprodução", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "podes pausar a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "espera lá um segundo com a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "carrega no pause aí", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "dá uma pausa à canção", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "silêncio se faz favor", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "corta o som por agora", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "espera, pausa lá isso", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "congela a reprodução", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "deixa a música descansar", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "podias só segurar a canção", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "pára os sons por um instante", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "alivia a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "deixa a canção onde está", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "pausa lá que tocou o telemóvel", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "interrompe lá essa música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "toca lágrimas", "keyword": "lágrimas", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "põe os madredeus", "keyword": "madredeus", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "retoma a música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "continua a tocar", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "põe o volume nos cinquenta", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "baixa o volume para dez", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "passa à próxima música", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "salta esta", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "retoma", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "retoma a música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "retoma a canção", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "retoma a reprodução", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "continua a música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "segue com a música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "volta a tocar", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "carrega no play outra vez", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "vai com a música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "música a bombar outra vez", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "avança lá com a música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "dá luz verde à canção", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "põe a música a bombar outra vez", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "deixa a música seguir", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "volta a tocar agora", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "põe outra vez a música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "ok toca outra vez", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "vamos lá com a música de novo", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "está bem música outra vez", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "mete a canção a andar outra vez", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "reinicia a reprodução", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "deixa-a a correr", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "música outra vez se faz favor", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "deixa tocar até ao fim", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "toca lágrimas", "keyword": "lágrimas", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "põe os madredeus", "keyword": "madredeus", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "pausa a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "pára a canção", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "põe o volume nos quarenta", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "aumenta o volume para oitenta", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "salta esta música", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "próxima faixa", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "põe o volume nos 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "põe o volume em 75", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "sobe o volume para 80", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "baixa o volume para 15", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "volume 30", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "muda o volume para 60", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "mete o volume em 25", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "ajusta o volume para 90", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "podes pôr o volume nos 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "podias deixar isto em 70 por cento", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "preciso do volume nos 40", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "dá-lhe nos 80", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "alivia para 20 por favor", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "e que tal volume 65", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "manda o volume aos 100", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "um bocadinho mais alto para 55", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "um pouco mais baixo tipo 35", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "acerta nos 45 por cento", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "som a 70 obrigado", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "desce o volume para 25", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "dá um toque ao volume para 60", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "estabiliza o volume nos 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "se calhar põe 85", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "volta lá aos 30", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "toca lágrimas", "keyword": "lágrimas", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "pausa a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "pára a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "retoma", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "continua a tocar", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "salta esta", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "próxima música", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "põe os madredeus", "keyword": "madredeus", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "salta", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "salta esta", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "próxima música", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "próxima faixa", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "toca a próxima música", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "passa à próxima", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "avança", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "salta 3 faixas", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "salta 2", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "avança 5 faixas", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "esta não, ouve-me outra", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "livra-te desta música", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "não gosto desta faixa, muda-a", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "dá para passar à frente", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "fora com esta canção", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "rebenta com isto e mete a próxima", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "esquece esta música dá-me a seguinte", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "pula para o que vem a seguir", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "vai lá para a próxima faixa", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "nem pensar, salta lá", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "qualquer coisa menos isto próxima por favor", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "salta duas faixas para a frente", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "manda quatro músicas para a frente", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "passa as próximas três", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "pt", "text": "toca lágrimas", "keyword": "lágrimas", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "pausa a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "pára a canção", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "pt", "text": "retoma", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "continua a tocar", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "pt", "text": "põe o volume nos cinquenta", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "baixa o volume para dez", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "pt", "text": "põe os madredeus", "keyword": "madredeus", "intent": "media:play_song", "domain": "media"}
+{"lang": "pt", "text": "põe um temporizador para 5 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um temporizador de 10 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "inicia um temporizador para 30 segundos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "temporizador de 1 hora", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "contagem decrescente 5 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "lembra-me daqui a 10 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um temporizador para 10 minutos para a massa", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um temporizador de 5 minutos para a massa", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "podes pôr um temporizador para 30 segundos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "pões aí um temporizador para 1 hora", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "dá-me um toque daqui a 20 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "buzina-me passado 15 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "avisa-me em 3 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "acorda-me em 45 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "diz-me quando passarem 7 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "toca aqui daqui a meia hora", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "temporizador de dois minutos para os ovos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "contagem decrescente de 12 minutos por favor", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "e que tal um temporizador de 25 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "pica-me aos 8 minutos para a roupa", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "um temporizador rápido 2 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "temporizador do chá 4 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "conta-me 90 segundos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "vê lá os 6 minutos para a massa", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "cancela o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "pára o temporizador da massa", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um alarme para as 7 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "acorda-me às 6 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "lista os meus alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "que alarmes tenho", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "adia o alarme", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "adia 9 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "cancela o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "pára o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "termina o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "mata o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "apaga o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "remove o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "cancela o temporizador da massa", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "pára o temporizador da roupa", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "apaga o temporizador dos ovos", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "podes cancelar o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "esquece o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "risca lá esse temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "corta a contagem decrescente", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "desiste do temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "deixa lá o temporizador da massa", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "manda fora o temporizador da roupa", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "o temporizador já pode ir embora", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "não te chateies mais com o temporizador dos ovos", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "já chega daquele temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "livra-te de qualquer temporizador a correr", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "limpa o temporizador do chá", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "o temporizador da massa pode parar", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "atira fora o temporizador por favor", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "desiste do temporizador da roupa", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um temporizador para 5 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "inicia um temporizador de 10 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um alarme para as 7 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "acorda-me às 6 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "lista os meus alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "que alarmes tenho", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "adia o alarme", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "adia 9 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um alarme para as 7 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um alarme às 6:30 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "alarme para as 8 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "alarme ao meio-dia", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "acorda-me às 7 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "cria um alarme para as 6:30 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "agenda um alarme para o meio-dia", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um alarme do trabalho às 7 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um alarme para as 6:30 da manhã para o ginásio", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "podes pôr um alarme para as 8 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "levanta-me às 5:45 por favor", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "toca-me às 6:15 amanhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "preciso de um despertador às 7:30", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "alerta da manhã às 6", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "acorda-me às seis e um quarto", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "queria um alarme às sete e meia", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "pica-me às 6:45", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "alarme da reunião às 9 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "alarme da escola às 7:15", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "dá-me um toque às 5:30 em ponto", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "alarme matinal às 7 em ponto", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "e um alarme às 6 da manhã para o trabalho", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um alarme do ginásio para as cinco e meia", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "tira-me da cama às 8", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um temporizador para 5 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "inicia um temporizador de 10 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "cancela o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "pára o temporizador da massa", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "lista os meus alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "que alarmes tenho", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "adia o alarme", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "adia 9 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "lista os meus alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "lista alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "mostra os meus alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "mostra os alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "que alarmes tenho", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "que alarmes estão definidos", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "diz-me que alarmes tenho", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "tenho algum alarme", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "lista de alarmes por favor", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "dá-me a lista de alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "o que tenho na agenda de alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "resumo dos meus alarmes por favor", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "dá-me um resumo rápido dos meus alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "que despertadores estão agendados", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "tenho algum alarme a tocar mais logo", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "que alarmes vêm aí", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "há algum alarme que eu deva saber", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "passa-me os alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe-me a par dos meus alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "quero saber os meus alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "vê lá a minha lista de alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "o que está em fila nos alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "os meus alarmes estão todos definidos", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "mostra-me tudo nos alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um temporizador para 5 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "inicia um temporizador de 10 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "cancela o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "pára o temporizador da massa", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um alarme para as 7 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "acorda-me às 6 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "adia o alarme", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "adia 9 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "adia", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "adia o alarme", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "carrega no soneca", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "posterga o alarme", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "atrasa o alarme", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "adia por 5 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "adia o alarme por 10 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "adia 9 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "dá-me mais 15 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "empurra o alarme 10 minutos para a frente", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "ainda não acorda-me depois", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "mais um bocadinho por favor", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "segura o alarme um pouco", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "adia-me outra vez", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "mais cinco minutos mãe", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "manda o alarme 7 minutos para trás", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "dá-me mais 8 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "ainda não consigo levantar-me adia", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "alarme outra vez daqui a 12", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "espera mais um quarto de hora", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "posso ter mais 6 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "só mais uma soneca", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "atrasa 20 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "ainda não acordei adia 5", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um temporizador para 5 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "inicia um temporizador de 10 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "cancela o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "pára o temporizador da massa", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "pt", "text": "põe um alarme para as 7 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "acorda-me às 6 da manhã", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "pt", "text": "lista os meus alarmes", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "que alarmes tenho", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "pt", "text": "luzes ligadas", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "liga as luzes", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "acende a luz", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "ilumina o quarto", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "dá luz", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "liga as luzes da cozinha", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "acende as luzes do quarto", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "luzes ligadas na sala", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "ilumina a casa de banho", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "podes ligar as luzes da cozinha", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "podemos ter luz aqui", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "está escuro liga lá o candeeiro", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "faz-me luz por favor", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "anima isto com luz", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "sobe lá as luzes da cozinha", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "não deixes o quarto às escuras", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "preciso de luz na casa de banho", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "manda lá a luz na sala", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "podemos ter um pouco de luz", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "carrega lá no interruptor", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "a cozinha precisa de mais luz", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "acende lá o candeeiro na sala", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "podias iluminar o quarto", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "liga qualquer coisa na casa de banho", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "desliga as luzes", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "luzes desligadas no quarto", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "põe o brilho em 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "baixa as luzes da cozinha para 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "põe o termostato em 22", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "pt", "text": "deixa o quarto com 19 graus", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "pt", "text": "tranca a porta da frente", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "pt", "text": "tranca a porta de trás", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "pt", "text": "luzes desligadas", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "desliga as luzes", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "apaga a luz", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "escurece o quarto", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "tira a luz", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "desliga as luzes da cozinha", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "apaga as luzes do quarto", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "luzes desligadas na sala", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "escurece a casa de banho", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "podes desligar as luzes da cozinha", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "acaba com a luz aqui", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "está demasiado claro desliga isso", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "faz-me escuridão por favor", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "apaga tudo na sala", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "desliga lá as luzes da cozinha", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "o quarto não precisa de luz", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "não preciso de luz na casa de banho", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "apaga o candeeiro da sala", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "podia ficar tudo escuro", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "desliga lá esse interruptor", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "a cozinha pode ficar às escuras", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "apaga o candeeiro na sala", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "podias desligar o quarto", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "apaga tudo na casa de banho", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "pt", "text": "liga as luzes", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "luzes ligadas no quarto", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "pt", "text": "põe o brilho em 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "baixa as luzes da cozinha para 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "põe o termostato em 22", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "pt", "text": "deixa o quarto com 19 graus", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "pt", "text": "tranca a porta da frente", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "pt", "text": "tranca a porta de trás", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "pt", "text": "põe o brilho em 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "define o brilho em 75", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "baixa as luzes para 20", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "aumenta as luzes para 100", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "muda o brilho para 60", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "baixa as luzes do quarto para 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "aumenta as luzes da cozinha para 80", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "põe o brilho da sala em 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "podes pôr as luzes em 70", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "desce as luzes da casa de banho para 25", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "torna o quarto mais escuro tipo 40", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "dá um toque ao brilho para 55", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "baixa as luzes para 35", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "dispara as luzes para 85", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "podemos ter o quarto a 45", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "pt", "text": "brilho da cozinha em 70 por favor", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}

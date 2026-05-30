@@ -1,0 +1,400 @@
+{"lang": "gl", "text": "pon negra sombra", "keyword": "negra sombra", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "pon miña terra galega de siniestro total", "keyword": "miña terra galega siniestro total", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "reproduce chove en santiago", "keyword": "chove en santiago", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "ponme polo mar abaixo", "keyword": "polo mar abaixo", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "quero escoitar negra sombra", "keyword": "negra sombra", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "podes poñer chove en santiago", "keyword": "chove en santiago", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "comeza polo mar abaixo", "keyword": "polo mar abaixo", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "pon a canción negra sombra", "keyword": "negra sombra", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "pon o tema chove en santiago", "keyword": "chove en santiago", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "veña pon miña terra galega de siniestro total", "keyword": "miña terra galega siniestro total", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "ponme algo de luz casal", "keyword": "luz casal", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "apetéceme escoitar negra sombra", "keyword": "negra sombra", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "dispara uns luar na lubre", "keyword": "luar na lubre", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "dálle ao play con chove en santiago", "keyword": "chove en santiago", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "que tal polo mar abaixo", "keyword": "polo mar abaixo", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "manda milladoiro", "keyword": "milladoiro", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "poderías poñer miña terra galega", "keyword": "miña terra galega", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "quero sentir negra sombra agora", "keyword": "negra sombra", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "dáme un pouco de luz casal", "keyword": "luz casal", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "a darlle a chove en santiago", "keyword": "chove en santiago", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "envía polo mar abaixo aos altofalantes", "keyword": "polo mar abaixo", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "teño ganas de siniestro total", "keyword": "siniestro total", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "podemos escoitar negra sombra", "keyword": "negra sombra", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "apetéceme miña terra galega", "keyword": "miña terra galega", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "pausa a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "para a canción", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "retoma a reprodución", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "segue tocando", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "sobe o volume ata setenta", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "pon o volume en vinte", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "salta esta canción", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "seguinte tema", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "pausa", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "pausa a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "pausa a canción", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "pausa a reprodución", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "para a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "para a canción", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "deixa de soar", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "interrompe a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "freanea a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "podes pausar a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "agarda un segundo coa música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "preme o botón de pausa", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "dálle un descanso á canción", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "silencio por favor", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "corta o son un momento", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "agarda pausa iso", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "conxela a reprodución", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "deixa descansar a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "poderías só parar a canción", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "para os sons un intre", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "alivia a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "deixa a canción onde está", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "pausa que soa o teléfono", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "interrompe esa canción", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "pon negra sombra", "keyword": "negra sombra", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "ponme algo de luz casal", "keyword": "luz casal", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "retoma a reprodución", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "segue tocando", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "sobe o volume a cincuenta", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "baixa o volume a dez", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "salta esta canción", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "seguinte canción", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "retoma", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "retoma a música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "retoma a canción", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "retoma a reprodución", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "segue coa música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "mantén a música en marcha", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "volve tocar", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "dálle ao play outra vez", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "adiante coa música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "música outra vez", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "adiante coa música", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "dálle luz verde á canción", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "volve poñer a música a tope", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "deixa que continúe a canción", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "volve tocar agora", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "pon a música de novo", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "veña toca outra vez", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "veña música outra vez", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "ok música outra vez", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "vólvea a poñer en marcha", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "reinicia a reprodución", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "déixaa correr", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "música outra vez por favor", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "déixaa rematar", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "pon negra sombra", "keyword": "negra sombra", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "ponme luz casal", "keyword": "luz casal", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "pausa a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "para a canción", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "pon o volume en corenta", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "sobe o volume a oitenta", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "salta esta canción", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "seguinte pista", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "pon o volume en 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "establece o volume en 75", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "sobe o volume a 80", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "baixa o volume a 15", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "volume 30", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "cambia o volume a 60", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "deixa o volume en 25", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "axusta o volume a 90", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "podes poñer o volume en 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "poderías deixar isto en 70 por cento", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "necesito o volume en 40", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "súbeo a 80", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "baixao a 20 por favor", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "que tal volume 65", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "manda o volume a 100", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "un pouco máis alto digamos 55", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "un chisco máis baixo coma 35", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "acerta o 45 por cento", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "son a 70 grazas", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "baixa o volume a 25", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "empuxa o volume a 60", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "estabiliza o volume en 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "ponno en 85", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "volve a 30", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "pon negra sombra", "keyword": "negra sombra", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "pausa a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "para a canción", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "retoma", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "segue tocando", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "salta esta", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "seguinte canción", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "ponme luz casal", "keyword": "luz casal", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "salta", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "salta esta", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "seguinte canción", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "pista seguinte", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "pon a seguinte canción", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "pasa á seguinte", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "avanza", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "salta 3 pistas", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "salta 2", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "avanza 5 pistas", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "esta non ponme outra", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "quita esta canción", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "non me gusta esta pista cámbiaa", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "podemos saltar esta", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "fóra esta canción", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "rompe con isto e pon a seguinte", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "esquece esta canción dame a seguinte", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "salta ao que vén", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "vai á pista seguinte", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "nin pensalo salta esta", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "calquera cousa menos esta seguinte por favor", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "avanza dúas pistas adiante", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "envía catro cancións adiante", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "salta as tres seguintes", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "gl", "text": "pon negra sombra", "keyword": "negra sombra", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "pausa a música", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "para a canción", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "gl", "text": "retoma", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "segue tocando", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "gl", "text": "sobe o volume a cincuenta", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "baixa o volume a dez", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "gl", "text": "ponme luz casal", "keyword": "luz casal", "intent": "media:play_song", "domain": "media"}
+{"lang": "gl", "text": "pon un temporizador de 5 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon un temporizador para 10 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "inicia un temporizador de 30 segundos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "temporizador de 1 hora", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "conta atrás 5 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "lémbrame en 10 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon un temporizador de 10 minutos para a pasta", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon un temporizador de 5 minutos para pasta", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "podes poñer un temporizador de 30 segundos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "ponme un temporizador de 1 hora", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "avísame en 20 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "chámame despois de 15 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "dáme un toque en 3 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "espertarme en 45 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "dime cando pasen 7 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "toca en media hora", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "temporizador de dous minutos para os ovos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "conta atrás de 12 minutos por favor", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "que tal un temporizador de 25 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "marca 8 minutos para a roupa", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "un temporizador rápido 2 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "temporizador do té 4 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "conta 90 segundos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "avisa aos 6 minutos para a pasta", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "cancela o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "para o temporizador da pasta", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon unha alarma ás 7 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "espértame ás 6 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "lista as miñas alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "que alarmas teño", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "adia a alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "adia 9 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "cancela o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "para o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "remata o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "mata o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "borra o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "elimina o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "cancela o temporizador da pasta", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "para o temporizador da roupa", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "borra o temporizador dos ovos", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "podes cancelar o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "esquece o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "risca ese temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "corta a conta atrás", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "anula o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "deixa estar o temporizador da pasta", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "manda fóra o temporizador da roupa", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "o temporizador xa pode marchar", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "xa non te preocupes do temporizador dos ovos", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "xa abonda con ese temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "desfaite de calquera temporizador en marcha", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "limpa o temporizador do té", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "o temporizador da pasta xa pode parar", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "tira o temporizador por favor", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "esquece o temporizador da roupa", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon un temporizador de 5 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "inicia un temporizador de 10 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon unha alarma ás 7 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "espértame ás 6 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "lista as miñas alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "que alarmas teño", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "adia a alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "adia 9 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon unha alarma ás 7 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon unha alarma ás 6:30 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "alarma para as 8 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "alarma ao mediodía", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "espértame ás 7 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "crea unha alarma ás 6:30 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "programa unha alarma para o mediodía", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon unha alarma do traballo ás 7 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon unha alarma ás 6:30 da mañá para o ximnasio", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "podes poñer unha alarma ás 8 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "levántame ás 5:45 por favor", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "avísame ás 6:15 mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "preciso un espertador ás 7:30", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "alerta matinal ás 6", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "espértame ás seis e cuarto", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "quería unha alarma ás sete e media", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "avísame ás 6:45", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "alarma da reunión ás 9 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "alarma da escola ás 7:15", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "dáme un toque ás 5:30 en punto", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "alarma matinal ás 7 en punto", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "que tal unha alarma ás 6 da mañá para o traballo", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon unha alarma do ximnasio ás cinco e media", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "sácame da cama ás 8", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon un temporizador de 5 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "inicia un temporizador de 10 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "cancela o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "para o temporizador da pasta", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "lista as miñas alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "que alarmas teño", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "adia a alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "adia 9 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "lista as miñas alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "lista alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "mostra as miñas alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "mostra as alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "que alarmas teño", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "que alarmas están configuradas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "dime que alarmas teño", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "hai algunha alarma", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "lista de alarmas por favor", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "dáme a lista de alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "que teño na axenda de alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "resumo das miñas alarmas por favor", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "dáme un resumo rápido das miñas alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "que espertadores hai programados", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "teño algunha alarma para soar despois", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "que alarmas veñen", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "hai algunha alarma que deba saber", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pásame as alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "ponme ao día coas miñas alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "quero saber as miñas alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "repasa a miña lista de alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "que hai en cola nas alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "as miñas alarmas están todas listas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "amósame todo das alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon un temporizador de 5 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "inicia un temporizador de 10 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "cancela o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "para o temporizador da pasta", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon unha alarma ás 7 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "espértame ás 6 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "adia a alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "adia 9 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "adia", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "adia a alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "preme o snooze", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "posterga a alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "atrasa a alarma", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "adia por 5 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "adia a alarma por 10 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "adia 9 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "dáme 15 minutos máis", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "empuxa a alarma 10 minutos adiante", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "aínda non espértame logo", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "un pouco máis por favor", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "agarda a alarma un pouco", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "adíame outra vez", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "cinco minutos máis mamá", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "manda a alarma 7 minutos atrás", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "regálame 8 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "aínda non podo erguerme adia", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "alarma outra vez en 12", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "agarda outro cuarto de hora", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "podes darme 6 minutos máis", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "só un adiamento máis", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "atrása 20 minutos", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "aínda non espertei adia 5", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon un temporizador de 5 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "inicia un temporizador de 10 minutos", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "cancela o temporizador", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "para o temporizador da pasta", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "gl", "text": "pon unha alarma ás 7 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "espértame ás 6 da mañá", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "gl", "text": "lista as miñas alarmas", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "que alarmas teño", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "gl", "text": "luces acendidas", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "acende as luces", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "acende a luz", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "ilumina o cuarto", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "dálle luz", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "acende as luces da cociña", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "acende a luz do dormitorio", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "luces acendidas no salón", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "ilumina o baño", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "podes acender as luces da cociña", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "podemos ter algo de luz aquí", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "está escuro acende a lámpada", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "fai luz por favor", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "anima isto con luz", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "sobe as luces da cociña", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "non deixes o dormitorio ás escuras", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "preciso luz no baño", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "manda luz ao salón", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "podemos ter algo de luz", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "dálle xa ao interruptor", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "a cociña precisa máis luz", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "acende a lámpada do salón", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "poderías iluminar o dormitorio", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "acende algo no baño", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "apaga as luces", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "luces apagadas no dormitorio", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "pon o brillo en 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "baixa as luces da cociña a 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "pon o termóstato en 22", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "gl", "text": "deixa o dormitorio a 19 graos", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "gl", "text": "pecha a porta principal", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "gl", "text": "pecha a porta traseira", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "gl", "text": "luces apagadas", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "apaga as luces", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "apaga a luz", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "escurece o cuarto", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "fóra a luz", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "apaga as luces da cociña", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "apaga a luz do dormitorio", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "luces apagadas no salón", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "escurece o baño", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "podes apagar as luces da cociña", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "acaba coa luz aquí", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "hai demasiada luz apaga iso", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "ponme escuro por favor", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "apaga todo no salón", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "apaga xa as luces da cociña", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "o dormitorio non precisa luz", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "non fai falla luz no baño", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "quita a lámpada do salón", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "poderiamos quedar ás escuras", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "desactiva xa o interruptor", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "a cociña pode quedar ás escuras", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "apaga a lámpada do salón", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "poderías apagar o dormitorio", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "apágao todo no baño", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "gl", "text": "acende as luces", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "luces acendidas no dormitorio", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "gl", "text": "pon o brillo en 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "baixa as luces da cociña a 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "pon o termóstato en 22", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "gl", "text": "deixa o dormitorio a 19 graos", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "gl", "text": "pecha a porta principal", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "gl", "text": "pecha a porta traseira", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "gl", "text": "pon o brillo en 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "axusta o brillo en 75", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "baixa as luces a 20", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "sobe as luces a 100", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "cambia o brillo a 60", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "baixa as luces do dormitorio a 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "sobe as luces da cociña a 80", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "pon o brillo do salón en 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "podes poñer as luces en 70", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "atenúa as luces do baño a 25", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "fai a sala máis tenue tipo 40", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "axusta o brillo a 55", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "baixa as luces a 35", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "manda as luces a 85", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "podemos ter o dormitorio en 45", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "gl", "text": "brillo da cociña 70 por favor", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}

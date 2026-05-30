@@ -1,0 +1,400 @@
+{"lang": "nl", "text": "speel avond", "keyword": "avond", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "speel het dorp van wim sonneveld", "keyword": "het dorp wim sonneveld", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "zet ik ben verliefd op", "keyword": "ik ben verliefd", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "draai mag ik dan bij jou", "keyword": "mag ik dan bij jou", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "ik wil avond horen", "keyword": "avond", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "kun je ik ben verliefd afspelen", "keyword": "ik ben verliefd", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "start mag ik dan bij jou", "keyword": "mag ik dan bij jou", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "speel het liedje avond", "keyword": "avond", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "speel het nummer ik ben verliefd", "keyword": "ik ben verliefd", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "kom op speel het dorp van wim sonneveld", "keyword": "het dorp wim sonneveld", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "zet maar wat van boudewijn de groot op", "keyword": "boudewijn de groot", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "heb zin in avond", "keyword": "avond", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "knal er wat snollebollekes uit", "keyword": "snollebollekes", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "laat het dorp horen", "keyword": "het dorp", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "wat dacht je van ik ben verliefd", "keyword": "ik ben verliefd", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "gooi er wat claudia de breij in", "keyword": "claudia de breij", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "kun je mag ik dan bij jou opzetten", "keyword": "mag ik dan bij jou", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "ik wil nu wel avond horen", "keyword": "avond", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "hak er wim sonneveld in", "keyword": "wim sonneveld", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "kom op zet ik ben verliefd op", "keyword": "ik ben verliefd", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "trek het dorp open op de speakers", "keyword": "het dorp", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "zou wel iets van boudewijn de groot willen", "keyword": "boudewijn de groot", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "zin in mag ik dan bij jou", "keyword": "mag ik dan bij jou", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "speel maar avond af", "keyword": "avond", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "pauzeer de muziek", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "stop het liedje", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "hervat de muziek", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "speel verder", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "zet het volume op zeventig", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "zet het volume op twintig", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "sla dit nummer over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "volgende track", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "pauze", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "pauzeer de muziek", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "pauzeer het liedje", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "pauzeer het afspelen", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "stop de muziek", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "stop het liedje", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "stop met spelen", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "onderbreek de muziek", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "houd de muziek tegen", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "kun je de muziek pauzeren", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "wacht even met de muziek", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "druk maar op de pauzeknop", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "pauzeer het liedje even", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "stilte alsjeblieft", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "snij het geluid even af", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "wacht zet dat op pauze", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "bevries het afspelen", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "laat de muziek even rusten", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "zou je het liedje even kunnen stoppen", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "stop de geluiden even", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "kalmeer de muziek", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "laat het liedje staan waar het is", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "pauzeer de telefoon gaat", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "onderbreek dat liedje", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "speel avond", "keyword": "avond", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "zet wat boudewijn de groot op", "keyword": "boudewijn de groot", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "hervat het afspelen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "speel verder", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "zet het volume op vijftig", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "zet het volume op tien", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "ga naar het volgende nummer", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "volgend liedje", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "hervat", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "hervat de muziek", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "hervat het liedje", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "hervat het afspelen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "ga door met de muziek", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "laat de muziek doorgaan", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "speel opnieuw", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "druk weer op play", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "ga maar door met de muziek", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "muziek weer aan", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "ga maar door met de muziek", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "geef de muziek groen licht", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "zet de muziek weer keihard aan", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "laat het liedje doorgaan", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "speel nu maar weer", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "zet de muziek weer aan", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "oké speel nog eens", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "kom op muziek weer", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "ok muziek weer", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "krijg het weer aan de gang", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "herstart het afspelen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "laat haar maar gaan", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "muziek weer aan alsjeblieft", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "laat het uitspelen", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "speel avond", "keyword": "avond", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "zet boudewijn de groot op", "keyword": "boudewijn de groot", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "pauzeer de muziek", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "stop het liedje", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "zet het volume op veertig", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "zet het volume op tachtig", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "sla dit liedje over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "volgende track", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "zet het volume op 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "stel het volume in op 75", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "zet het volume hoger op 80", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "zet het volume lager op 15", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "volume 30", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "verander het volume naar 60", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "laat het volume op 25", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "regel het volume op 90", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "kun je het volume op 50 zetten", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "zou je het op 70 procent kunnen zetten", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "ik wil het volume op 40", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "zet hem op 80", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "doe hem omlaag naar 20", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "wat dacht je van volume 65", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "ram het volume op 100", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "een tikje harder zeg 55", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "iets zachter zoiets als 35", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "mik op 45 procent", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "geluid op 70 dank je", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "zet het volume omlaag naar 25", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "duw het volume naar 60", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "stabiliseer het volume rond 50", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "zet maar op 85", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "terug naar 30", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "speel avond", "keyword": "avond", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "pauzeer de muziek", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "stop het liedje", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "hervat", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "speel verder", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "sla dit over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "volgend nummer", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "zet boudewijn de groot op", "keyword": "boudewijn de groot", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "sla over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "sla deze over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "volgend liedje", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "volgende track", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "speel het volgende liedje", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "ga naar de volgende", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "doorgaan", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "sla 3 tracks over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "sla 2 over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "ga 5 tracks vooruit", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "deze niet zet een ander op", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "weg met dit liedje", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "ik hou niet van deze track, wissel", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "kunnen we deze overslaan", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "weg met dit liedje", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "knip dit weg en zet de volgende", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "vergeet dit liedje geef me de volgende", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "spring naar het volgende", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "schiet door naar de volgende track", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "nee hoor sla over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "alles behalve dit volgende alsjeblieft", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "stuiter twee tracks vooruit", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "knal vier liedjes verder", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "sla de volgende drie over", "keyword": "", "intent": "media:skip_track", "domain": "media"}
+{"lang": "nl", "text": "speel avond", "keyword": "avond", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "pauzeer de muziek", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "stop het liedje", "keyword": "", "intent": "media:pause_playback", "domain": "media"}
+{"lang": "nl", "text": "hervat", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "speel verder", "keyword": "", "intent": "media:resume_playback", "domain": "media"}
+{"lang": "nl", "text": "zet het volume op vijftig", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "zet het volume op tien", "keyword": "", "intent": "media:set_volume", "domain": "media"}
+{"lang": "nl", "text": "zet boudewijn de groot op", "keyword": "boudewijn de groot", "intent": "media:play_song", "domain": "media"}
+{"lang": "nl", "text": "zet een timer van 5 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een timer voor 10 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "start een timer van 30 seconden", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "timer van 1 uur", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "aftellen 5 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "herinner me over 10 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een timer van 10 minuten voor de pasta", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een timer van 5 minuten voor pasta", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "kun je een timer van 30 seconden zetten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet maar een timer van 1 uur", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "ping me over 20 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "seintje na 15 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "waarschuw me over 3 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wek me over 45 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zeg het me als 7 minuten om zijn", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "bel me over een half uur", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "timer van twee minuten voor de eieren", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "aftellen van 12 minuten alsjeblieft", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wat dacht je van een timer van 25 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "piep me bij 8 minuten voor de was", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "een snelle timer 2 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "theetimer 4 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "tel 90 seconden voor me", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "ping me bij 6 minuten voor de pasta", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "annuleer de timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "stop de pasta-timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een wekker voor 7 uur 's ochtends", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wek me om 6 uur 's ochtends", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "noem mijn wekkers op", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "welke wekkers heb ik", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet de wekker op snooze", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "snooze voor 9 minuten", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "annuleer de timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "stop de timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "beëindig de timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "kill de timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "verwijder de timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "haal de timer weg", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "annuleer de pasta-timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "stop de was-timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "verwijder de eieren-timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "kun je de timer annuleren", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "vergeet de timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "schrap die timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "knip het aftellen weg", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "laat de timer maar", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "vergeet de pasta-timer maar", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "gooi de was-timer weg", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "de timer kan nu weg", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "trek je niks meer aan van de eieren-timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "genoeg met die timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "dump welke timer dan ook", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "ruim de thee-timer op", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "de pasta-timer kan stoppen", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "kieper de timer eruit alsjeblieft", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "laat de was-timer maar zitten", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een timer van 5 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "start een timer van 10 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een wekker voor 7 uur 's ochtends", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wek me om 6 uur 's ochtends", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "noem mijn wekkers op", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "welke wekkers heb ik", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet de wekker op snooze", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "snooze voor 9 minuten", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een wekker voor 7 uur 's ochtends", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een wekker op 6:30 's ochtends", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wekker voor 8 uur 's ochtends", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wekker op twaalf uur", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wek me om 7 uur 's ochtends", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "maak een wekker voor 6:30 's ochtends", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "plan een wekker voor twaalf uur", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een werk-wekker op 7 uur 's ochtends", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een wekker voor 6:30 's ochtends voor sportschool", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "kun je een wekker voor 8 uur 's ochtends zetten", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "haal me om 5:45 uit bed alsjeblieft", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "piep me morgen om 6:15", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "ik heb een wekker om 7:30 nodig", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "ochtendalarm om 6 uur", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wek me om kwart over zes", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "ik wil graag een wekker om half acht", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "schud me wakker om 6:45", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wekker voor de vergadering om 9 uur 's ochtends", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "school-wekker om 7:15", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "bel me om 5:30 stipt", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "ochtendwekker 7 uur stipt", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wat dacht je van een wekker om 6 uur 's ochtends voor werk", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een sportschool-wekker op half zes", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "trek me om 8 uur uit bed", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een timer van 5 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "start een timer van 10 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "annuleer de timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "stop de pasta-timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "noem mijn wekkers op", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "welke wekkers heb ik", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet de wekker op snooze", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "snooze voor 9 minuten", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "noem mijn wekkers op", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "noem wekkers op", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "toon mijn wekkers", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "toon de wekkers", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "welke wekkers heb ik", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "welke wekkers staan aan", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "vertel welke wekkers ik heb", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zijn er wekkers", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wekkerlijst alsjeblieft", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "geef me de wekkerlijst", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wat staat er in mijn wekkerplanning", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "samenvatting van mijn wekkers alsjeblieft", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "geef me een snel overzicht van mijn wekkers", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "welke wakker-makers staan gepland", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "heb ik later nog wekkers die afgaan", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "welke wekkers komen eraan", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zijn er wekkers die ik moet weten", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "ga mijn wekkers door", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "praat me bij over mijn wekkers", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "ik wil mijn wekkers weten", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "loop mijn wekkerlijst af", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wat staat er in de wekker-wachtrij", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zijn al mijn wekkers ingesteld", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "laat me alles van wekkers zien", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een timer van 5 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "start een timer van 10 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "annuleer de timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "stop de pasta-timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een wekker voor 7 uur 's ochtends", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wek me om 6 uur 's ochtends", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet de wekker op snooze", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "snooze voor 9 minuten", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "sluimer", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "sluimer de wekker", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "druk op snooze", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "stel de wekker uit", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "vertraag de wekker", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "snooze voor 5 minuten", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "sluimer de wekker voor 10 minuten", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "snooze 9 minuten", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "geef me 15 minuten extra", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet de wekker 10 minuten terug", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "nog niet wek me later", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "nog even alsjeblieft", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "houd de wekker even tegen", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "snooze me opnieuw", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "vijf minuten extra mama", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet de wekker 7 minuten naar achter", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "schenk me 8 minuten", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "kan nog niet opstaan snooze", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wekker weer over 12", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wacht nog een kwartier", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "mag ik 6 minuten extra", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "nog één keer snoozen", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet hem 20 minuten uit", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "nog niet wakker snooze voor 5", "keyword": "", "intent": "timers_alarms:snooze_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een timer van 5 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "start een timer van 10 minuten", "keyword": "", "intent": "timers_alarms:set_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "annuleer de timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "stop de pasta-timer", "keyword": "", "intent": "timers_alarms:cancel_timer", "domain": "timers_alarms"}
+{"lang": "nl", "text": "zet een wekker voor 7 uur 's ochtends", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "wek me om 6 uur 's ochtends", "keyword": "", "intent": "timers_alarms:set_alarm", "domain": "timers_alarms"}
+{"lang": "nl", "text": "noem mijn wekkers op", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "welke wekkers heb ik", "keyword": "", "intent": "timers_alarms:list_alarms", "domain": "timers_alarms"}
+{"lang": "nl", "text": "licht aan", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "doe het licht aan", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "zet het licht aan", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "verlicht de kamer", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "knip het licht aan", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "doe het licht in de keuken aan", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "zet het licht in de slaapkamer aan", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "licht aan in de woonkamer", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "verlicht de badkamer", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "kun je het licht in de keuken aandoen", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "kunnen we wat licht hier", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "het is donker zet de lamp aan", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "maak het licht alsjeblieft", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "breng wat helderheid", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "zet de keukenlichten omhoog", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "laat de slaapkamer niet donker", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "ik heb licht nodig in de badkamer", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "knal de lamp in de woonkamer aan", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "kunnen we wat licht krijgen", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "druk eindelijk op die schakelaar", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "keuken moet helderder", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "zet de lamp in de woonkamer aan", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "zou je de slaapkamer kunnen verlichten", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "doe iets aan in de badkamer", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "doe het licht uit", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "licht uit in de slaapkamer", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "zet de helderheid op 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "dim de keukenlichten naar 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "zet de thermostaat op 22", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "nl", "text": "maak de slaapkamer 19 graden", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "nl", "text": "vergrendel de voordeur", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "nl", "text": "vergrendel de achterdeur", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "nl", "text": "licht uit", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "doe het licht uit", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "zet het licht uit", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "verduister de kamer", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "knip het licht uit", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "doe het licht in de keuken uit", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "zet het licht in de slaapkamer uit", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "licht uit in de woonkamer", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "verduister de badkamer", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "kun je het licht in de keuken uitdoen", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "klaar met het licht hier", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "te fel doe het uit", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "maak het donker alsjeblieft", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "doe alles uit in de woonkamer", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "doe meteen het keukenlicht uit", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "de slaapkamer heeft geen licht nodig", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "geen licht nodig in de badkamer", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "haal de lamp weg in de woonkamer", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "kan het donker zijn", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "deactiveer die schakelaar al", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "keuken mag donker", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "doe de lamp in de woonkamer uit", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "zou je de slaapkamer kunnen uitdoen", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "doe alles uit in de badkamer", "keyword": "", "intent": "smarthome:lights_off", "domain": "smarthome"}
+{"lang": "nl", "text": "doe het licht aan", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "licht aan in de slaapkamer", "keyword": "", "intent": "smarthome:lights_on", "domain": "smarthome"}
+{"lang": "nl", "text": "zet de helderheid op 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "dim de keukenlichten naar 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "zet de thermostaat op 22", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "nl", "text": "maak de slaapkamer 19 graden", "keyword": "", "intent": "smarthome:set_thermostat", "domain": "smarthome"}
+{"lang": "nl", "text": "vergrendel de voordeur", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "nl", "text": "vergrendel de achterdeur", "keyword": "", "intent": "smarthome:lock_door", "domain": "smarthome"}
+{"lang": "nl", "text": "zet de helderheid op 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "stel de helderheid in op 75", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "dim het licht naar 20", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "verhoog het licht naar 100", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "verander de helderheid naar 60", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "dim het licht in de slaapkamer naar 30", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "verhoog het licht in de keuken naar 80", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "regel de helderheid van de woonkamer op 50", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "kun je het licht op 70 zetten", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "temper het licht in de badkamer naar 25", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "maak de kamer wat zachter zoiets als 40", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "zet de helderheid op 55", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "schroef de lichten omlaag naar 35", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "trek de lichten op naar 85", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "kunnen we de slaapkamer op 45", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
+{"lang": "nl", "text": "keukenhelderheid 70 alsjeblieft", "keyword": "", "intent": "smarthome:set_brightness_light", "domain": "smarthome"}
