@@ -1,12 +1,36 @@
 # Changelog
 
-## [0.2.0a1](https://github.com/TigreGotico/crf_query_xtract/tree/0.2.0a1) (2025-11-22)
+## [0.2.1a4](https://github.com/TigreGotico/crf_query_xtract/tree/0.2.1a4) (2026-07-30)
 
-[Full Changelog](https://github.com/TigreGotico/crf_query_xtract/compare/0.1.2...0.2.0a1)
+[Full Changelog](https://github.com/TigreGotico/crf_query_xtract/compare/0.2.1a3...0.2.1a4)
 
 **Merged pull requests:**
 
-- feat: opm plugin [\#1](https://github.com/TigreGotico/crf_query_xtract/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+- docs: rewrite README in Simplified Technical English [\#12](https://github.com/TigreGotico/crf_query_xtract/pull/12) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.2.1a3](https://github.com/TigreGotico/crf_query_xtract/tree/0.2.1a3) (2026-05-30)
+
+[Full Changelog](https://github.com/TigreGotico/crf_query_xtract/compare/0.2.1a2...0.2.1a3)
+
+**Merged pull requests:**
+
+- docs + Phase 0 hardening: fix OPM plugin, add tests/CI, docs/ + examples/ [\#10](https://github.com/TigreGotico/crf_query_xtract/pull/10) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.2.1a2](https://github.com/TigreGotico/crf_query_xtract/tree/0.2.1a2) (2025-12-19)
+
+[Full Changelog](https://github.com/TigreGotico/crf_query_xtract/compare/0.2.1a1...0.2.1a2)
+
+**Merged pull requests:**
+
+- Update actions/setup-python action to v6 [\#8](https://github.com/TigreGotico/crf_query_xtract/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.2.1a1](https://github.com/TigreGotico/crf_query_xtract/tree/0.2.1a1) (2025-12-18)
+
+[Full Changelog](https://github.com/TigreGotico/crf_query_xtract/compare/0.2.0...0.2.1a1)
+
+**Merged pull requests:**
+
+- Configure Renovate [\#3](https://github.com/TigreGotico/crf_query_xtract/pull/3) ([renovate[bot]](https://github.com/apps/renovate))
 
 
 
