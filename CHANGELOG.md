@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.1a4](https://github.com/TigreGotico/crf_query_xtract/tree/0.2.1a4) (2026-07-30)
+
+[Full Changelog](https://github.com/TigreGotico/crf_query_xtract/compare/0.2.1a3...0.2.1a4)
+
+**Merged pull requests:**
+
+- docs: rewrite README in Simplified Technical English [\#12](https://github.com/TigreGotico/crf_query_xtract/pull/12) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.2.1a3](https://github.com/TigreGotico/crf_query_xtract/tree/0.2.1a3) (2026-05-30)
 
 [Full Changelog](https://github.com/TigreGotico/crf_query_xtract/compare/0.2.1a2...0.2.1a3)
