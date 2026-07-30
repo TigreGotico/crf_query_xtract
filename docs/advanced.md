@@ -4,8 +4,8 @@ Recipes, the OVOS plugin, and the sharp edges.
 
 ## Reuse one extractor per language
 
-`from_pretrained` loads a CRF model from disk. In a loop or a service, build once
-and keep it:
+`from_pretrained` loads a CRF model from disk. In a loop or a service, build it
+once and keep it:
 
 ```python
 from crf_query_xtract import SearchtermExtractorCRF
@@ -23,8 +23,8 @@ print(keyword("qual a capital de Portugal", "pt"))
 
 ## Feeding a search backend
 
-The extractor's job is to hand a clean term to a search call. The keyword string
-drops in directly:
+The extractor's job is to hand a clean term to a search call. The keyword
+string drops in directly:
 
 ```python
 from urllib.parse import quote
@@ -69,10 +69,11 @@ plugin.extract("who invented the telephone", "en")   # {'telephone': 1.0}
 ## Training your own model
 
 The models are trained from a token-classification dataset, not by hand. Two
-scripts in `train/` drive it (see [dataset.md](dataset.md) for the full picture):
+scripts in `train/` drive it (see [dataset.md](dataset.md) for the full
+picture):
 
-- `train/build_dataset.py` assembles `train/data/<lang>.jsonl` — `B-KW`/`I-KW`/`O`
-  labelled tokens — plus a gold eval split.
+- `train/build_dataset.py` assembles `train/data/<lang>.jsonl`: `B-KW`/`I-KW`/`O`
+  labelled tokens, plus a gold eval split.
 - `train/train_from_dataset.py` fits a `sklearn_crfsuite.CRF` per language and
   writes candidates to `train/out/kx_<lang>.pkl`.
 
@@ -81,7 +82,7 @@ python train/build_dataset.py --langs pt
 python train/train_from_dataset.py --langs pt   # -> train/out/kx_pt.pkl
 ```
 
-Use what you trained — a single file, a local directory, or your own Hub repo:
+Use what you trained: a single file, a local directory, or your own Hub repo.
 
 ```python
 from crf_query_xtract import SearchtermExtractorCRF
@@ -96,24 +97,22 @@ kx = SearchtermExtractorCRF.from_pretrained("pt", repo_id="me/my-crf")
 
 Publish a model set to the Hub with `python train/push_model_to_hub.py --repo
 me/my-crf`, or set `CRF_QUERY_XTRACT_REPO=me/my-crf` to make it the default.
-Adding a language only needs data for it (the features are language-agnostic) —
-no POS tagger to train.
+Adding a language only needs data for it, since the features are
+language-agnostic and no POS tagger needs training.
 
 ## Gotchas
 
-- **`from_pretrained` vs the bare constructor.** `SearchtermExtractorCRF(lang)`
-  leaves `model = None`; calling `extract_keyword` on it raises
+- `from_pretrained` vs the bare constructor. `SearchtermExtractorCRF(lang)`
+  leaves `model = None`. Calling `extract_keyword` on it raises
   `AttributeError: 'NoneType' object has no attribute 'predict'`. Use
   `from_pretrained` (or `load`) for extraction.
-- **Region codes are stripped.** `from_pretrained("pt-BR")` loads the `pt` model;
-  there is one model per base language, not per locale.
-- **Keywords come back joined, not listed.** A multi-word term is one
+- Region codes get stripped. `from_pretrained("pt-BR")` loads the `pt` model.
+  There is one model per base language, not per locale.
+- Keywords come back joined, not listed. A multi-word term is one
   space-separated `str` (`"speed of light"`), not a list of tokens.
-- **No negative rejection.** The model is meant to run behind an intent gate, so
-  it returns the most keyword-like span it finds; on an utterance with no search
+- No negative rejection. The model is meant to run behind an intent gate, so it
+  returns the most keyword-like span it finds. On an utterance with no search
   term it may still return something. Gate on intent upstream.
 
-## Where next
-
-- [quickstart.md](quickstart.md) — install and first call
-- [api.md](api.md) — signatures and return shapes
+---
+[← API reference](api.md) · [Home](../README.md) · [Training dataset →](dataset.md)
